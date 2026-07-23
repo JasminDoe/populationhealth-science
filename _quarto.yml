@@ -1,16 +1,20 @@
 project:
   type: website
+  resources:
+    - sitemap.xml
 
 website:
   title: "Population Health Science"
+  site-url: "https://populationhealth.science"
+  description: "Research in epidemiology, biostatistics, population health, mental health, and quantitative methods."
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About me
+        text: CV
       - href: research.qmd
-        text: Research
+        text: Research Spotlight
       - href: contact.qmd
         text: Contact
 
@@ -19,4 +23,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-

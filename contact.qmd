@@ -2,13 +2,22 @@
 title: "Contact"
 ---
 
-I am always happy to connect with researchers working in epidemiology, population health, mental health, and quantitative methods. For collaboration enquiries, the easiest way to reach me is through LinkedIn.
+I’m always happy to hear you! Whether you would like to discuss a possible collaboration, exchange ideas, or simply say hello, feel free to contact me through LinkedIn.
 
-## Research profiles
+## Statistical consulting
 
-- [ORCID](https://orcid.org/0009-0006-0721-0790)
-- [Google Scholar](https://scholar.google.com/citations?user=sOKEShMAAAAJ&hl=en)
-- [Open Science Framework](https://osf.io/user/zr8vc)
-- [GitHub](https://github.com/JasminDoe)
-- [ResearchGate](https://www.researchgate.net/profile/Jasmin-Doenicke)
-- [LinkedIn](https://www.linkedin.com/in/jasmindoenicke/)
+Need statistical input on a research project? I’m happy to consult on:
+
+- Study design and analysis planning
+- Data preparation and reproducible workflows
+- Regression and mixed-effects models
+- Longitudinal and latent trajectory analyses
+- Causal inference 
+- Interpretation and presentation of results
+- Manuscript writing on statistical methods and results 
+
+Support can range from a single consultation to ongoing analytical collaboration. I am particularly interested in health and psychological research, but I am open to other empirical projects as well.
+
+[Contact me on LinkedIn](https://www.linkedin.com/in/jasmindoenicke/){.btn .btn-primary}
+
+

@@ -1,26 +1,47 @@
 ---
-title: "About me"
+title: "Curriculum Vitae"
+subtitle: "Jasmin Dönicke"
 ---
 
-I am a clinical psychologist and quantitative health researcher currently completing a master’s degree in epidemiology at Johannes Gutenberg University Mainz.
+## Profile
 
-My academic work combines substantive knowledge of mental health with statistical and epidemiological methods. I am particularly interested in psychiatric and perinatal epidemiology, child and adolescent mental health, register-based research, and health inequalities.
+Quantitative health researcher with backgrounds in clinical psychology, epidemiology, and medical statistics. My research interests include psychiatric and perinatal epidemiology, child and adolescent health, longitudinal research, and health inequalities.
 
-## Background
+## Education
 
-I hold degrees in psychology and clinical psychology and psychotherapy from the University of Göttingen. My previous research has included longitudinal mental health research, international multi-site collaborations, developmental psychology, and clinical neuroscience.
+- **M.Sc. Epidemiology**, Johannes Gutenberg University Mainz, 2025–present
+- **M.Sc. Clinical Psychology and Psychotherapy**, University of Göttingen, completed 2025
+- **B.Sc. Psychology**, University of Göttingen, completed 2022
 
-## Methods
+## Selected research experience
 
-My methodological experience includes:
+- **ManyBabies Consortium** — Infant habituation, neonatal imitation, screen time, and multi-analyst research
+- **Global Mental Health Project** — Coordination of the German research team within an international collaboration spanning more than 80 countries
+- **Boston Children’s Hospital / Harvard Medical School** — Longitudinal research on mania symptoms in the Adolescent Brain Cognitive Development Study
+- **Cambridge Policy Research Group** — Cross-national research on online choice architecture across more than 25 countries
+- **Toronto Metropolitan University** — Mitacs Globalink research internship in the Addictions and Mental Health Laboratory
+
+
+## Quantitative methods
 
 - Data preparation and reproducible analysis in R
 - Regression and mixed-effects models
 - Longitudinal analysis
-- Latent trajectory modelling
+- Latent class and growth mixture modelling
 - Causal inference
 - Machine learning and prediction
-- Collaborative and multi-analyst research
+- Multi-analyst and collaborative research
+
+## Selected publication
+
+Dönicke, J., Cooper, R., Soehner, A., & Jalbrzikowski, M. (2026). [Risk factors associated with longitudinal trajectories of mania symptoms in youth](https://doi.org/10.1017/S0954579426101606). *Development and Psychopathology*, 1–12.
+
+## Research profiles
+
+[ORCID](https://orcid.org/0009-0006-0721-0790) ·
+[Google Scholar](https://scholar.google.com/citations?user=sOKEShMAAAAJ&hl=en) ·
+[OSF](https://osf.io/user/zr8vc) ·
+[GitHub](https://github.com/JasminDoe)
 
 ## Looking ahead
 
