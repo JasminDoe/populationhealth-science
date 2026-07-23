@@ -98,11 +98,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About me</span></a>
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+<span class="menu-text">Research Spotlight</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./contact.html" aria-current="page"> 
@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-profiles" id="toc-research-profiles" class="nav-link active" data-scroll-target="#research-profiles">Research profiles</a></li>
+  <li><a href="#statistical-consulting" id="toc-statistical-consulting" class="nav-link active" data-scroll-target="#statistical-consulting">Statistical consulting</a></li>
   </ul>
 </nav>
     </div>
@@ -150,17 +150,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am always happy to connect with researchers working in epidemiology, population health, mental health, and quantitative methods. For collaboration enquiries, the easiest way to reach me is through LinkedIn.</p>
-<section id="research-profiles" class="level2">
-<h2 class="anchored" data-anchor-id="research-profiles">Research profiles</h2>
+<p>I’m always happy to hear you! Whether you would like to discuss a possible collaboration, exchange ideas, or simply say hello, feel free to contact me through LinkedIn.</p>
+<section id="statistical-consulting" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-consulting">Statistical consulting</h2>
+<p>Need statistical input on a research project? I’m happy to consult on:</p>
 <ul>
-<li><a href="https://orcid.org/0009-0006-0721-0790">ORCID</a></li>
-<li><a href="https://scholar.google.com/citations?user=sOKEShMAAAAJ&amp;hl=en">Google Scholar</a></li>
-<li><a href="https://osf.io/user/zr8vc">Open Science Framework</a></li>
-<li><a href="https://github.com/JasminDoe">GitHub</a></li>
-<li><a href="https://www.researchgate.net/profile/Jasmin-Doenicke">ResearchGate</a></li>
-<li><a href="https://www.linkedin.com/in/jasmindoenicke/">LinkedIn</a></li>
+<li>Study design and analysis planning</li>
+<li>Data preparation and reproducible workflows</li>
+<li>Regression and mixed-effects models</li>
+<li>Longitudinal and latent trajectory analyses</li>
+<li>Causal inference</li>
+<li>Interpretation and presentation of results</li>
+<li>Manuscript writing on statistical methods and results</li>
 </ul>
+<p>Support can range from a single consultation to ongoing analytical collaboration. I am particularly interested in health and psychological research, but I am open to other empirical projects as well.</p>
+<p><a href="https://www.linkedin.com/in/jasmindoenicke/" class="btn btn-primary">Contact me on LinkedIn</a></p>
 
 
 </section>
@@ -239,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/populationhealth\.science");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

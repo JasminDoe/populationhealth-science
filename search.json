@@ -2,63 +2,119 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
     "section": "",
-    "text": "My research interests lie at the intersection of epidemiology, mental health, and quantitative methods. I am particularly interested in understanding how psychological, social, and biological factors shape mental health across the life course."
+    "text": "What factors are associated with more severe mania-symptom trajectories in early adolescence? Using two years of longitudinal data from more than 10,000 participants in the Adolescent Brain Cognitive Development (ABCD) Study, we identified three trajectories: low symptoms (58%), moderate symptoms (32%), and high or variable symptoms (10%).\nMore severe trajectories were associated with depression, ADHD, anxiety, oppositional and conduct symptoms, sleep disturbances, irritable bowel syndrome symptoms, verbal-learning difficulties, trauma, and family conflict."
   },
   {
-    "objectID": "research.html#main-research-areas",
-    "href": "research.html#main-research-areas",
-    "title": "Research",
-    "section": "Main research areas",
-    "text": "Main research areas\n\nPsychiatric epidemiology\nPopulation-level research on the development, course, and prevention of mental disorders, particularly bipolar-spectrum symptoms and early indicators of psychiatric risk.\n\n\nPerinatal mental health\nMaternal mental health during pregnancy and after birth, including risk factors, consequences for parents and children, and opportunities for prevention.\n\n\nChild and adolescent health\nLongitudinal research on mental health and development during childhood and adolescence, including the role of family, social, and physical-health factors.\n\n\nHealth inequalities\nHow socioeconomic conditions and unequal access to resources influence mental and physical health across populations."
+    "objectID": "research.html#summary",
+    "href": "research.html#summary",
+    "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
+    "section": "",
+    "text": "What factors are associated with more severe mania-symptom trajectories in early adolescence? Using two years of longitudinal data from more than 10,000 participants in the Adolescent Brain Cognitive Development (ABCD) Study, we identified three trajectories: low symptoms (58%), moderate symptoms (32%), and high or variable symptoms (10%).\nMore severe trajectories were associated with depression, ADHD, anxiety, oppositional and conduct symptoms, sleep disturbances, irritable bowel syndrome symptoms, verbal-learning difficulties, trauma, and family conflict."
   },
   {
-    "objectID": "research.html#selected-projects",
-    "href": "research.html#selected-projects",
-    "title": "Research",
-    "section": "Selected projects",
-    "text": "Selected projects\n\nMania in youth\nA longitudinal study using data from more than 10,000 participants in the Adolescent Brain Cognitive Development study. Latent trajectory modelling was used to identify distinct patterns of manic symptoms and investigate their psychological, familial, and physical-health correlates.\n\n\nManyBabies\nContributions to international collaborative projects examining infant habituation, neonatal imitation, and digital-media exposure in early childhood.\n\n\nInternational collaborative research\nParticipation in large-scale multi-country projects focused on mental health, risk-taking, and reproducible team science."
+    "objectID": "research.html#study-at-a-glance",
+    "href": "research.html#study-at-a-glance",
+    "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
+    "section": "Study at a glance",
+    "text": "Study at a glance\n\nPopulation: More than 10,000 young people who were aged 9–10 years at baseline\nStudy: Adolescent Brain Cognitive Development (ABCD) Study\nFollow-up: Baseline, one-year follow-up, and two-year follow-up\nLow-symptom trajectory: 58%\nModerate-symptom trajectory: 32%\nHigh or variable trajectory: 10%"
+  },
+  {
+    "objectID": "research.html#topics",
+    "href": "research.html#topics",
+    "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
+    "section": "Topics",
+    "text": "Topics\nABCD Study · pediatric mania · childhood and adolescent bipolar risk · latent growth mixture modelling · longitudinal psychiatric epidemiology"
+  },
+  {
+    "objectID": "research.html#methods",
+    "href": "research.html#methods",
+    "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
+    "section": "Methods",
+    "text": "Methods\nMania symptoms were measured at three annual assessments using the parent-reported 10-item Mania Scale from the Parent General Behavior Inventory (PGBI-10M).\nLatent growth mixture models were used to identify groups of young people with different patterns of symptoms over time. Bias-adjusted multinomial logistic regression models then examined associations between trajectory membership and baseline factors covering mental health, physical health, cognition, family circumstances, and environmental experiences.\nThe association models accounted for sex, race, ethnicity, and socioeconomic status. False-discovery-rate correction was used to address multiple comparisons."
+  },
+  {
+    "objectID": "research.html#questions-and-answers",
+    "href": "research.html#questions-and-answers",
+    "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
+    "section": "Questions and answers",
+    "text": "Questions and answers\n\nWhat did the study investigate?\nWe investigated whether distinct patterns of mania symptoms could be identified during early adolescence and which mental, physical, cognitive, family, and environmental factors were associated with membership in those trajectories.\n\n\nWhich symptom trajectories were identified?\nThree groups were identified: a low-symptom group comprising 58% of participants, a moderate-symptom group comprising 32%, and a high or variable symptom group comprising 10%.\n\n\n\nMania-symptom trajectories across the three study assessments.\n\n\nFigure 1. Mania-symptom trajectories across baseline, one-year follow-up, and two-year follow-up. Reproduced from Dönicke et al. (2026) under the CC BY 4.0 licence.\nVisit 0 represents baseline, Visit 1 the one-year follow-up, and Visit 2 the two-year follow-up. Thick lines show the mean score for each trajectory, shaded areas show 95% confidence intervals, and thin lines show individual participants’ scores.\nThe Low Symptoms group (n = 6,047; 58%) remained close to zero throughout the study. The Moderate Symptoms group (n = 3,316; 32%) had moderately elevated symptoms that decreased slightly over time. The High/Variable Symptoms group (n = 1,111; 10%) had much higher average scores, but also considerable individual variability: some participants had persistently elevated symptoms, whereas others experienced higher symptoms at only one or two assessments.\n\n\nWhich factors were associated with more severe trajectories?\nMore severe trajectories were consistently associated with depression, ADHD, anxiety, oppositional and conduct symptoms, sleep disturbances, irritable bowel syndrome symptoms, verbal-learning difficulties, trauma, and parent- and youth-reported family conflict.\nThe findings suggest that understanding mania symptoms in young people may require looking across several areas of health and everyday life rather than considering psychiatric symptoms in isolation.\nLet’s have a closer look at the numbers!\nClear stepwise associations emerged across mental, physical, cognitive, and family factors. Compared with the Low Symptoms trajectory, membership in the High/Variable Symptoms trajectory was associated with:\n\nMental-health symptoms: Symptoms of ADHD (aOR 10.56, 95% CI 8.85–12.62), depression (aOR 8.50, 95% CI 7.28–9.92), oppositional defiant symptoms (aOR 6.50, 95% CI 5.72–7.39), conduct symptoms (aOR 6.08, 95% CI 5.15–7.19), and anxiety (aOR 5.37, 95% CI 4.80–6.00).\nPhysical-health symptoms: Sleep disturbances (aOR 5.86, 95% CI 5.13–6.70) and irritable bowel syndrome symptoms (aOR 2.03, 95% CI 1.79–2.31).\nCognitive factors: Greater verbal-learning impairment (aOR 1.30, 95% CI 1.18–1.42).\nFamily and environmental factors: Parent-reported family conflict (aOR 1.96, 95% CI 1.80–2.12), trauma (aOR 1.63, 95% CI 1.46–1.83), youth-reported family conflict (aOR 1.31, 95% CI 1.22–1.42), and a family history of mania (aOR 2.78, 95% CI 2.04–3.77).\n\nThe Moderate Symptoms trajectory generally fell between the other two groups. For example, compared with the Low Symptoms trajectory, adjusted odds ratios ranged from 2.55 to 4.04 for mental-health symptoms and were 2.98 (95% CI 2.72–3.26) for sleep disturbances.\nAll estimates were adjusted for sex, race, ethnicity, and socioeconomic status, and the associations reported above remained significant after false-discovery-rate correction (pFDR &lt; .001). Together, the results suggest that understanding mania symptoms in young people requires looking across several areas of health and everyday life rather than considering psychiatric symptoms in isolation. The associations concern trajectory membership and should not be interpreted as causal effects or bipolar-disorder diagnoses.\n Figure 2. Associations between mania-symptom trajectories and risk factors. Models were adjusted for sex, race, ethnicity, and socioeconomic status. Reproduced from Dönicke et al. (2026) under the CC BY 4.0 licence.\n\n\n\n\n\n\nNoteHow to interpret the odds ratios\n\n\n\nIn the right-hand panel, purple represents the High/Variable Symptoms trajectory compared with the Low Symptoms trajectory, while blue represents the Moderate Symptoms trajectory compared with the Low Symptoms trajectory. The horizontal bars show 95% confidence intervals. The dashed vertical line at an odds ratio of 1 indicates no association.\nThe predictors in the upper panel are continuous measures that were z-standardized. Their odds ratios therefore represent the change in the adjusted odds of trajectory membership associated with a one-standard-deviation increase in the predictor. For example, a one-standard-deviation increase in ADHD symptoms was associated with 10.56 times the odds of belonging to the High/Variable rather than the Low Symptoms trajectory (aOR 10.56, 95% CI 8.85–12.62).\nThe predictors in the lower panel are binary variables. Their odds ratios compare participants for whom the characteristic was present with participants for whom it was absent. For example, participants with a family history of mania had 2.78 times the odds of belonging to the High/Variable rather than the Low Symptoms trajectory compared with participants without a family history of mania (aOR 2.78, 95% CI 2.04–3.77).\nThese are differences in odds, not probabilities or causal effects. All models were adjusted for sex, race, ethnicity, and socioeconomic status."
+  },
+  {
+    "objectID": "research.html#full-citation",
+    "href": "research.html#full-citation",
+    "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
+    "section": "Full citation",
+    "text": "Full citation\nDönicke, J., Cooper, R., Soehner, A., & Jalbrzikowski, M. (2026). Risk factors associated with longitudinal trajectories of mania symptoms in youth. Development and Psychopathology, 1–12. https://doi.org/10.1017/S0954579426101606"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "I am always happy to connect with researchers working in epidemiology, population health, mental health, and quantitative methods. For collaboration enquiries, the easiest way to reach me is through LinkedIn."
+    "text": "I’m always happy to hear you! Whether you would like to discuss a possible collaboration, exchange ideas, or simply say hello, feel free to contact me through LinkedIn."
   },
   {
-    "objectID": "contact.html#research-profiles",
-    "href": "contact.html#research-profiles",
+    "objectID": "contact.html#statistical-consulting",
+    "href": "contact.html#statistical-consulting",
     "title": "Contact",
-    "section": "Research profiles",
-    "text": "Research profiles\n\nORCID\nGoogle Scholar\nOpen Science Framework\nGitHub\nResearchGate\nLinkedIn"
+    "section": "Statistical consulting",
+    "text": "Statistical consulting\nNeed statistical input on a research project? I’m happy to consult on:\n\nStudy design and analysis planning\nData preparation and reproducible workflows\nRegression and mixed-effects models\nLongitudinal and latent trajectory analyses\nCausal inference\nInterpretation and presentation of results\nManuscript writing on statistical methods and results\n\nSupport can range from a single consultation to ongoing analytical collaboration. I am particularly interested in health and psychological research, but I am open to other empirical projects as well.\nContact me on LinkedIn"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About me",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "I am a clinical psychologist and quantitative health researcher currently completing a master’s degree in epidemiology at Johannes Gutenberg University Mainz.\nMy academic work combines substantive knowledge of mental health with statistical and epidemiological methods. I am particularly interested in psychiatric and perinatal epidemiology, child and adolescent mental health, register-based research, and health inequalities."
+    "text": "Quantitative health researcher with backgrounds in clinical psychology, epidemiology, and medical statistics. My research interests include psychiatric and perinatal epidemiology, child and adolescent health, longitudinal research, and health inequalities."
   },
   {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About me",
-    "section": "Background",
-    "text": "Background\nI hold degrees in psychology and clinical psychology and psychotherapy from the University of Göttingen. My previous research has included longitudinal mental health research, international multi-site collaborations, developmental psychology, and clinical neuroscience."
+    "objectID": "about.html#profile",
+    "href": "about.html#profile",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Quantitative health researcher with backgrounds in clinical psychology, epidemiology, and medical statistics. My research interests include psychiatric and perinatal epidemiology, child and adolescent health, longitudinal research, and health inequalities."
   },
   {
-    "objectID": "about.html#methods",
-    "href": "about.html#methods",
-    "title": "About me",
-    "section": "Methods",
-    "text": "Methods\nMy methodological experience includes:\n\nData preparation and reproducible analysis in R\nRegression and mixed-effects models\nLongitudinal analysis\nLatent trajectory modelling\nCausal inference\nMachine learning and prediction\nCollaborative and multi-analyst research"
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nM.Sc. Epidemiology, Johannes Gutenberg University Mainz, 2025–present\nM.Sc. Clinical Psychology and Psychotherapy, University of Göttingen, completed 2025\nB.Sc. Psychology, University of Göttingen, completed 2022"
+  },
+  {
+    "objectID": "about.html#selected-research-experience",
+    "href": "about.html#selected-research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Selected research experience",
+    "text": "Selected research experience\n\nManyBabies Consortium — Infant habituation, neonatal imitation, screen time, and multi-analyst research\nGlobal Mental Health Project — Coordination of the German research team within an international collaboration spanning more than 80 countries\nBoston Children’s Hospital / Harvard Medical School — Longitudinal research on mania symptoms in the Adolescent Brain Cognitive Development Study\nCambridge Policy Research Group — Cross-national research on online choice architecture across more than 25 countries\nToronto Metropolitan University — Mitacs Globalink research internship in the Addictions and Mental Health Laboratory"
+  },
+  {
+    "objectID": "about.html#quantitative-methods",
+    "href": "about.html#quantitative-methods",
+    "title": "Curriculum Vitae",
+    "section": "Quantitative methods",
+    "text": "Quantitative methods\n\nData preparation and reproducible analysis in R\nRegression and mixed-effects models\nLongitudinal analysis\nLatent class and growth mixture modelling\nCausal inference\nMachine learning and prediction\nMulti-analyst and collaborative research"
+  },
+  {
+    "objectID": "about.html#selected-publication",
+    "href": "about.html#selected-publication",
+    "title": "Curriculum Vitae",
+    "section": "Selected publication",
+    "text": "Selected publication\nDönicke, J., Cooper, R., Soehner, A., & Jalbrzikowski, M. (2026). Risk factors associated with longitudinal trajectories of mania symptoms in youth. Development and Psychopathology, 1–12."
+  },
+  {
+    "objectID": "about.html#research-profiles",
+    "href": "about.html#research-profiles",
+    "title": "Curriculum Vitae",
+    "section": "Research profiles",
+    "text": "Research profiles\nORCID · Google Scholar · OSF · GitHub"
   },
   {
     "objectID": "about.html#looking-ahead",
     "href": "about.html#looking-ahead",
-    "title": "About me",
+    "title": "Curriculum Vitae",
     "section": "Looking ahead",
     "text": "Looking ahead\nMy long-term goal is to conduct a PhD in psychiatric or perinatal epidemiology using large-scale cohort or register data. I am always interested in meeting researchers working in these areas and contributing to collaborative projects."
   },
