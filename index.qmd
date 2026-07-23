@@ -1,7 +1,22 @@
 ---
-title: "Population Health Science"
+title: "Jasmin Dönicke"
+subtitle: "Epidemiology · Biostatistics · Population Health"
 ---
 
-This is a Quarto website.
+I am a clinical psychologist and epidemiology master’s student with experience in health data analysis, medical statistics, and international collaborative research.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+My work focuses particularly on psychiatric and perinatal epidemiology, child and adolescent mental health, health inequalities, and the use of longitudinal and causal methods to study population health.
+
+## Research interests
+
+- Psychiatric and perinatal epidemiology
+- Child and adolescent mental health
+- Population health and health inequalities
+- Longitudinal and register-based research
+- Causal inference and statistical modelling
+
+## Collaboration
+
+I enjoy contributing to collaborative projects through data preparation, statistical analysis, interpretation, and scientific writing.
+
+[Learn more about me](about.qmd)

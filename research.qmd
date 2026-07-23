@@ -1,0 +1,37 @@
+---
+title: "Research"
+---
+
+My research interests lie at the intersection of epidemiology, mental health, and quantitative methods. I am particularly interested in understanding how psychological, social, and biological factors shape mental health across the life course.
+
+## Main research areas
+
+### Psychiatric epidemiology
+
+Population-level research on the development, course, and prevention of mental disorders, particularly bipolar-spectrum symptoms and early indicators of psychiatric risk.
+
+### Perinatal mental health
+
+Maternal mental health during pregnancy and after birth, including risk factors, consequences for parents and children, and opportunities for prevention.
+
+### Child and adolescent health
+
+Longitudinal research on mental health and development during childhood and adolescence, including the role of family, social, and physical-health factors.
+
+### Health inequalities
+
+How socioeconomic conditions and unequal access to resources influence mental and physical health across populations.
+
+## Selected projects
+
+### Mania in youth
+
+A longitudinal study using data from more than 10,000 participants in the Adolescent Brain Cognitive Development study. Latent trajectory modelling was used to identify distinct patterns of manic symptoms and investigate their psychological, familial, and physical-health correlates.
+
+### ManyBabies
+
+Contributions to international collaborative projects examining infant habituation, neonatal imitation, and digital-media exposure in early childhood.
+
+### International collaborative research
+
+Participation in large-scale multi-country projects focused on mental health, risk-taking, and reproducible team science.

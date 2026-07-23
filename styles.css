@@ -1,1 +1,82 @@
-/* css styles */
+/* Population Health Science colour palette */
+:root {
+  --phs-navy: #173f4f;
+  --phs-teal: #247875;
+  --phs-blue: #3b6f8f;
+  --phs-light: #f4f9f8;
+  --phs-text: #263238;
+}
+
+/* General page styling */
+body {
+  color: var(--phs-text);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+main {
+  max-width: 950px;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(110deg, #edf8f5, #edf4f8);
+  border-bottom: 1px solid #d7e7e4;
+  box-shadow: 0 2px 10px rgba(23, 63, 79, 0.06);
+}
+
+.navbar-brand {
+  color: var(--phs-navy) !important;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.navbar-nav .nav-link {
+  color: var(--phs-navy) !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--phs-teal) !important;
+}
+
+/* Headings */
+h1 {
+  color: var(--phs-navy);
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--phs-teal);
+  margin-top: 2.2rem;
+}
+
+h3 {
+  color: var(--phs-blue);
+  margin-top: 1.5rem;
+}
+
+/* Links */
+a {
+  color: var(--phs-blue);
+}
+
+a:hover {
+  color: var(--phs-teal);
+}
+
+/* Title area */
+#title-block-header {
+  background: linear-gradient(120deg, #f0f8f6, #f1f6fa);
+  border-left: 5px solid var(--phs-teal);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Lists */
+li {
+  margin-bottom: 0.35rem;
+}

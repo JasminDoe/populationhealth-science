@@ -1,5 +1,27 @@
 ---
-title: "About"
+title: "About me"
 ---
 
-About this site
+I am a clinical psychologist and quantitative health researcher currently completing a master’s degree in epidemiology at Johannes Gutenberg University Mainz.
+
+My academic work combines substantive knowledge of mental health with statistical and epidemiological methods. I am particularly interested in psychiatric and perinatal epidemiology, child and adolescent mental health, register-based research, and health inequalities.
+
+## Background
+
+I hold degrees in psychology and clinical psychology and psychotherapy from the University of Göttingen. My previous research has included longitudinal mental health research, international multi-site collaborations, developmental psychology, and clinical neuroscience.
+
+## Methods
+
+My methodological experience includes:
+
+- Data preparation and reproducible analysis in R
+- Regression and mixed-effects models
+- Longitudinal analysis
+- Latent trajectory modelling
+- Causal inference
+- Machine learning and prediction
+- Collaborative and multi-analyst research
+
+## Looking ahead
+
+My long-term goal is to conduct a PhD in psychiatric or perinatal epidemiology using large-scale cohort or register data. I am always interested in meeting researchers working in these areas and contributing to collaborative projects.
