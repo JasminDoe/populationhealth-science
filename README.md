@@ -7,6 +7,7 @@ This is the **editable source** of the academic website. It uses Quarto plus HTM
 | To change | Edit this file |
 |---|---|
 | Homepage introduction, research cards, featured papers, mini-timeline | `index.qmd` |
+| Main homepage photograph and location caption | `index.qmd` (image path + caption) and `images/uni-gottingen-4064017271.jpg` (photograph) |
 | All colors, fonts, widths, card layouts, mobile layout | `styles.css` |
 | Complete publication list | `publications.qmd` |
 | CV/education and career milestones | `about.qmd`, `timeline.qmd` |
@@ -60,7 +61,7 @@ The site publishes human-readable HTML, crawler permissions, an XML sitemap and 
 
 ## Notes
 
-- The homepage plot is explicitly **illustrative**, not a real study estimate.
+- The homepage hero shows the supplied photograph of the University of Göttingen's Great Hall. The statistical graph was removed at the site owner's request.
 - The preview HTML in `preview/` was generated to review the draft; **Quarto pages** are the maintained source.
 - The planned “What is population health science?” section is intentionally left for a later update.
 - If the website fails to update, inspect the latest GitHub Actions run before editing `gh-pages`.

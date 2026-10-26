@@ -8,17 +8,17 @@ title-block-style: none
 <!-- HOMEPAGE MAINTENANCE NOTES
   - Edit visible text directly in index.qmd. Each section begins with a comment.
   - Edit fonts, spacing, and colors in styles.css, not here.
-  - The hero chart and small atlas graphic are illustrative SVGs, not research data.
+  - The hero uses images/uni-gottingen-4064017271.jpg (the supplied Aula photo). The small atlas graphic remains illustrative.
   - The complete interactive collaboration atlas lives in atlas.qmd + js/atlas.js.
   - "What is population health science?" is intentionally reserved for a later phase.
 -->
 
 <div class="phs-home" id="phs-home-content">
-  <!-- SECTION 1: Introduction / headline / affiliation / decorative graph. -->
+  <!-- SECTION 1: Introduction / headline / affiliation / Aula photograph. Edit image path or caption below. -->
   <section class="phs-hero" aria-labelledby="hero-title">
     <div class="phs-container phs-hero-grid">
       <div class="phs-hero-copy">
-        <div class="phs-eyebrow"><span class="phs-rule"></span> EPIDEMIOLOGY · MENTAL HEALTH · GLOBAL HEALTH</div>
+        <div class="phs-eyebrow"><span class="phs-rule"></span> RESEARCHER</div>
         <h1 id="hero-title">Jasmin Dönicke</h1>
         <p class="phs-hero-subtitle">Understanding health, beyond the individual.</p>
         <p class="phs-hero-description">I work at the intersection of psychiatric epidemiology, global health, and health inequalities. My research connects people's lives, the contexts they live in, and the methods we use to understand them.</p>
@@ -28,34 +28,25 @@ title-block-style: none
         </div>
         <p class="phs-affiliation">Research Associate · Department of Medical Statistics<br>University Medical Center Göttingen</p>
       </div>
-      <div class="phs-hero-visual" aria-label="Decorative illustration inspired by longitudinal research">
-        <div class="phs-hero-kicker">POPULATION HEALTH / RESEARCH NOTEBOOK</div>
-        <svg class="phs-hero-chart" viewBox="0 0 610 350" role="img" aria-labelledby="chart-title chart-desc">
-          <title id="chart-title">Longitudinal research illustration</title>
-          <desc id="chart-desc">An abstract illustration with multiple gently varying curves. The figure is decorative and does not show measured study results.</desc>
-          <g stroke="#becad0" stroke-width="1" opacity=".6">
-            <path d="M54 48 V286 H566" fill="none"/>
-            <path d="M54 100 H566 M54 160 H566 M54 220 H566" stroke-dasharray="3 7"/>
-            <path d="M156 48 V286 M260 48 V286 M364 48 V286 M468 48 V286" opacity=".55"/>
-          </g>
-          <path d="M54 230 C112 210 135 125 198 155 S299 240 361 205 S469 178 566 214 L566 259 C480 212 435 247 365 249 S244 200 185 210 S95 280 54 270Z" fill="#89b9cc" opacity=".19"/>
-          <path d="M54 109 C124 147 145 166 218 157 S342 216 416 204 S518 229 566 223 L566 272 C501 250 458 259 397 248 S286 202 210 204 S117 210 54 170Z" fill="#dc8f75" opacity=".13"/>
-          <path d="M54 247 C127 234 160 171 215 188 S309 249 361 222 S450 190 566 207" fill="none" stroke="#2d79a7" stroke-width="3.2" stroke-linecap="round"/>
-          <path d="M54 207 C108 216 148 160 206 178 S291 213 364 205 S470 234 566 185" fill="none" stroke="#4e836b" stroke-width="3" stroke-linecap="round"/>
-          <path d="M54 119 C113 174 153 139 214 163 S305 210 366 213 S470 224 566 232" fill="none" stroke="#ce7b61" stroke-width="3.2" stroke-linecap="round"/>
-          <g fill="#526676" font-size="12" font-family="Arial,sans-serif">
-            <text x="54" y="312">Population patterns</text>
-            <text x="566" y="312" text-anchor="end">Time →</text>
-          </g>
-        </svg>
-        <div class="phs-hero-notes">
-          <span class="phs-research-dot phs-blue"></span> People
-          <span class="phs-research-dot phs-green"></span> Contexts
-          <span class="phs-research-dot phs-coral"></span> Methods
-        </div>
+      <!-- HERO PHOTOGRAPH
+           Photo: Aula of the University of Göttingen, supplied by the site owner.
+           To change the photograph, replace the image file and update src below.
+           Caption is positioned in white at the lower-right using styles.css.
+      -->
+      <figure class="phs-hero-visual">
+        <img
+          class="phs-hero-photo"
+          src="images/uni-gottingen-4064017271.jpg"
+          width="1200"
+          height="800"
+          alt="Neoclassical façade of the University of Göttingen's Great Hall, with a pediment, flags, and garden"
+          fetchpriority="high"
+          decoding="async"
+        >
+        <span class="phs-hero-kicker">POPULATION HEALTH</span>
         <p class="phs-hero-aside"><em>People.<br>Contexts.<br>Methods.</em><br>For a healthier world.</p>
-        <p class="phs-chart-note">Conceptual illustration · not observed data</p>
-      </div>
+        <figcaption class="phs-photo-caption">Great Hall of the University of Göttingen</figcaption>
+      </figure>
     </div>
   </section>
 
