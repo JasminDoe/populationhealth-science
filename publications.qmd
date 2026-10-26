@@ -1,6 +1,9 @@
 ---
 title: "Publications"
 description: "Selected published articles, registered reports, and research manuscripts coauthored by Jasmin Dönicke, with publication status clearly distinguished."
+format:
+  html:
+    include-in-header: seo/publications.html
 ---
 <div class="phs-standard">
 <p class="phs-kicker">PUBLICATIONS AND MANUSCRIPTS</p>
