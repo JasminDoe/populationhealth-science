@@ -5,7 +5,7 @@ page-layout: full
 title-block-style: none
 ---
 
-<main class="phs-home" id="main-content">
+<div class="phs-home" id="phs-home-content">
   <section class="phs-hero" aria-labelledby="hero-title">
     <div class="phs-container phs-hero-grid">
       <div class="phs-hero-copy">
@@ -131,6 +131,6 @@ title-block-style: none
     </div>
   </section>
   <section class="phs-closing" aria-label="Research values"><div class="phs-container phs-closing-inner"><span>POPULATION HEALTH SCIENCE</span><p>Better data. Fairer methods. Healthier lives.</p><a href="contact.html">Get in touch ↗</a></div></section>
-</main>
+</div>
 
 <script src="js/site.js" defer></script>
