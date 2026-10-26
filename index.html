@@ -185,16 +185,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- HOMEPAGE MAINTENANCE NOTES
   - Edit visible text directly in index.qmd. Each section begins with a comment.
   - Edit fonts, spacing, and colors in styles.css, not here.
-  - The hero chart and small atlas graphic are illustrative SVGs, not research data.
+  - The hero uses images/uni-gottingen-4064017271.jpg (the supplied Aula photo). The small atlas graphic remains illustrative.
   - The complete interactive collaboration atlas lives in atlas.qmd + js/atlas.js.
   - "What is population health science?" is intentionally reserved for a later phase.
 -->
 <div id="phs-home-content" class="phs-home">
-<!-- SECTION 1: Introduction / headline / affiliation / decorative graph. -->
+<!-- SECTION 1: Introduction / headline / affiliation / Aula photograph. Edit image path or caption below. -->
 <section class="phs-hero" aria-labelledby="hero-title">
 <div class="phs-container phs-hero-grid">
 <pre><code>  &lt;div class="phs-hero-copy"&gt;
-    &lt;div class="phs-eyebrow"&gt;&lt;span class="phs-rule"&gt;&lt;/span&gt; EPIDEMIOLOGY · MENTAL HEALTH · GLOBAL HEALTH&lt;/div&gt;
+    &lt;div class="phs-eyebrow"&gt;&lt;span class="phs-rule"&gt;&lt;/span&gt; RESEARCHER&lt;/div&gt;
     &lt;h1 id="hero-title"&gt;Jasmin Dönicke&lt;/h1&gt;
     &lt;p class="phs-hero-subtitle"&gt;Understanding health, beyond the individual.&lt;/p&gt;
     &lt;p class="phs-hero-description"&gt;I work at the intersection of psychiatric epidemiology, global health, and health inequalities. My research connects people's lives, the contexts they live in, and the methods we use to understand them.&lt;/p&gt;
@@ -204,34 +204,25 @@ ul.task-list li input[type="checkbox"] {
     &lt;/div&gt;
     &lt;p class="phs-affiliation"&gt;Research Associate · Department of Medical Statistics&lt;br&gt;University Medical Center Göttingen&lt;/p&gt;
   &lt;/div&gt;
-  &lt;div class="phs-hero-visual" aria-label="Decorative illustration inspired by longitudinal research"&gt;
-    &lt;div class="phs-hero-kicker"&gt;POPULATION HEALTH / RESEARCH NOTEBOOK&lt;/div&gt;
-    &lt;svg class="phs-hero-chart" viewBox="0 0 610 350" role="img" aria-labelledby="chart-title chart-desc"&gt;
-      &lt;title id="chart-title"&gt;Longitudinal research illustration&lt;/title&gt;
-      &lt;desc id="chart-desc"&gt;An abstract illustration with multiple gently varying curves. The figure is decorative and does not show measured study results.&lt;/desc&gt;
-      &lt;g stroke="#becad0" stroke-width="1" opacity=".6"&gt;
-        &lt;path d="M54 48 V286 H566" fill="none"/&gt;
-        &lt;path d="M54 100 H566 M54 160 H566 M54 220 H566" stroke-dasharray="3 7"/&gt;
-        &lt;path d="M156 48 V286 M260 48 V286 M364 48 V286 M468 48 V286" opacity=".55"/&gt;
-      &lt;/g&gt;
-      &lt;path d="M54 230 C112 210 135 125 198 155 S299 240 361 205 S469 178 566 214 L566 259 C480 212 435 247 365 249 S244 200 185 210 S95 280 54 270Z" fill="#89b9cc" opacity=".19"/&gt;
-      &lt;path d="M54 109 C124 147 145 166 218 157 S342 216 416 204 S518 229 566 223 L566 272 C501 250 458 259 397 248 S286 202 210 204 S117 210 54 170Z" fill="#dc8f75" opacity=".13"/&gt;
-      &lt;path d="M54 247 C127 234 160 171 215 188 S309 249 361 222 S450 190 566 207" fill="none" stroke="#2d79a7" stroke-width="3.2" stroke-linecap="round"/&gt;
-      &lt;path d="M54 207 C108 216 148 160 206 178 S291 213 364 205 S470 234 566 185" fill="none" stroke="#4e836b" stroke-width="3" stroke-linecap="round"/&gt;
-      &lt;path d="M54 119 C113 174 153 139 214 163 S305 210 366 213 S470 224 566 232" fill="none" stroke="#ce7b61" stroke-width="3.2" stroke-linecap="round"/&gt;
-      &lt;g fill="#526676" font-size="12" font-family="Arial,sans-serif"&gt;
-        &lt;text x="54" y="312"&gt;Population patterns&lt;/text&gt;
-        &lt;text x="566" y="312" text-anchor="end"&gt;Time →&lt;/text&gt;
-      &lt;/g&gt;
-    &lt;/svg&gt;
-    &lt;div class="phs-hero-notes"&gt;
-      &lt;span class="phs-research-dot phs-blue"&gt;&lt;/span&gt; People
-      &lt;span class="phs-research-dot phs-green"&gt;&lt;/span&gt; Contexts
-      &lt;span class="phs-research-dot phs-coral"&gt;&lt;/span&gt; Methods
-    &lt;/div&gt;
+  &lt;!-- HERO PHOTOGRAPH
+       Photo: Aula of the University of Göttingen, supplied by the site owner.
+       To change the photograph, replace the image file and update src below.
+       Caption is positioned in white at the lower-right using styles.css.
+  --&gt;
+  &lt;figure class="phs-hero-visual"&gt;
+    &lt;img
+      class="phs-hero-photo"
+      src="images/uni-gottingen-4064017271.jpg"
+      width="1200"
+      height="800"
+      alt="Neoclassical façade of the University of Göttingen's Great Hall, with a pediment, flags, and garden"
+      fetchpriority="high"
+      decoding="async"
+    &gt;
+    &lt;span class="phs-hero-kicker"&gt;POPULATION HEALTH&lt;/span&gt;
     &lt;p class="phs-hero-aside"&gt;&lt;em&gt;People.&lt;br&gt;Contexts.&lt;br&gt;Methods.&lt;/em&gt;&lt;br&gt;For a healthier world.&lt;/p&gt;
-    &lt;p class="phs-chart-note"&gt;Conceptual illustration · not observed data&lt;/p&gt;
-  &lt;/div&gt;
+    &lt;figcaption class="phs-photo-caption"&gt;Great Hall of the University of Göttingen&lt;/figcaption&gt;
+  &lt;/figure&gt;
 &lt;/div&gt;</code></pre>
 </div></section>
 <!-- SECTION 2: Three research area cards. Change card descriptions or links below. -->
