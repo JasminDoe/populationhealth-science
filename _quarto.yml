@@ -1,25 +1,64 @@
+# SITE CONFIGURATION (Quarto)
+# ---------------------------
+# Edit navigation labels below. Quarto automatically converts .qmd pages to .html.
+# IMPORTANT: Change site-url, robots.txt, sitemap.xml and SEO references together
+# when populationhealth.science is connected to GitHub Pages (see README.md).
 project:
   type: website
   resources:
+    # Plain-text files that need to remain publicly reachable.
+    - robots.txt
     - sitemap.xml
 
 website:
-  title: "Population Health Science"
-  site-url: "https://populationhealth.science"
-  description: "Research in epidemiology, biostatistics, population health, mental health, and quantitative methods."
+  title: "Jasmin Dönicke | Population Health Science"
+  site-url: "https://jasmindoe.github.io/populationhealth-science"
+  description: "Research in psychiatric epidemiology, global health, health inequalities, and biostatistics by Jasmin Dönicke."
+  open-graph: true
+  twitter-card: true
+
+  # Quarto's built-in search indexes readable site text.
+  search:
+    location: navbar
+    type: overlay
+
+  # Top navigation links. Add a new item here when creating a page.
   navbar:
+    title: "Jasmin Dönicke"
+    background: light
+    pinned: true
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: CV
       - href: research.qmd
-        text: Research Spotlight
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: atlas.qmd
+        text: Atlas
+      - href: timeline.qmd
+        text: Timeline
+      - href: about.qmd
+        text: About
+    right:
       - href: contact.qmd
-        text: Contact
+        text: Say hello
 
+  page-footer:
+    left: "© Jasmin Dönicke · Population Health Science"
+    right:
+      - text: ORCID
+        href: https://orcid.org/0009-0006-0721-0790
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=sOKEShMAAAAJ&hl=en
+      - text: GitHub
+        href: https://github.com/JasminDoe
+
+# Styles apply to all pages; homepage layout is customized in index.qmd.
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
+    smooth-scroll: true
+    include-in-header: seo/person.html

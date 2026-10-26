@@ -1,0 +1,39 @@
+---
+title: "Collaboration Atlas"
+description: "Explore selected scholarly collaborators of Jasmin Dönicke, linked to research publications and institutional affiliations."
+page-layout: custom
+---
+<!-- EDITING: SVG circles below provide the visible dots. Each data-person attribute must
+     match a key in js/atlas.js. Data-project controls filtering; see README.md.
+     Coordinates are schematic; do not infer collaborator residence from them. -->
+<div class="phs-standard">
+<p class="phs-kicker">COLLABORATION ATLAS / INITIAL EDITION</p>
+<h1>People behind the papers</h1>
+<p class="phs-intro">An evolving map of selected collaborators from my research. Click a dot to explore our shared manuscripts. Positions reflect affiliations listed in the supplied manuscripts—not necessarily current residences or institutional appointments. This is not yet a complete or systematically geocoded coauthor network.</p>
+<div class="phs-badges" aria-label="Filter by project"><button type="button" class="phs-chip" data-project-filter="all" aria-pressed="true">All projects</button><button type="button" class="phs-chip" data-project-filter="mania" aria-pressed="false">Mania trajectories</button><button type="button" class="phs-chip" data-project-filter="global" aria-pressed="false">Global mental wealth / choice</button><button type="button" class="phs-chip" data-project-filter="babies" aria-pressed="false">ManyBabies</button></div>
+<svg class="phs-atlas-svg" id="atlas-map" viewBox="0 0 960 410" role="group" aria-label="Illustrated geographic collaboration atlas with selected researchers in North America, Europe, and Australia">
+  <rect width="960" height="410" fill="#eef3f3"/>
+  <g stroke="#cfdcdb" stroke-width="1" opacity=".8"><path d="M0 103H960M0 205H960M0 308H960M160 0V410M320 0V410M480 0V410M640 0V410M800 0V410" /></g>
+  <path fill="#e1e8e3" stroke="#c0ceca" stroke-width="1.3" d="M57 65 136 36 194 57 234 90 204 122 228 147 197 177 151 175 138 213 97 195 73 160 46 129ZM183 216 239 227 272 260 253 290 227 368 200 382 176 335 157 285ZM417 66 495 49 533 90 569 93 577 141 634 172 606 215 553 213 540 268 492 286 460 244 458 203 414 180 389 142ZM574 89 699 64 777 95 835 137 865 185 808 215 764 195 720 237 659 205 634 172 577 141ZM788 274 844 279 888 310 874 350 820 359 778 320Z" />
+  <g stroke="#a3b9c1" stroke-width="1.2" opacity=".65" fill="none"><path d="M190 123Q300-17 478 97M201 126Q331-3 478 97M478 97Q433 79 458 104M478 97Q720 23 835 291M478 97Q540 52 586 111" /></g>
+  <g role="list" aria-label="Selected collaborators">
+    <circle role="button" tabindex="0" aria-label="Rebecca Cooper, Boston, USA" data-person="cooper" data-project="mania" class="phs-person-dot" cx="200" cy="129" r="10" fill="#c97860"/>
+    <circle role="button" tabindex="0" aria-label="Maria Jalbrzikowski, Boston, USA" data-person="jalbrzikowski" data-project="mania" class="phs-person-dot" cx="205" cy="117" r="11" fill="#c97860"/>
+    <circle role="button" tabindex="0" aria-label="Adriane Soehner, Pittsburgh, USA" data-person="soehner" data-project="mania" class="phs-person-dot" cx="181" cy="138" r="9" fill="#c97860"/>
+    <circle role="button" tabindex="0" aria-label="Kai Ruggeri, New York City / Cambridge" data-person="ruggeri" data-project="global" class="phs-person-dot" cx="190" cy="145" r="12" fill="#307da6"/>
+    <circle role="button" tabindex="0" aria-label="Sofia Pelica, Amsterdam, Netherlands" data-person="pelica" data-project="global" class="phs-person-dot" cx="479" cy="92" r="10" fill="#307da6"/>
+    <circle role="button" tabindex="0" aria-label="Friederike Stock, Berlin, Germany" data-person="stock" data-project="global" class="phs-person-dot" cx="495" cy="100" r="9" fill="#307da6"/>
+    <circle role="button" tabindex="0" aria-label="Andrew Meltzoff, Seattle, USA" data-person="meltzoff" data-project="babies" class="phs-person-dot" cx="112" cy="109" r="9" fill="#56876b"/>
+    <circle role="button" tabindex="0" aria-label="Virginia Slaughter, Brisbane, Australia" data-person="slaughter" data-project="babies" class="phs-person-dot" cx="839" cy="301" r="9" fill="#56876b"/>
+  </g>
+  <text x="24" y="391" fill="#526c7c" font-size="12">Schematic world outlines · points approximate publication affiliations</text>
+</svg>
+<section class="phs-person-detail" id="person-card" aria-live="polite"><h3>Choose a collaborator</h3><p>Use the map dots with your mouse or keyboard to explore selected coauthors and shared research.</p></section>
+<h2 style="margin-top:32px">Shared research</h2>
+<div data-publication-project="mania" class="phs-timeline-entry"><strong>Risk factors associated with longitudinal trajectories of mania symptoms in youth</strong><small>Dönicke, Cooper, Soehner &amp; Jalbrzikowski · <a href="https://doi.org/10.1017/S0954579426101606">Published article</a></small></div>
+<div data-publication-project="global" class="phs-timeline-entry"><strong>Global mental wealth: a multidimensional analysis of well-being in 92 countries</strong><small>Ruggeri and coauthors · 2026 manuscript</small></div>
+<div data-publication-project="global" class="phs-timeline-entry"><strong>People in 26 countries prefer individual control over online choice architectures</strong><small>Stock and coauthors · supplied 2024 manuscript</small></div>
+<div data-publication-project="babies" class="phs-timeline-entry"><strong>A Multi-Lab Investigation of Neonatal and Early Imitation</strong><small>Meltzoff and coauthors · Stage 1 manuscript</small></div>
+<p class="phs-note">The dots are intentionally limited to selected people whose affiliation cities could be supported by the manuscripts. Consortium coauthorship alone does not necessarily indicate direct working relationships. The full atlas will require deduplication and institutional verification.</p>
+</div>
+<script src="js/atlas.js" defer></script>

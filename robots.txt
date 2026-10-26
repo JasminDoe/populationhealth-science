@@ -1,13 +1,5 @@
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
+# Public academic website. Allow ordinary search and AI discovery crawlers.
 User-agent: *
 Allow: /
 
-Sitemap: https://populationhealth.science/sitemap.xml
+Sitemap: https://jasmindoe.github.io/populationhealth-science/sitemap.xml
