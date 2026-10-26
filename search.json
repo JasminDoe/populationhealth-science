@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always happy to hear you! Whether you would like to discuss a possible collaboration, exchange ideas, or simply say hello, feel free to contact me through LinkedIn."
+  },
+  {
+    "objectID": "contact.html#statistical-consulting",
+    "href": "contact.html#statistical-consulting",
+    "title": "Contact",
+    "section": "Statistical consulting",
+    "text": "Statistical consulting\nNeed statistical input on a research project? I’m happy to consult on:\n\nStudy design and analysis planning\nData preparation and reproducible workflows\nRegression and mixed-effects models\nLongitudinal and latent trajectory analyses\nCausal inference\nInterpretation and presentation of results\nManuscript writing on statistical methods and results\n\nSupport can range from a single consultation to ongoing analytical collaboration. I am particularly interested in health and psychological research, but I am open to other empirical projects as well.\nContact me on LinkedIn"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
@@ -47,20 +61,6 @@
     "title": "Mania symptom trajectories in youth: Findings from more than 10,000 adolescents in the ABCD Study",
     "section": "Full citation",
     "text": "Full citation\nDönicke, J., Cooper, R., Soehner, A., & Jalbrzikowski, M. (2026). Risk factors associated with longitudinal trajectories of mania symptoms in youth. Development and Psychopathology, 1–12. https://doi.org/10.1017/S0954579426101606"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I’m always happy to hear you! Whether you would like to discuss a possible collaboration, exchange ideas, or simply say hello, feel free to contact me through LinkedIn."
-  },
-  {
-    "objectID": "contact.html#statistical-consulting",
-    "href": "contact.html#statistical-consulting",
-    "title": "Contact",
-    "section": "Statistical consulting",
-    "text": "Statistical consulting\nNeed statistical input on a research project? I’m happy to consult on:\n\nStudy design and analysis planning\nData preparation and reproducible workflows\nRegression and mixed-effects models\nLongitudinal and latent trajectory analyses\nCausal inference\nInterpretation and presentation of results\nManuscript writing on statistical methods and results\n\nSupport can range from a single consultation to ongoing analytical collaboration. I am particularly interested in health and psychological research, but I am open to other empirical projects as well.\nContact me on LinkedIn"
   },
   {
     "objectID": "about.html",
@@ -117,26 +117,5 @@
     "title": "Curriculum Vitae",
     "section": "Looking ahead",
     "text": "Looking ahead\nMy long-term goal is to conduct a PhD in psychiatric or perinatal epidemiology using large-scale cohort or register data. I am always interested in meeting researchers working in these areas and contributing to collaborative projects."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jasmin Dönicke",
-    "section": "",
-    "text": "I am a clinical psychologist and epidemiology master’s student with experience in health data analysis, medical statistics, and international collaborative research.\nMy work focuses particularly on psychiatric and perinatal epidemiology, child and adolescent mental health, health inequalities, and the use of longitudinal and causal methods to study population health."
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Jasmin Dönicke",
-    "section": "Research interests",
-    "text": "Research interests\n\nPsychiatric and perinatal epidemiology\nChild and adolescent mental health\nPopulation health and health inequalities\nLongitudinal and register-based research\nCausal inference and statistical modelling"
-  },
-  {
-    "objectID": "index.html#collaboration",
-    "href": "index.html#collaboration",
-    "title": "Jasmin Dönicke",
-    "section": "Collaboration",
-    "text": "Collaboration\nI enjoy contributing to collaborative projects through data preparation, statistical analysis, interpretation, and scientific writing.\nLearn more about me"
   }
 ]
