@@ -1,0 +1,18 @@
+---
+title: "Publications"
+description: "Selected published articles, registered reports, and research manuscripts coauthored by Jasmin Dönicke, with publication status clearly distinguished."
+---
+<div class="phs-standard">
+<p class="phs-kicker">PUBLICATIONS AND MANUSCRIPTS</p>
+<h1>Selected research</h1>
+<p class="phs-intro">Publications, registered reports, and manuscripts. The list below is curated rather than a complete bibliography; for the latest indexing see <a href="https://scholar.google.com/citations?user=sOKEShMAAAAJ&hl=en">Google Scholar</a> or <a href="https://orcid.org/0009-0006-0721-0790">ORCID</a>.</p>
+<table class="phs-data-table"><thead><tr><th>Year / status</th><th>Research</th><th>Outlet / link</th></tr></thead><tbody>
+<tr><td>2026 · published</td><td><strong>Risk factors associated with longitudinal trajectories of mania symptoms in youth</strong><br>Dönicke, Cooper, Soehner &amp; Jalbrzikowski</td><td><em>Development and Psychopathology</em><br><a href="https://doi.org/10.1017/S0954579426101606">DOI / Open access ↗</a></td></tr>
+<tr><td>2026 · published</td><td><strong>Global, regional, and national burden of road injuries 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023</strong><br>GBD 2023 Road Injuries Collaborators</td><td><em>The Lancet Public Health</em><br><a href="https://doi.org/10.1016/S2468-2667(26)00141-6">DOI ↗</a></td></tr>
+<tr><td>2026 · published</td><td><strong>Global, regional, and national burden of exposure to chewing tobacco, 1990–2023</strong><br>GBD 2023 Chewing Tobacco Collaborators</td><td><em>The Lancet Global Health</em><br><a href="https://doi.org/10.1016/j.langlo.2026.104043">DOI ↗</a></td></tr>
+<tr><td>2026 · manuscript</td><td><strong>Global mental wealth: A multidimensional analysis of social, financial, and emotional well-being in 92 countries</strong><br>Ruggeri and collaborators, including Dönicke</td><td>Collaborative research manuscript</td></tr>
+<tr><td>2026 · Stage 1 submitted</td><td><strong>Cross-country variation in early childhood family digital media ecology</strong><br>Dimitrova and ManyBabies 8 collaborators, including Dönicke</td><td>Registered report manuscript, submitted for review</td></tr>
+<tr><td>2026 · pre-data collection manuscript</td><td><strong>A Multi-Lab Investigation of Neonatal and Early Imitation</strong><br>Meltzoff and ManyBabies collaborators, including Dönicke</td><td>Stage 1 registered report manuscript</td></tr>
+<tr><td>2024 · manuscript supplied</td><td><strong>People in 26 countries prefer individual control to commercial or governmental control over online choice architectures</strong><br>Stock and collaborators, including Dönicke</td><td>Collaborative manuscript</td></tr>
+</tbody></table><p class="phs-note">Publication status reflects available versions of the manuscripts and can be updated when a final publication record becomes available. GBD manuscripts include large consortium author lists.</p>
+</div>

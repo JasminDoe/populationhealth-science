@@ -1,0 +1,21 @@
+---
+title: "Research Timeline"
+description: "Career milestones, education, awards, and research visits of Jasmin Dönicke."
+---
+<div class="phs-standard">
+  <p class="phs-kicker">RESEARCH JOURNEY</p>
+  <h1>A timeline of research and learning</h1>
+  <p class="phs-intro">Selected milestones from my education, research visits, awards, and current work.</p>
+  <div class="phs-timeline-entry"><time datetime="2026-09">September 2026 – present</time><strong>Biostatistician / Epidemiologist</strong><small>Department of Medical Statistics, University Medical Center Göttingen · Göttingen, Germany</small></div>
+  <div class="phs-timeline-entry"><time datetime="2025-10">October 2025 – expected September 2027</time><strong>M.Sc. Epidemiology</strong><small>Johannes Gutenberg University Mainz · Institute of Medical Biostatistics, Epidemiology and Informatics · In progress</small></div>
+  <div class="phs-timeline-entry"><time datetime="2025-05">May 2025</time><strong>M.Sc. Clinical Psychology and Psychotherapy</strong><small>University of Göttingen</small></div>
+  <div class="phs-timeline-entry"><time datetime="2024-08">August 2024</time><strong>Visiting Researcher · University of Cambridge</strong><small>Policy Research Group · online choice architecture across 26 countries</small></div>
+  <div class="phs-timeline-entry"><time datetime="2024-04">April – July 2024</time><strong>Visiting Researcher · Boston Children's Hospital</strong><small>Neuroscience of Risk and Development Lab · longitudinal trajectories of mania symptoms</small></div>
+  <div class="phs-timeline-entry"><time datetime="2022-10">October 2022</time><strong>M.Sc. Clinical Psychology begins</strong><small>University of Göttingen</small></div>
+  <div class="phs-timeline-entry"><time datetime="2022-08">August 2022</time><strong>Graduation with Distinction</strong><small>University of Göttingen</small></div>
+  <div class="phs-timeline-entry"><time datetime="2022-07">July – October 2022</time><strong>Visiting Researcher · Toronto Metropolitan University</strong><small>Addictions and Mental Health Lab · Mitacs Globalink</small></div>
+  <div class="phs-timeline-entry"><time datetime="2022-07">July 2022</time><strong>Globalink Mitacs Research Award</strong><small>DAAD · Toronto Metropolitan University</small></div>
+  <div class="phs-timeline-entry"><time datetime="2022-03">March – July 2022</time><strong>Research internship · German Primate Center</strong><small>Sensorimotor function, movement planning, behavioural analysis</small></div>
+  <div class="phs-timeline-entry"><time datetime="2021-10">October 2021 – March 2022</time><strong>Internship · University Medical Center Göttingen</strong><small>Clinical psychology and psychotherapy research</small></div>
+  <div class="phs-timeline-entry"><time datetime="2019-10">October 2019 – September 2022</time><strong>B.Sc. Psychology</strong><small>University of Göttingen</small></div>
+</div>
