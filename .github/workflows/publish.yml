@@ -1,0 +1,29 @@
+# Render editable Quarto sources on main into the public gh-pages branch.
+# Do NOT edit HTML on gh-pages; it is generated automatically.
+name: Build and publish academic website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: academic-website-deployment
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render website
+        run: quarto render
+      - name: Publish rendered site to gh-pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          render: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
