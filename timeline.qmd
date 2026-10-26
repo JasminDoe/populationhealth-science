@@ -1,7 +1,10 @@
 ---
 title: "Research Timeline"
 description: "Career milestones, education, awards, and research visits of Jasmin Dönicke."
+page-layout: custom
 ---
+<!-- EDITING: Every milestone is a div.phs-timeline-entry. Keep datetime in ISO format.
+     This full timeline is separate from the five-item homepage excerpt. -->
 <div class="phs-standard">
   <p class="phs-kicker">RESEARCH JOURNEY</p>
   <h1>A timeline of research and learning</h1>

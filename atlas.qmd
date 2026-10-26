@@ -1,7 +1,11 @@
 ---
 title: "Collaboration Atlas"
 description: "Explore selected scholarly collaborators of Jasmin Dönicke, linked to research publications and institutional affiliations."
+page-layout: custom
 ---
+<!-- EDITING: SVG circles below provide the visible dots. Each data-person attribute must
+     match a key in js/atlas.js. Data-project controls filtering; see README.md.
+     Coordinates are schematic; do not infer collaborator residence from them. -->
 <div class="phs-standard">
 <p class="phs-kicker">COLLABORATION ATLAS / INITIAL EDITION</p>
 <h1>People behind the papers</h1>

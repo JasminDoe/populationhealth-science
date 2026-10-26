@@ -1,11 +1,20 @@
 ---
 title: "Jasmin Dönicke"
 description: "Jasmin Dönicke researches psychiatric epidemiology, global health, health inequalities, and quantitative methods. Explore selected publications, experience, and collaborations."
-page-layout: full
+page-layout: custom
 title-block-style: none
 ---
 
+<!-- HOMEPAGE MAINTENANCE NOTES
+  - Edit visible text directly in index.qmd. Each section begins with a comment.
+  - Edit fonts, spacing, and colors in styles.css, not here.
+  - The hero chart and small atlas graphic are illustrative SVGs, not research data.
+  - The complete interactive collaboration atlas lives in atlas.qmd + js/atlas.js.
+  - "What is population health science?" is intentionally reserved for a later phase.
+-->
+
 <div class="phs-home" id="phs-home-content">
+  <!-- SECTION 1: Introduction / headline / affiliation / decorative graph. -->
   <section class="phs-hero" aria-labelledby="hero-title">
     <div class="phs-container phs-hero-grid">
       <div class="phs-hero-copy">
@@ -50,6 +59,7 @@ title-block-style: none
     </div>
   </section>
 
+  <!-- SECTION 2: Three research area cards. Change card descriptions or links below. -->
   <section class="phs-section phs-research-section" id="research-areas" aria-labelledby="research-title">
     <div class="phs-container">
       <div class="phs-section-head"><p class="phs-kicker">01 / RESEARCH AREAS</p><h2 id="research-title">From individuals to populations</h2><a href="research.html" class="phs-text-link">Featured research ↗</a></div>
@@ -79,6 +89,7 @@ title-block-style: none
     </div>
   </section>
 
+  <!-- SECTION 3: Atlas teaser; the full interactive atlas is on atlas.qmd. -->
   <section class="phs-section phs-atlas-section" aria-labelledby="atlas-home-title">
     <div class="phs-container phs-atlas-grid">
       <div class="phs-atlas-intro">
@@ -104,6 +115,7 @@ title-block-style: none
     </div>
   </section>
 
+  <!-- SECTION 4: Five selected CV milestones and papers. Edit here and in their full pages. -->
   <section class="phs-section phs-latest-section" aria-labelledby="latest-title">
     <div class="phs-container phs-latest-grid">
       <div class="phs-latest-timeline">
@@ -130,6 +142,7 @@ title-block-style: none
       </div>
     </div>
   </section>
+  <!-- SECTION 5: Closing statement and contact link. -->
   <section class="phs-closing" aria-label="Research values"><div class="phs-container phs-closing-inner"><span>POPULATION HEALTH SCIENCE</span><p>Better data. Fairer methods. Healthier lives.</p><a href="contact.html">Get in touch ↗</a></div></section>
 </div>
 

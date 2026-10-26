@@ -1,19 +1,28 @@
+# SITE CONFIGURATION (Quarto)
+# ---------------------------
+# Edit navigation labels below. Quarto automatically converts .qmd pages to .html.
+# IMPORTANT: Change site-url, robots.txt, sitemap.xml and SEO references together
+# when populationhealth.science is connected to GitHub Pages (see README.md).
 project:
   type: website
   resources:
+    # Plain-text files that need to remain publicly reachable.
     - robots.txt
     - sitemap.xml
-    - CNAME
 
 website:
   title: "Jasmin Dönicke | Population Health Science"
-  site-url: "https://populationhealth.science"
+  site-url: "https://jasmindoe.github.io/populationhealth-science"
   description: "Research in psychiatric epidemiology, global health, health inequalities, and biostatistics by Jasmin Dönicke."
   open-graph: true
   twitter-card: true
+
+  # Quarto's built-in search indexes readable site text.
   search:
     location: navbar
     type: overlay
+
+  # Top navigation links. Add a new item here when creating a page.
   navbar:
     title: "Jasmin Dönicke"
     background: light
@@ -34,6 +43,7 @@ website:
     right:
       - href: contact.qmd
         text: Say hello
+
   page-footer:
     left: "© Jasmin Dönicke · Population Health Science"
     right:
@@ -44,6 +54,7 @@ website:
       - text: GitHub
         href: https://github.com/JasminDoe
 
+# Styles apply to all pages; homepage layout is customized in index.qmd.
 format:
   html:
     theme: cosmo

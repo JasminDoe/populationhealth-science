@@ -3,8 +3,14 @@ title: "Publications"
 description: "Selected published articles, registered reports, and research manuscripts coauthored by Jasmin Dönicke, with publication status clearly distinguished."
 format:
   html:
-    include-in-header: seo/publications.html
+    # Include both global author information and publication-specific scholarly metadata.
+    include-in-header:
+      - seo/person.html
+      - seo/publications.html
+page-layout: custom
 ---
+<!-- EDITING: Add or modify rows in this table. Distinguish published from manuscript status.
+     The corresponding scholarly metadata lives in seo/publications.html. -->
 <div class="phs-standard">
 <p class="phs-kicker">PUBLICATIONS AND MANUSCRIPTS</p>
 <h1>Selected research</h1>
