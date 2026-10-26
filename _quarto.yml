@@ -1,25 +1,53 @@
 project:
   type: website
   resources:
+    - robots.txt
     - sitemap.xml
+    - CNAME
 
 website:
-  title: "Population Health Science"
+  title: "Jasmin Dönicke | Population Health Science"
   site-url: "https://populationhealth.science"
-  description: "Research in epidemiology, biostatistics, population health, mental health, and quantitative methods."
+  description: "Research in psychiatric epidemiology, global health, health inequalities, and biostatistics by Jasmin Dönicke."
+  open-graph: true
+  twitter-card: true
+  search:
+    location: navbar
+    type: overlay
   navbar:
+    title: "Jasmin Dönicke"
+    background: light
+    pinned: true
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: CV
       - href: research.qmd
-        text: Research Spotlight
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: atlas.qmd
+        text: Atlas
+      - href: timeline.qmd
+        text: Timeline
+      - href: about.qmd
+        text: About
+    right:
       - href: contact.qmd
-        text: Contact
+        text: Say hello
+  page-footer:
+    left: "© Jasmin Dönicke · Population Health Science"
+    right:
+      - text: ORCID
+        href: https://orcid.org/0009-0006-0721-0790
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=sOKEShMAAAAJ&hl=en
+      - text: GitHub
+        href: https://github.com/JasminDoe
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
+    smooth-scroll: true
+    include-in-header: seo/person.html
