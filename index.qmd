@@ -9,13 +9,27 @@ description: "Jasmin Dönicke: psychiatric epidemiology, global health and healt
 page-layout: article
 ---
 
+<!-- EDIT THIS INTRODUCTION: Uses Quarto fenced divs, never raw HTML.
+     Change text here, and font sizes/colors under HOMEPAGE INTRO in styles.css.
+     Name and short research summary are in YAML "title" and "description".
+-->
+::: {.phs-intro}
+
+::: {.phs-intro-tagline}
 Understanding health, beyond the individual.
+:::
 
+::: {.phs-intro-description}
 I work at the intersection of psychiatric epidemiology, global health, and health inequalities. My research connects people's lives, the contexts they live in, and the methods we use to understand them.
+:::
 
+::: {.phs-intro-affiliation}
 Research Associate · Department of Medical Statistics · University Medical Center Göttingen
+:::
 
-[**Explore my work ↓**](#research-areas)
+[Explore my work ↓](#research-areas){.phs-intro-button}
+
+:::
 
 ![Great Hall (Aula) of the University of Göttingen.](images/uni-gottingen-4064017271.jpg){width="100%"}
 

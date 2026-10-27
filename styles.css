@@ -1091,3 +1091,82 @@ body .navbar .nav-link.active { border-bottom: 1px solid #355d52; }
 @media (prefers-reduced-motion: reduce) {
   .phs-v3-cta, .phs-v3-topic { transition: none; }
 }
+
+
+/* ===============================================================
+   HOMEPAGE INTRO — change font sizes/colors here, text in index.qmd.
+   Scoped to pages containing .phs-intro; does not change other sections.
+   =============================================================== */
+
+/* The Quarto page title and metadata are generated from index.qmd YAML. */
+body:has(.phs-intro) #title-block-header {
+  margin-top: clamp(12px,2.4vw,32px);
+  margin-bottom: 8px;
+}
+body:has(.phs-intro) #title-block-header h1.title {
+  font: 400 clamp(3.1rem,6.1vw,5.25rem)/1.12 Georgia,serif;
+  letter-spacing: -.04em;
+  color: #192d2d;
+  margin: 0 0 12px;
+}
+/* This small description is the research summary the user supplied. */
+body:has(.phs-intro) #title-block-header .description {
+  font: 400 .76rem/1.6 'DM Sans',Arial,sans-serif;
+  letter-spacing: .01em;
+  color: #657872;
+  max-width: 640px;
+  margin: 0 0 12px;
+}
+body:has(.phs-intro) #title-block-header .quarto-title-meta { display: none; }
+.phs-intro { max-width: 760px; margin-bottom: clamp(24px,4vw,54px); }
+.phs-intro-tagline {
+  font: 400 clamp(1.5rem,2.7vw,2.3rem)/1.35 Georgia,serif;
+  letter-spacing: -.02em;
+  color: #1a2e2e;
+  margin-bottom: 17px;
+}
+.phs-intro-tagline p,.phs-intro-description p,.phs-intro-affiliation p { margin: 0; }
+.phs-intro-description {
+  max-width: 650px;
+  font: 400 clamp(1rem,1.45vw,1.11rem)/1.73 Georgia,serif;
+  color: #3e4b49;
+  margin-bottom: 18px;
+}
+.phs-intro-affiliation {
+  max-width: 580px;
+  font: 400 .91rem/1.65 Georgia,serif;
+  color: #346158;
+  margin-bottom: 25px;
+}
+/* Actual accessible Markdown link rendered as a green pill-shaped button. */
+.phs-intro-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 47px;
+  padding: 10px 26px;
+  color: #fff !important;
+  background: #345e52;
+  border: 1px solid #345e52;
+  border-radius: 999px;
+  font: 400 .98rem/1.3 Georgia,serif;
+  text-decoration: none !important;
+  transition: background-color .16s ease,transform .16s ease;
+}
+.phs-intro-button:hover,.phs-intro-button:focus-visible {
+  color: #fff !important;
+  background: #26493f;
+  border-color: #26493f;
+  transform: translateY(-1px);
+}
+.phs-intro-button:focus-visible { outline: 3px solid #8cad9e; outline-offset: 3px; }
+@media (max-width: 600px) {
+  body:has(.phs-intro) #title-block-header h1.title { font-size: clamp(2.7rem,10.2vw,3.8rem); }
+  body:has(.phs-intro) #title-block-header .description { font-size: .72rem; }
+  .phs-intro { margin-bottom: 28px; }
+  .phs-intro-description { line-height: 1.63; }
+  .phs-intro-button { min-height: 44px; padding: 9px 21px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .phs-intro-button { transition: none; }
+}
