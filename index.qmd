@@ -1,11 +1,7 @@
 ---
-# This page uses ONLY Quarto Markdown, not nested HTML.
-# Editing tip: headings begin with #, links use [text](destination),
-# and the photograph uses standard Markdown image syntax.
-# This avoids the HTML-as-code rendering problem visible in the screenshot.
 title: "Jasmin Dönicke"
 pagetitle: "Jasmin Dönicke | Population Health Science"
-description: "Jasmin Dönicke: psychiatric epidemiology, global health and health inequalities. Population health science, research areas, collaborations and selected publications."
+description: "Psychiatric Epidemiology | Global Health | Health Inequalities"
 page-layout: article
 ---
 
@@ -20,20 +16,23 @@ Understanding health, beyond the individual.
 :::
 
 ::: {.phs-intro-description}
-I work at the intersection of psychiatric epidemiology, global health, and health inequalities. My research connects people's lives, the contexts they live in, and the methods we use to understand them.
+My research connects people's lives, the contexts they live in, and the methods we use to understand them.
 :::
+
 
 ::: {.phs-intro-affiliation}
 Research Associate · Department of Medical Statistics · University Medical Center Göttingen
+
+[Work Homepage ↗](https://medstat.umg.eu/en/mitarbeiter-seiten/jasmin-doenicke/){.btn .btn-outline-secondary}
 :::
 
-[Explore my work ↓](#research-areas){.phs-intro-button}
+
+[Explore my work ↓](research.html){.phs-intro-button}
 
 :::
 
 ![Great Hall (Aula) of the University of Göttingen.](images/uni-gottingen-4064017271.jpg){width="100%"}
 
-*Great Hall of the University of Göttingen*
 
 
 ---
@@ -58,7 +57,9 @@ On a population level, who experiences which health outcomes, when, and why?
 
 How can we estimate patterns, effects, and uncertainty reliably?
 
-**Population health science:** Bringing these perspectives together to understand population-level patterns, determinants, and inequalities in health. And inform ways to improve them.
+### Population health science
+
+Bringing these perspectives together to understand population-level patterns, determinants, and inequalities in health. And inform ways to improve them.
 
 ---
 
@@ -95,18 +96,6 @@ I have the privilege of working with incredible researchers around the world. Ea
 | 100+ | 30+ | 10+ |
 |:---:|:---:|:---:|
 | collaborators | countries | projects |
-
-**Map legend**
-
-- Mental health
-- Global health & disease burden
-- Child development
-- Digital environments
-- Methods & data science
-
-[View full map →](atlas.html)
-
-*The numbers above are estimates provided for the homepage. The interactive atlas is currently a curated subset, not yet the complete international collaboration network.*
 
 ---
 
