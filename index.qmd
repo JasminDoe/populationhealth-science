@@ -206,50 +206,178 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 ---
 
-::: {.phs-medical-eyebrow #research-areas}
+<!-- HOMEPAGE FEATURE — TIMELINE + LATEST PUBLICATIONS
+     Change names, years, labels and publication links here in Markdown.
+     Adjust appearance in styles.css under:
+     "HOMEPAGE TIMELINE AND LATEST PUBLICATIONS — EDITORIAL".
+     Fenced divs are native Quarto syntax: please keep matching colons.
+     Logo-like squares are typography, not claimed to be official logos.
+-->
+
+::::::: {.phs-featured-section #latest-work}
+
+::: {.phs-featured-kicker}
 03 / LATEST WORK
 :::
 
-### July 2026 — Paper
+:::::: {.phs-featured-grid}
 
-**Risk factors associated with longitudinal trajectories of mania symptoms in youth**
+::::: {.phs-featured-left}
 
-*Development and Psychopathology*
+#### TIMELINE
 
-PDF · [Details →](publications.html)
+:::: {.phs-featured-timeline}
 
-### July 2026 — Paper
+::: {.phs-featured-milestone}
+::: {.phs-featured-date}
+2026 – present
+:::
+::: {.phs-featured-monogram .phs-featured-umg}
+UMG
+:::
+::: {.phs-featured-position}
+**Biostatistician / Epidemiologist**
 
-**Global, regional, and national burden of exposure to chewing tobacco, 1990–2023**
+University Medical Center Göttingen
 
-*Lancet Global Health*
+*Göttingen, Germany*
+:::
+:::
 
-PDF · [Details →](publications.html)
+::: {.phs-featured-milestone}
+::: {.phs-featured-date}
+2025 – 2027
+:::
+::: {.phs-featured-monogram .phs-featured-jgu}
+JGU
+:::
+::: {.phs-featured-position}
+**M.Sc. Epidemiology**
 
-### July 2026 — Paper
+Johannes Gutenberg University Mainz
 
-**A Multi-Lab Investigation of Neonatal and Early Imitation**
+*Institute of Medical Biostatistics, Epidemiology and Informatics*
+:::
+:::
 
-*Registered Report*
+::: {.phs-featured-milestone}
+::: {.phs-featured-date}
+2022 – 2025
+:::
+::: {.phs-featured-monogram .phs-featured-uni}
+GA
+:::
+::: {.phs-featured-position}
+**M.Sc. Clinical Psychology and Psychotherapy**
 
-PDF · [Details →](publications.html)
+University of Göttingen
+:::
+:::
 
-### May 2026 — Paper
+::: {.phs-featured-milestone}
+::: {.phs-featured-date}
+2019 – 2022
+:::
+::: {.phs-featured-monogram .phs-featured-uni}
+GA
+:::
+::: {.phs-featured-position}
+**B.Sc. Psychology**
 
+University of Göttingen
+
+*Graduation with Distinction*
+:::
+:::
+
+::::
+
+[View full timeline →](timeline.html){.phs-featured-timeline-link}
+
+:::::
+
+::::: {.phs-featured-right}
+
+:::: {.phs-featured-publications-heading}
+::: {.phs-featured-publications-label}
+#### LATEST PUBLICATIONS
+:::
+::: {.phs-featured-publications-all}
+[View all publications →](publications.html)
+:::
+::::
+
+:::: {.phs-featured-papers}
+
+::: {.phs-featured-paper .phs-featured-paper-coral}
+::: {.phs-featured-paper-text}
+[Risk factors associated with longitudinal trajectories of mania symptoms in youth](https://doi.org/10.1017/S0954579426101606)
+
+*Development and Psychopathology, 2026*
+:::
+::: {.phs-featured-paper-actions}
+[Article ↗](https://doi.org/10.1017/S0954579426101606){.phs-featured-paper-pill}
+
+[Details →](publications.html){.phs-featured-paper-details}
+:::
+:::
+
+::: {.phs-featured-paper .phs-featured-paper-coral}
+::: {.phs-featured-paper-text}
+[Global, regional, and national burden of exposure to chewing tobacco, 1990–2023](https://doi.org/10.1016/j.langlo.2026.104043)
+
+*The Lancet Global Health, 2026*
+:::
+::: {.phs-featured-paper-actions}
+[Article ↗](https://doi.org/10.1016/j.langlo.2026.104043){.phs-featured-paper-pill}
+
+[Details →](publications.html){.phs-featured-paper-details}
+:::
+:::
+
+::: {.phs-featured-paper .phs-featured-paper-blue}
+::: {.phs-featured-paper-text}
+[A Multi-Lab Investigation of Neonatal and Early Imitation](https://doi.org/10.31234/osf.io/fe7pj_v1)
+
+*Registered Report, 2026*
+:::
+::: {.phs-featured-paper-actions}
+[Preprint ↗](https://doi.org/10.31234/osf.io/fe7pj_v1){.phs-featured-paper-pill}
+
+[Details →](publications.html){.phs-featured-paper-details}
+:::
+:::
+
+::: {.phs-featured-paper .phs-featured-paper-green}
+::: {.phs-featured-paper-text}
 **Global mental wealth: A multidimensional analysis of social, financial, and emotional well-being in 92 countries**
 
-—
+*Research manuscript, 2026*
+:::
+::: {.phs-featured-paper-actions}
+[Details →](publications.html){.phs-featured-paper-pill}
+:::
+:::
 
-PDF · [Details →](publications.html)
-
-### February 2026 — Paper
-
+::: {.phs-featured-paper .phs-featured-paper-coral}
+::: {.phs-featured-paper-text}
 **People in 26 countries prefer individual control to commercial or governmental control over online choice architectures**
 
-—
+*Research manuscript, 2026*
+:::
+::: {.phs-featured-paper-actions}
+[Details →](publications.html){.phs-featured-paper-pill}
+:::
+:::
 
-PDF · [Details →](publications.html)
+::::
 
-[**View all publications →**](publications.html)
+:::::
 
-*Links to public full-text PDFs have not yet been verified for every manuscript.*
+::::::
+
+::: {.phs-featured-note}
+Published items link to their DOI; the registered report links to its preprint. Manuscripts without a verified public full-text link offer publication details instead of a misleading PDF button.
+:::
+
+:::::::
