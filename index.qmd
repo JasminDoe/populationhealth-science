@@ -230,14 +230,14 @@ I have the privilege of working with incredible researchers around the world. Ea
 -->
 
 ::: {.phs-medical-eyebrow #latest-work}
-04 / LATEST WORK
+04 / TIMELINE
 :::
 
 :::: {.columns}
 
 :::::: {.column width="48%"}
 
-# TIMELINE
+### Education & Work {.phs-latest-heading}
 
 <!-- Four milestones with real logo images already in the images folder.
      To change the names or dates, edit the text below.
@@ -308,7 +308,7 @@ University of Göttingen
 
 ::: {.column width="52%"}
 
-# LATEST PUBLICATIONS
+### Selected Publications {.phs-latest-heading}
 
 **Risk factors associated with longitudinal trajectories of mania symptoms in youth**  
 *Development and Psychopathology, 2026*  
