@@ -1299,7 +1299,18 @@ body:has(.phs-intro) #title-block-header .quarto-title-meta { display: none; }
   align-items: flex-start;
   text-align: center;
 }
+/* Keep BOTH heading and supporting words in the OUTER half of each circle.
+   Without a consistent width, long descriptions grow inward and get hidden
+   behind the central population-health circle. */
+.phs-medical-public > p,
+.phs-medical-biostats > p {
+  width: 51%;
+  max-width: 51%;
+  flex: 0 0 auto;
+  text-align: center;
+}
 .phs-medical-public > p { margin-left: 6%; }
+
 .phs-medical-biostats {
   top: 21%;
   right: 0;
@@ -1308,6 +1319,14 @@ body:has(.phs-intro) #title-block-header .quarto-title-meta { display: none; }
   align-items: flex-end;
 }
 .phs-medical-biostats > p { margin-right: 6%; }
+/* Slightly darker supporting text, with breathing room beneath the heading. */
+.phs-medical-public > p:last-child,
+.phs-medical-biostats > p:last-child {
+  color: #385157;
+  font-size: .85em;
+  line-height: 1.35;
+  margin-top: .15em;
+}
 .phs-medical-epi {
   bottom: 0;
   left: 50%;
