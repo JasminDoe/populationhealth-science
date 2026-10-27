@@ -129,23 +129,62 @@ Bringing these perspectives together to understand population-level patterns, de
 
 ## 3. Research Areas {#research-areas}
 
-### 01 / PEOPLE
+<!-- RESEARCH AREA CARDS
+     Edit card headings, descriptions and links below.
+     Change fonts, colors, ornaments and spacing in styles.css under
+     "RESEARCH AREA CARDS — EDITORIAL MEDICAL DESIGN".
+     Quarto fenced divs keep text readable and prevent visible raw HTML.
+-->
 
-**Mental health across the life course**
+::::: {.phs-research-cards-section}
 
-Psychiatric and perinatal epidemiology, including longitudinal trajectories of mental health in youth.
+:::: {.phs-research-cards-grid}
 
-### 02 / POPULATIONS
+::: {.phs-research-card .phs-research-card-sage}
 
-**A wider view of well-being**
+::: {.phs-research-card-index}
+01 / GLOBAL HEALTH
+:::
 
-Global health, disease burden, and the social and financial dimensions of well-being across countries.
+### Global Health & Disease Burden
 
-### 03 / CONTEXT
+Investigating patterns of disease, injury, and health risks across populations worldwide.
 
-**The conditions that shape health**
+[→](publications.html){.phs-research-card-arrow aria-label="View publications in global health and disease burden"}
 
-Social determinants, health inequality, and the epidemiological methods that help us ask better questions.
+:::
+
+::: {.phs-research-card .phs-research-card-blue}
+
+::: {.phs-research-card-index}
+02 / MENTAL HEALTH
+:::
+
+### Mental Health & Well-being
+
+Exploring the social and economic dimensions of mental health, well-being, and inequality across countries.
+
+[→](publications.html){.phs-research-card-arrow aria-label="View publications in mental health and well-being"}
+
+:::
+
+::: {.phs-research-card .phs-research-card-peach}
+
+::: {.phs-research-card-index}
+03 / DEVELOPMENT
+:::
+
+### Developmental & Behavioral Science
+
+Understanding psychological development, mental health in youth, and behavior in social and digital environments.
+
+[→](publications.html){.phs-research-card-arrow aria-label="View publications in developmental and behavioral science"}
+
+:::
+
+::::
+
+:::::
 
 ---
 

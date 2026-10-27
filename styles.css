@@ -1424,3 +1424,182 @@ body:has(.phs-intro) #title-block-header .quarto-title-meta { display: none; }
   .phs-medical-core { font-size: .72rem; padding: 4%; }
   .phs-medical-takeaway { padding: 19px; }
 }
+
+
+/* ========================================================================
+   RESEARCH AREA CARDS — EDITORIAL MEDICAL DESIGN
+   ========================================================================
+   EDIT TEXT: index.qmd, in the research-card fenced divs.
+   EDIT COLORS: the three background variants below.
+   EDIT DECORATION: the ::before botanical illustration and the
+   ::after contour lines are purely visual; no text is embedded in them.
+   Arrow links lead to publications.html and are keyboard-accessible.
+   This CSS does not alter the population-health Venn diagram above.
+   ======================================================================== */
+
+/* Keep the title clear, airy, and visually connected to the card row. */
+body:has(.phs-research-cards-section) h2#research-areas {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.2;
+  letter-spacing: -.025em;
+  color: #20363b;
+  margin: clamp(40px, 5vw, 72px) 0 22px;
+}
+
+.phs-research-cards-section {
+  margin: 0 0 clamp(42px, 6vw, 88px);
+}
+.phs-research-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: clamp(12px, 1.7vw, 22px);
+}
+.phs-research-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: clamp(310px, 26vw, 365px);
+  padding: clamp(24px, 2.5vw, 34px);
+  border-radius: 6px;
+  border: 1px solid rgba(58, 86, 78, .13);
+  color: #233b3e;
+  box-shadow: 0 10px 32px rgba(36, 70, 62, .04);
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+.phs-research-card > * {
+  position: relative;
+  z-index: 1;
+}
+.phs-research-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 33px rgba(36, 70, 62, .09);
+}
+/* Soft botanical linework sits behind the words, not over them. */
+.phs-research-card::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  right: -50px;
+  bottom: -128px;
+  width: 245px;
+  height: 420px;
+  background: url("images/botanical-filigree.svg") center / contain no-repeat;
+  opacity: .19;
+  transform: rotate(12deg);
+}
+/* A second, subtle scientific motif adds variation across the three cards. */
+.phs-research-card::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  right: -72px;
+  top: -80px;
+  width: 215px;
+  height: 215px;
+  border: 1px solid rgba(75, 116, 116, .18);
+  border-radius: 50%;
+  box-shadow: 0 0 0 28px rgba(255, 255, 255, .055),
+              0 0 0 54px rgba(75, 116, 116, .055);
+}
+.phs-research-card-sage {
+  background: linear-gradient(140deg, #e7eee5 0%, #dbe7dd 100%);
+}
+.phs-research-card-blue {
+  background: linear-gradient(140deg, #e8f0f4 0%, #dceaf0 100%);
+}
+.phs-research-card-blue::before {
+  background: repeating-radial-gradient(ellipse at 75% 70%,
+    transparent 0 10px, rgba(85, 140, 165, .19) 11px 12px,
+    transparent 13px 21px);
+  right: -70px;
+  bottom: -55px;
+  width: 255px;
+  height: 255px;
+  border-radius: 50%;
+  opacity: .68;
+  transform: none;
+}
+.phs-research-card-peach {
+  background: linear-gradient(140deg, #f5e1d5 0%, #f0d5c6 100%);
+}
+.phs-research-card-peach::before {
+  right: -60px;
+  bottom: -165px;
+  transform: rotate(-17deg);
+  opacity: .21;
+}
+.phs-research-card-index,
+.phs-research-card-index p {
+  margin: 0;
+  color: #41665e;
+  font: 600 .66rem/1.45 'DM Sans', Arial, sans-serif;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+.phs-research-card h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(1.45rem, 1.9vw, 1.93rem);
+  line-height: 1.22;
+  letter-spacing: -.028em;
+  color: #1e363a;
+  max-width: 14ch;
+  margin: 30px 0 16px;
+}
+.phs-research-card > p {
+  color: #435653;
+  font: 400 clamp(.94rem, 1.08vw, 1.04rem)/1.67 Georgia, "Times New Roman", serif;
+  max-width: 29ch;
+  margin: 0 0 26px;
+}
+/* Last paragraph contains only the arrow link, anchored to the card bottom. */
+.phs-research-card > p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.phs-research-card-arrow {
+  display: inline-flex;
+  width: 37px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(57, 94, 88, .42);
+  border-radius: 50%;
+  background: rgba(255,255,255,.16);
+  color: #25483e !important;
+  font: 400 1.3rem/1 Georgia, serif;
+  text-decoration: none !important;
+  transition: background .18s ease, transform .18s ease;
+}
+.phs-research-card-arrow:hover,
+.phs-research-card-arrow:focus-visible {
+  background: rgba(255,255,255,.65);
+  color: #1b3f37 !important;
+  transform: translateX(3px);
+}
+.phs-research-card-arrow:focus-visible {
+  outline: 3px solid #638f84;
+  outline-offset: 3px;
+}
+@media (max-width: 1020px) {
+  .phs-research-cards-grid { gap: 12px; }
+  .phs-research-card { padding: 22px 19px; min-height: 325px; }
+  .phs-research-card h3 { font-size: 1.5rem; }
+}
+@media (max-width: 780px) {
+  .phs-research-cards-grid { grid-template-columns: 1fr; gap: 15px; }
+  .phs-research-card { min-height: 240px; padding: 23px 25px; }
+  .phs-research-card h3 { max-width: 24ch; margin-top: 18px; }
+  .phs-research-card > p { max-width: 52ch; }
+  .phs-research-card::before { opacity: .13; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .phs-research-card, .phs-research-card-arrow { transition: none; }
+}
