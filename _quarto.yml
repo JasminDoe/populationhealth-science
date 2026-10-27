@@ -9,6 +9,7 @@ project:
     # Plain-text files that need to remain publicly reachable.
     - robots.txt
     - sitemap.xml
+    - images/botanical-filigree.svg
 
 website:
   title: "Jasmin Dönicke | Population Health Science"
@@ -28,16 +29,15 @@ website:
     background: light
     pinned: true
     left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
+      # This anchor targets the new explanatory section on the homepage.
+      - href: index.qmd#population-health
+        text: Population health
       - href: atlas.qmd
         text: Atlas
       - href: timeline.qmd
         text: Timeline
+      - href: research.qmd
+        text: Research
       - href: about.qmd
         text: About
     right:
