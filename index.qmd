@@ -5,31 +5,45 @@ description: "Psychiatric Epidemiology | Global Health | Health Inequalities"
 page-layout: article
 ---
 
-::: {.phs-intro}
+<!-- INTRO / AULA HERO
+     Edit the words here; adjust the image fade under AULA HERO in styles.css.
+     The photo uses images/uni-gottingen-4064017271.jpg from this repository.
+-->
+::::::: {.phs-aula-hero}
 
-::: {.phs-intro-tagline}
+:::::: {.phs-aula-copy}
+
+# Jasmin Dönicke
+
+::::: {.phs-intro}
+
+:::: {.phs-intro-tagline}
 Understanding health, beyond the individual.
-:::
+::::
 
-::: {.phs-intro-description}
+:::: {.phs-intro-description}
 My research connects people's lives, the contexts they live in, and the methods we use to understand them.
-:::
+::::
 
-
-::: {.phs-intro-affiliation}
+:::: {.phs-intro-affiliation}
 Research Associate · Department of Medical Statistics · University Medical Center Göttingen
 
 [Work Homepage ↗](https://medstat.umg.eu/en/mitarbeiter-seiten/jasmin-doenicke/){.btn .btn-outline-secondary}
-:::
-
+::::
 
 [Explore my work ↓](research.html){.phs-intro-button}
 
-:::
+:::::
 
-![Great Hall (Aula) of the University of Göttingen.](images/uni-gottingen-4064017271.jpg){width="100%"}
+::::::
 
+:::::: {.phs-aula-photo}
 
+![Great Hall (Aula) of the University of Göttingen.](images/uni-gottingen-4064017271.jpg){loading="eager"}
+
+::::::
+
+:::::::
 
 ---
 

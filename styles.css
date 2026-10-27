@@ -1901,3 +1901,145 @@ body:has(.phs-research-cards-section) h2#research-areas {
 @media (prefers-reduced-motion: reduce) {
   .phs-featured-timeline-link { transition: none; }
 }
+
+
+/* =====================================================================
+   AULA HERO — SOFT EDITORIAL PHOTO BLEND
+   =====================================================================
+   The title, subtitle, biography, affiliation and buttons live in the
+   same hero area as the Aula photograph. The photograph fades into the
+   background instead of appearing as a full-width image below the text.
+   To change the words or photograph edit the top section of index.qmd.
+   To make the photo lighter/darker edit opacity or the mask gradients here.
+   ===================================================================== */
+
+/* The visible H1 is now inside the hero, not a separate Quarto title. */
+body:has(.phs-aula-hero) #title-block-header { display: none; }
+
+.phs-aula-hero {
+  --aula-paper: #fcfbf8;
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: min(1450px, calc(100vw - 30px));
+  min-height: clamp(540px, 43vw, 690px);
+  margin: 0 0 50px 50%;
+  transform: translateX(-50%);
+  padding: clamp(36px, 5.7vw, 85px) clamp(22px, 5vw, 82px);
+  overflow: hidden;
+  background: var(--aula-paper);
+  border-bottom: 1px solid rgba(69,100,90,.13);
+}
+.phs-aula-copy {
+  position: relative;
+  z-index: 3;
+  box-sizing: border-box;
+  width: min(64%, 750px);
+  padding: 15px 0;
+}
+.phs-aula-copy h1 {
+  font: 400 clamp(3.3rem,5.7vw,5.6rem)/1.08 Georgia,'Times New Roman',serif;
+  letter-spacing: -.045em;
+  color: #192f2d;
+  margin: 0 0 17px;
+}
+.phs-aula-copy .phs-intro { max-width: 650px; margin: 0; }
+.phs-aula-copy .phs-intro-tagline {
+  font-size: clamp(1.4rem,2.3vw,2.12rem);
+  line-height: 1.4;
+  max-width: 640px;
+  margin-bottom: 19px;
+}
+.phs-aula-copy .phs-intro-description { max-width: 610px; color: #354c48; }
+.phs-aula-copy .phs-intro-affiliation { max-width: 570px; }
+
+/* The photo is a layer on the right of the SAME hero, not below it.
+   Two intersecting mask gradients softly blend all its edges into paper.
+   Chrome/Safari use the -webkit-prefixed versions as well. */
+.phs-aula-photo {
+  position: absolute;
+  z-index: 1;
+  inset: -5% -2% -5% auto;
+  width: 68%;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: .84;
+  -webkit-mask-image:
+    linear-gradient(to right,transparent 0%,rgba(0,0,0,.08) 12%,
+      rgba(0,0,0,.35) 28%,rgba(0,0,0,.8) 49%,#000 68%,#000 94%,
+      rgba(0,0,0,.7) 100%),
+    linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.7) 12%,
+      #000 27%,#000 74%,rgba(0,0,0,.75) 88%,transparent 100%);
+  mask-image:
+    linear-gradient(to right,transparent 0%,rgba(0,0,0,.08) 12%,
+      rgba(0,0,0,.35) 28%,rgba(0,0,0,.8) 49%,#000 68%,#000 94%,
+      rgba(0,0,0,.7) 100%),
+    linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.7) 12%,
+      #000 27%,#000 74%,rgba(0,0,0,.75) 88%,transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+.phs-aula-photo > p,
+.phs-aula-photo figure { width: 100%; height: 100%; margin: 0; }
+.phs-aula-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center 46%;
+  filter: saturate(.72) contrast(.89) brightness(1.1);
+}
+.phs-aula-photo::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to right,var(--aula-paper) 0%,rgba(252,251,248,.78) 23%,
+      rgba(252,251,248,.44) 44%,rgba(252,251,248,.1) 67%,transparent 87%),
+    linear-gradient(to top,rgba(252,251,248,.22),transparent 28%,transparent 78%,
+      rgba(252,251,248,.17));
+}
+
+@media (max-width: 1100px) {
+  .phs-aula-hero { min-height: 540px; }
+  .phs-aula-copy { width: min(74%, 680px); }
+  .phs-aula-photo { right: -9%; width: 79%; opacity: .67; }
+}
+@media (max-width: 760px) {
+  /* The photograph stays in the hero, but fades behind the copy on phones. */
+  .phs-aula-hero {
+    width: calc(100vw - 20px);
+    min-height: 560px;
+    margin-bottom: 30px;
+    padding: 40px 21px 46px;
+    align-items: flex-start;
+  }
+  .phs-aula-copy { width: 100%; max-width: 600px; padding: 0; }
+  .phs-aula-copy h1 {
+    font-size: clamp(2.8rem,9.3vw,4.1rem);
+    max-width: 93%;
+  }
+  .phs-aula-copy .phs-intro-tagline { font-size: clamp(1.3rem,5vw,1.8rem); }
+  .phs-aula-photo {
+    width: 107%;
+    height: 87%;
+    top: 13%;
+    right: -42%;
+    bottom: auto;
+    opacity: .29;
+  }
+  .phs-aula-photo::after {
+    background: linear-gradient(to right,rgba(252,251,248,.91),
+      rgba(252,251,248,.68) 44%,rgba(252,251,248,.13) 100%);
+  }
+}
+@media (max-width: 440px) {
+  .phs-aula-hero { min-height: 650px; padding: 34px 17px 42px; }
+  .phs-aula-copy h1 { font-size: clamp(2.6rem,9vw,3.35rem); }
+  .phs-aula-photo { opacity: .24; }
+}
