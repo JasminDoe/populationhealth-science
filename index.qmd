@@ -246,12 +246,16 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 ::::: {.phs-timeline-logo-list}
 
+<!-- Inline logo + date in one paragraph prevents Quarto figure captions.
+     Role and university are immediately below, aligned with the date. -->
+
 :::: {.phs-timeline-logo-entry}
 
-![University Medical Center Göttingen logo](images/UMG_kurz_2024_Druck_Farbe_4c.jpg){.phs-timeline-logo-image loading="lazy"}
+::: {.phs-timeline-logo-head}
+![University Medical Center Göttingen logo](images/UMG_kurz_2024_Druck_Farbe_4c.jpg){.phs-timeline-logo-image loading="lazy"} **2026 – present**
+:::
 
-::: {.phs-timeline-logo-copy}
-**2026 – present**  
+::: {.phs-timeline-logo-details}
 **Biostatistician / Epidemiologist**  
 University Medical Center Göttingen
 :::
@@ -260,10 +264,11 @@ University Medical Center Göttingen
 
 :::: {.phs-timeline-logo-entry}
 
-![Johannes Gutenberg University Mainz logo](images/JGU_logo.png){.phs-timeline-logo-image loading="lazy"}
+::: {.phs-timeline-logo-head}
+![Johannes Gutenberg University Mainz logo](images/JGU_logo.png){.phs-timeline-logo-image loading="lazy"} **2025 – present**
+:::
 
-::: {.phs-timeline-logo-copy}
-**2025 – present**  
+::: {.phs-timeline-logo-details}
 **M.Sc. Epidemiology**  
 Johannes Gutenberg University of Mainz
 :::
@@ -272,10 +277,11 @@ Johannes Gutenberg University of Mainz
 
 :::: {.phs-timeline-logo-entry}
 
-![Georg-August University of Göttingen logo](images/GA_logo.png){.phs-timeline-logo-image loading="lazy"}
+::: {.phs-timeline-logo-head}
+![University of Göttingen logo](images/GA_logo.png){.phs-timeline-logo-image loading="lazy"} **2022 – 2025**
+:::
 
-::: {.phs-timeline-logo-copy}
-**2022 – 2025**  
+::: {.phs-timeline-logo-details}
 **M.Sc. Clinical Psychology**  
 University of Göttingen
 :::
@@ -284,10 +290,11 @@ University of Göttingen
 
 :::: {.phs-timeline-logo-entry}
 
-![Georg-August University of Göttingen logo](images/GA_logo.png){.phs-timeline-logo-image loading="lazy"}
+::: {.phs-timeline-logo-head}
+![University of Göttingen logo](images/GA_logo.png){.phs-timeline-logo-image loading="lazy"} **2019 – 2022**
+:::
 
-::: {.phs-timeline-logo-copy}
-**2019 – 2022**  
+::: {.phs-timeline-logo-details}
 **B.Sc. Psychology**  
 University of Göttingen
 :::
@@ -295,7 +302,6 @@ University of Göttingen
 ::::
 
 :::::
-
 [View full timeline →](timeline.html)
 
 ::::::

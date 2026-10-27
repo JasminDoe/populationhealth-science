@@ -2113,62 +2113,64 @@ body:has(.phs-aula-hero) .phs-medical-section {
 }
 
 
-/* ====================================================================
-   HOMEPAGE TIMELINE — UNIVERSITY LOGOS (EXISTING REPOSITORY FILES)
-   ====================================================================
-   Paths: UMG_kurz_2024_Druck_Farbe_4c.jpg, JGU_logo.png, GA_logo.png.
-   No new or generated logo images. object-fit: contain preserves logos.
-   Only the homepage timeline uses these selectors.
-   ==================================================================== */
+/* HOMEPAGE TIMELINE — UNIVERSITY LOGOS
+   Edit text in index.qmd. Original logo files stay unchanged.
+   Inline images avoid Quarto's auto-generated visible captions. */
 .phs-timeline-logo-list {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  margin: 10px 0 22px;
+  margin: 12px 0 20px;
 }
 .phs-timeline-logo-entry {
-  display: grid;
-  grid-template-columns: 66px minmax(0,1fr);
-  align-items: center;
-  column-gap: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   min-width: 0;
 }
-.phs-timeline-logo-entry > p:first-child {
+.phs-timeline-logo-head > p {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 15px;
   margin: 0;
-  width: 66px;
-  height: 66px;
-  background: white;
-  border: 1px solid #e7eceb;
-  border-radius: 6px;
-  overflow: hidden;
+  min-width: 0;
+}
+.phs-timeline-logo-head strong {
+  font-size: .98rem;
+  color: #263e49;
+  font-weight: 600;
 }
 .phs-timeline-logo-image {
-  display: block;
-  width: 58px;
-  height: 58px;
-  max-width: 100%;
+  width: 62px;
+  height: 56px;
+  max-width: 62px;
+  max-height: 56px;
+  flex: 0 0 62px;
   object-fit: contain;
-  object-position: center center;
+  object-position: center;
+  border: 1px solid #e7eceb;
+  border-radius: 5px;
+  padding: 3px;
+  background: white;
 }
-.phs-timeline-logo-copy {
+.phs-timeline-logo-details {
+  margin: 0;
   min-width: 0;
-  font-size: .93rem;
-  line-height: 1.48;
+  padding-left: 77px;
   color: #506570;
+  font-size: .92rem;
+  line-height: 1.45;
 }
-.phs-timeline-logo-copy p { margin: 0; }
-.phs-timeline-logo-copy strong { color: #263e49; }
+.phs-timeline-logo-details p { margin: 0; }
+.phs-timeline-logo-details strong { color: #263e49; font-weight: 600; }
 @media (max-width: 1080px) {
-  .phs-timeline-logo-entry { grid-template-columns: 53px minmax(0,1fr); column-gap: 11px; }
-  .phs-timeline-logo-entry > p:first-child { width: 53px; height: 53px; }
-  .phs-timeline-logo-image { width: 46px; height: 46px; }
-  .phs-timeline-logo-copy { font-size: .85rem; }
+  .phs-timeline-logo-head > p { gap: 12px; }
+  .phs-timeline-logo-image { flex-basis: 50px; width: 50px; height: 47px; }
+  .phs-timeline-logo-details { padding-left: 62px; }
 }
-@media (max-width: 420px) {
-  .phs-timeline-logo-entry { grid-template-columns: 44px minmax(0,1fr); column-gap: 10px; }
-  .phs-timeline-logo-entry > p:first-child { width: 44px; height: 44px; }
-  .phs-timeline-logo-image { width: 39px; height: 39px; }
+@media (max-width: 430px) {
+  .phs-timeline-logo-head > p { gap: 10px; }
+  .phs-timeline-logo-image { flex-basis: 43px; width: 43px; height: 41px; }
+  .phs-timeline-logo-head strong { font-size: .89rem; }
+  .phs-timeline-logo-details { padding-left: 53px; font-size: .85rem; }
 }
