@@ -45,7 +45,9 @@ website:
         text: Say hello
 
   page-footer:
+    # Shared footer on every Quarto page. Edit the motto here, NOT in index.qmd.
     left: "© Jasmin Dönicke · Population Health Science"
+    center: "*People · Contexts · Methods — for a healthier world.*"
     right:
       - text: ORCID
         href: https://orcid.org/0009-0006-0721-0790

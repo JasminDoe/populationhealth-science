@@ -1170,3 +1170,12 @@ body:has(.phs-intro) #title-block-header .quarto-title-meta { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .phs-intro-button { transition: none; }
 }
+
+/* Shared website footer — motto moved from homepage to footer in _quarto.yml. */
+.nav-footer .nav-footer-center {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  color: #345e52;
+  font-size: .86rem;
+  text-align: center;
+}
