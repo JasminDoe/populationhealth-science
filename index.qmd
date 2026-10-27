@@ -214,7 +214,7 @@ I have the privilege of working with incredible researchers around the world. Ea
 -->
 
 ::: {.phs-medical-eyebrow #latest-work}
-03 / LATEST WORK
+04 / LATEST WORK
 :::
 
 :::: {.columns}
