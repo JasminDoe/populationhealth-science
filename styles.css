@@ -2066,3 +2066,48 @@ body:has(.phs-aula-hero) #title-block-header { display: none; }
   white-space: nowrap;
   border: 0;
 }
+
+
+/* ==========================================================================
+   AULA HERO / POPULATION HEALTH: compact transition and quiet photo credit
+   ==========================================================================
+   The previous visible line came from a Markdown --- separator between the
+   hero and population-health section (removed in index.qmd).
+   The large blank space came from the hero's bottom margin PLUS the
+   population-health section's top margin.
+   Only these two homepage sections are adjusted.
+   ========================================================================== */
+body:has(.phs-aula-hero) .phs-aula-hero {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+/* Put the next section immediately after the hero, with a modest visual gap. */
+body:has(.phs-aula-hero) .phs-medical-section {
+  margin-top: clamp(12px, 1.65vw, 22px);
+}
+/* Small warm-beige credit beneath the visible photo on the right.
+   Keeping this as real Quarto text makes it editable in index.qmd. */
+.phs-aula-credit {
+  position: absolute;
+  z-index: 4;
+  right: clamp(20px, 3.1vw, 52px);
+  bottom: 12px;
+  max-width: 53%;
+  margin: 0;
+  text-align: right;
+  color: #aaa08f;
+  font: 400 .63rem/1.35 'DM Sans', Arial, sans-serif;
+  letter-spacing: .018em;
+}
+.phs-aula-credit p { margin: 0; }
+/* On phones the photo becomes a faded backdrop; keep its credit short and legible. */
+@media (max-width: 760px) {
+  body:has(.phs-aula-hero) .phs-aula-hero { margin-bottom: 0; }
+  body:has(.phs-aula-hero) .phs-medical-section { margin-top: 14px; }
+  .phs-aula-credit {
+    right: 17px;
+    bottom: 10px;
+    max-width: 75%;
+    font-size: .57rem;
+  }
+}

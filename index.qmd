@@ -26,7 +26,8 @@ My research connects people's lives, the contexts they live in, and the methods 
 ::::
 
 :::: {.phs-intro-affiliation}
-Research Associate · Department of Medical Statistics · University Medical Center Göttingen
+Research Associate · Department of Medical Statistics ·  
+University Medical Center Göttingen
 
 [Work Homepage ↗](https://medstat.umg.eu/en/mitarbeiter-seiten/jasmin-doenicke/){.btn .btn-outline-secondary}
 ::::
@@ -43,9 +44,11 @@ Research Associate · Department of Medical Statistics · University Medical Cen
 
 ::::::
 
-:::::::
+:::::: {.phs-aula-credit}
+Great Hall (Aula) · Georg-August University of Göttingen
+::::::
 
----
+:::::::
 
 <!-- POPULATION HEALTH / CIRCULAR DIAGRAM
      HOW TO EDIT: All words in this section are editable below in Markdown.
