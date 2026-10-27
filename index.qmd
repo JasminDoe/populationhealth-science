@@ -39,7 +39,7 @@ Research Associate · Department of Medical Statistics · University Medical Cen
 
 :::::: {.phs-aula-photo}
 
-![Great Hall (Aula) of the University of Göttingen.](images/uni-gottingen-4064017271.jpg){loading="eager"}
+![Great Hall (Aula) of the University of Göttingen.](images/uni-gottingen-4064017271.jpg){fig-alt="Photograph of the Great Hall (Aula) of the University of Göttingen" loading="eager"}
 
 ::::::
 
