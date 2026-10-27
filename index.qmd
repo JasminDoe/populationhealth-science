@@ -221,7 +221,7 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 ::: {.column width="48%"}
 
-### TIMELINE
+# TIMELINE
 
 **2026 – present**  
 **Biostatistician / Epidemiologist**  
@@ -247,7 +247,7 @@ University of Göttingen
 
 ::: {.column width="52%"}
 
-### LATEST PUBLICATIONS
+# LATEST PUBLICATIONS
 
 **Risk factors associated with longitudinal trajectories of mania symptoms in youth**  
 *Development and Psychopathology, 2026*  
