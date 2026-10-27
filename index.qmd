@@ -225,22 +225,23 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 **2026 – present**  
 **Biostatistician / Epidemiologist**  
-Universitätsmedizin Göttingen  
+Institute of Medical Statistics @ University Medical Center Göttingen  
 📍 Göttingen, Germany
 
-**2025 – 2027**  
+**2025 – approx. 2027**  
 **M.Sc. Epidemiology**  
-Johannes Gutenberg University Mainz  
-📍 Institute of Medical Statistics, Epidemiology and Informatics
+ Institute of Medical Statistics, Epidemiology and Informatics @ Johannes Gutenberg University Mainz  
+📍 Mainz, Germany
 
 **2022 – 2025**  
 **M.Sc. Clinical Psychology**  
 University of Göttingen
+🎓 Graduated
 
 **2019 – 2022**  
 **B.Sc. Psychology**  
 University of Göttingen  
-📍 Graduation with Distinction
+🎓 Graduated with Distinction
 
 [View full timeline →](timeline.html)
 
@@ -250,33 +251,33 @@ University of Göttingen
 
 ## LATEST PUBLICATIONS
 
-🟠 **Risk factors associated with longitudinal trajectories of mania symptoms in youth**  
+**Risk factors associated with longitudinal trajectories of mania symptoms in youth**  
 *Development and Psychopathology, 2026*  
 [PDF ↗](https://doi.org/10.1017/S0954579426101606)
 
 ---
 
-🟠 **Global, regional, and national burden of exposure to chewing tobacco, 1990–2023**  
+**Global mental wealth: A multidimensional analysis of social, financial, and emotional well-being in 92 countries**  
+*Preprint, 2026*  
+[PDF ↗](https://eprints.gla.ac.uk/374799/)
+
+---
+
+**Global, regional, and national burden of exposure to chewing tobacco, 1990–2023**  
 *The Lancet Global Health, 2026*  
 [PDF ↗](https://doi.org/10.1016/j.langlo.2026.104043)
 
 ---
 
-🔵 **A Multi-Lab Investigation of Neonatal and Early Imitation**  
+**A Multi-Lab Investigation of Neonatal and Early Imitation**  
 *Registered Report, 2026*  
 [PDF ↗](https://doi.org/10.31234/osf.io/fe7pj_v1)
 
 ---
 
-🟢 **Global mental wealth: A multidimensional analysis of social, financial, and emotional well-being in 92 countries**  
+**People in 26 countries prefer individual control to commercial or governmental control over online choice architectures**  
 *Preprint, 2026*  
-PDF
-
----
-
-🟠 **People in 26 countries prefer individual control to commercial or governmental control over online choice architectures**  
-*Preprint, 2026*  
-PDF
+[PDF ↗](https://osf.io/preprints/osf/haqu9_v1)
 
 [View all publications →](publications.html)
 
