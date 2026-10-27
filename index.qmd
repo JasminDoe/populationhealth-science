@@ -57,7 +57,7 @@ Population health science draws on clinical knowledge, public health, epidemiolo
 ::::: {.phs-medical-visual}
 
 :::: {.phs-medical-circle .phs-medical-medicine}
-**Medicine & Psychology**
+**Medicine**
 
 *Clinical knowledge, patient care*
 ::::
@@ -71,7 +71,7 @@ Population health science draws on clinical knowledge, public health, epidemiolo
 :::: {.phs-medical-circle .phs-medical-biostats}
 **Biostatistics**
 
-*  Methods, estimation, uncertainty*
+*Methods, estimation, uncertainty*
 ::::
 
 :::: {.phs-medical-circle .phs-medical-epi}
