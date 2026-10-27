@@ -65,3 +65,14 @@ The site publishes human-readable HTML, crawler permissions, an XML sitemap and 
 - The preview HTML in `preview/` was generated to review the draft; **Quarto pages** are the maintained source.
 - The planned “What is population health science?” section is intentionally left for a later update.
 - If the website fails to update, inspect the latest GitHub Actions run before editing `gh-pages`.
+
+## Homepage editing (current simplified version)
+
+The homepage in `index.qmd` is deliberately plain **Quarto Markdown**, without nested HTML. This fixes the previous problem where raw HTML tags appeared as visible code on the website. Text is readable by search engines and easy to edit directly on GitHub.
+
+- Change visible wording directly in `index.qmd`.
+- Main photograph: `images/uni-gottingen-4064017271.jpg`. The Markdown image line is near the top of `index.qmd`.
+- To add a heading, begin a line with `##` or `###`.
+- To add a link, use `[visible label](page.html)`.
+- Styling can be revisited later. The old unused `phs-v3` styles remain in `styles.css` but are not needed to read the simplified homepage.
+- Publication and collaboration lists are still curated; do not assume manuscript PDFs or complete collaborator counts have been verified.

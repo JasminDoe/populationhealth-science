@@ -1,245 +1,146 @@
 ---
-title: "Jasmin Dönicke"
-description: "Jasmin Dönicke works in psychiatric epidemiology, global health, health inequality and statistical research. Explore population health science, research topics, collaborators and selected publications."
-page-layout: custom
-title-block-style: none
+# This page uses ONLY Quarto Markdown, not nested HTML.
+# Editing tip: headings begin with #, links use [text](destination),
+# and the photograph uses standard Markdown image syntax.
+# This avoids the HTML-as-code rendering problem visible in the screenshot.
+title: false
+pagetitle: "Jasmin Dönicke | Population Health Science"
+description: "Jasmin Dönicke: psychiatric epidemiology, global health and health inequalities. Population health science, research areas, collaborations and selected publications."
+page-layout: article
 ---
 
-<!-- HOMEPAGE SOURCE / HOW TO EDIT
-  This page is intentionally written as real HTML, not as one big image:
-  search engines and screen readers can understand the research text.
-  EDIT TEXT here. EDIT COLORS/SPACING in the marked 'EDITORIAL HOMEPAGE' section
-  at the end of styles.css. See README.md for simple instructions.
-  The map below is an illustrative preview of SELECTED coauthor locations,
-  not a complete geocoded collaboration network. The interactive atlas is atlas.qmd.
--->
+# Jasmin Dönicke
 
-<div class="phs-home phs-v3" id="phs-home-content">
+Understanding health, beyond the individual.
 
-  <!-- SECTION 01 — POPULATION HEALTH SCIENCE (change explanations and questions here) -->
-  <section class="phs-v3-perspectives" id="population-health" aria-labelledby="perspectives-title">
-    <div class="phs-container">
-      <div class="phs-v3-sectionlabel">01 / POPULATION HEALTH SCIENCE</div>
-      <div class="phs-v3-perspectives-intro">
-        <h2 id="perspectives-title">Different perspectives.<br><em>A shared goal.</em></h2>
-        <p>Population health science draws on clinical knowledge, public health, epidemiology, and quantitative methods to understand how health and its distribution are shaped across populations.</p>
-      </div>
-      <div class="phs-v3-discipline-grid">
-        <article class="phs-v3-discipline phs-v3-discipline-medicine">
-          <span class="phs-v3-discipline-name">Medicine</span>
-          <p>How can we diagnose, treat, and care for this patient?</p>
-        </article>
-        <article class="phs-v3-discipline phs-v3-discipline-public">
-          <span class="phs-v3-discipline-name">Public health</span>
-          <p>How can we prevent disease and protect communities?</p>
-        </article>
-        <article class="phs-v3-discipline phs-v3-discipline-epi">
-          <span class="phs-v3-discipline-name">Epidemiology</span>
-          <p>On a population level, who experiences which health outcomes, when, and why?</p>
-        </article>
-        <article class="phs-v3-discipline phs-v3-discipline-stats">
-          <span class="phs-v3-discipline-name">Biostatistics</span>
-          <p>How can we estimate patterns, effects, and uncertainty reliably?</p>
-        </article>
-      </div>
-      <div class="phs-v3-conclusion">
-        <span class="phs-v3-conclusion-label">POPULATION HEALTH SCIENCE</span>
-        <p><strong>Population health science:</strong> Bringing these perspectives together to understand population-level patterns, determinants, and inequalities in health. And inform ways to improve them.</p>
-      </div>
-    </div>
-  </section>
+I work at the intersection of psychiatric epidemiology, global health, and health inequalities. My research connects people's lives, the contexts they live in, and the methods we use to understand them.
 
-  <!-- SECTION 02 — PERSONAL INTRODUCTION; the Aula photo is an actual image, not a generated graph -->
-  <section class="phs-v3-hero" aria-labelledby="hero-title">
-    <div class="phs-container phs-v3-hero-grid">
-      <div class="phs-v3-hero-copy">
-        <p class="phs-v3-sectionlabel">02 / RESEARCHER</p>
-        <h1 id="hero-title">Jasmin Dönicke</h1>
-        <p class="phs-v3-hero-tagline">Understanding health, beyond the individual.</p>
-        <p class="phs-v3-hero-description">I work at the intersection of psychiatric epidemiology, global health, and health inequalities. My research connects people's lives, the contexts they live in, and the methods we use to understand them.</p>
-        <p class="phs-v3-hero-affiliation">Research Associate · Department of Medical Statistics ·<br> University Medical Center Göttingen</p>
-        <a class="phs-v3-cta" href="#research-areas">Explore my work <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="phs-v3-hero-media">
-        <!-- Image path: to replace this photo, edit src. CSS controls its cropping. -->
-        <figure class="phs-v3-photo">
-          <img src="images/uni-gottingen-4064017271.jpg" alt="Neoclassical façade of the Great Hall of the University of Göttingen" width="1200" height="800" fetchpriority="high" decoding="async">
-          <figcaption>Great Hall of the University of Göttingen</figcaption>
-        </figure>
-        <p class="phs-v3-motto"><em>People<br>Contexts<br>Methods</em><span>for a healthier world.</span></p>
-      </div>
-    </div>
-  </section>
+Research Associate · Department of Medical Statistics · University Medical Center Göttingen
 
-  <!-- SECTION 03 — RESEARCH CARDS: change each card's href/title/body separately -->
-  <section class="phs-v3-research" id="research-areas" aria-labelledby="research-title">
-    <div class="phs-container phs-v3-sectiongrid">
-      <div class="phs-v3-siderail"><span>RESEARCH<br>AREAS</span><span>03</span><span class="phs-v3-rail-dots" aria-hidden="true">•<br>·</span></div>
-      <div class="phs-v3-main">
-        <h2 id="research-title" class="visually-hidden">Research areas</h2>
-        <div class="phs-v3-topic-grid">
-        <a class="phs-v3-topic phs-v3-topic-sage" href="research.html">
-          <span class="phs-v3-topic-index">01 / PEOPLE</span>
-          <h3>Mental health across the life course</h3>
-          <p>Psychiatric and perinatal epidemiology, including longitudinal trajectories of mental health in youth.</p>
-          <span class="phs-v3-topic-arrow" aria-hidden="true">→</span>
-        </a>
-        <a class="phs-v3-topic phs-v3-topic-ice" href="publications.html">
-          <span class="phs-v3-topic-index">02 / POPULATIONS</span>
-          <h3>A wider view of well-being</h3>
-          <p>Global health, disease burden, and the social and financial dimensions of well-being across countries.</p>
-          <span class="phs-v3-topic-arrow" aria-hidden="true">→</span>
-        </a>
-        <a class="phs-v3-topic phs-v3-topic-peach" href="about.html">
-          <span class="phs-v3-topic-index">03 / CONTEXT</span>
-          <h3>The conditions that shape health</h3>
-          <p>Social determinants, health inequality, and the epidemiological methods that help us ask better questions.</p>
-          <span class="phs-v3-topic-arrow" aria-hidden="true">→</span>
-        </a>
-        </div>
-      </div>
-    </div>
-  </section>
+[**Explore my work ↓**](#research-areas)
 
-  <!-- SECTION 04 — COLLABORATION ATLAS PREVIEW; see atlas.qmd for full interactive atlas -->
-  <section class="phs-v3-atlas" id="collaborations" aria-labelledby="atlas-title">
-    <div class="phs-container phs-v3-sectiongrid">
-      <div class="phs-v3-siderail"><span>COLLABORATION<br>ATLAS</span><span>04</span><span class="phs-v3-rail-dots" aria-hidden="true">•<br>·</span></div>
-      <div class="phs-v3-main phs-v3-atlas-layout">
-        <div class="phs-v3-atlas-copy">
-          <h2 id="atlas-title">A global<br>collaboration network</h2>
-          <p>I have the privilege of working with incredible researchers around the world. Each dot represents a collaborator, colored by research project. Larger dots indicate more collaborations. Click a person or a region to explore our shared work.</p>
-          <a class="phs-v3-outline-link" href="atlas.html">Explore the atlas <span aria-hidden="true">→</span></a>
-          <div class="phs-v3-metrics" aria-label="Collaboration totals (provided estimates)">
-            <div><strong>100+</strong><span>collaborators</span></div>
-            <div><strong>30+</strong><span>countries</span></div>
-            <div><strong>10+</strong><span>projects</span></div>
-          </div>
-        </div>
-        <div class="phs-v3-map-area">
-          <!-- Accessible schematic map: approximate regions, not verified person-level coordinates.
-               Each link opens the fuller atlas. Counts shown at left are supplied estimates. -->
-          <svg class="phs-v3-worldmap" viewBox="0 0 960 410" role="img" aria-labelledby="mini-map-title mini-map-desc">
-            <title id="mini-map-title">Preview of an international collaboration network</title>
-            <desc id="mini-map-desc">Schematic continental outlines with selected research collaboration dots and connecting arcs in North America, Europe, and Australia. Explore the atlas to see individual researchers.</desc>
-            <defs>
-              <linearGradient id="phs-map-paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9f8f3"/><stop offset="1" stop-color="#f3f0e9"/></linearGradient>
-            </defs>
-            <rect width="960" height="410" fill="url(#phs-map-paper)"/>
-            <g fill="#d9d9d1" opacity=".70" stroke="#faf9f6" stroke-width="2">
-              <path d="M65 65 L123 38 185 49 230 75 242 103 213 130 226 147 210 174 164 169 148 203 100 201 69 167 44 117Z"/>
-              <path d="M182 220 L231 227 270 261 255 296 228 368 199 389 177 347 157 290Z"/>
-              <path d="M414 83 L462 58 525 75 560 106 589 140 553 181 517 201 479 179 454 149 411 139 400 103Z"/>
-              <path d="M479 183 L535 189 567 241 539 310 501 351 461 297 443 243Z"/>
-              <path d="M560 85 L692 63 772 83 833 119 873 174 820 211 764 206 723 253 663 221 605 187 584 147Z"/>
-              <path d="M777 282 L841 271 902 318 875 364 811 360 780 324Z"/>
-              <path d="M279 68 L312 29 358 44 356 95 311 116Z"/>
-            </g>
-            <g fill="none" stroke-width="2" opacity=".60">
-              <path d="M189 143 Q333 -17 485 107" stroke="#a2a36d"/>
-              <path d="M189 143 Q392 235 485 107" stroke="#cb8969"/>
-              <path d="M485 107 Q710 -22 815 302" stroke="#5384a8"/>
-              <path d="M113 126 Q295 18 485 107" stroke="#82995b"/>
-              <path d="M485 107 Q614 161 665 224" stroke="#c79677"/>
-            </g>
-            <a href="atlas.html" aria-label="Boston — mania trajectories collaborators">
-              <circle cx="190" cy="142" r="14" fill="#cf865f" opacity=".17"/>
-              <circle cx="190" cy="142" r="9" fill="#cf865f" stroke="#faf8f2" stroke-width="2"/>
-              <title>Boston — mania trajectories collaborators</title>
-            </a>
-            <a href="atlas.html" aria-label="Pittsburgh — mania trajectories">
-              <circle cx="181" cy="151" r="11" fill="#cf865f" opacity=".17"/>
-              <circle cx="181" cy="151" r="6" fill="#cf865f" stroke="#faf8f2" stroke-width="2"/>
-              <title>Pittsburgh — mania trajectories</title>
-            </a>
-            <a href="atlas.html" aria-label="Seattle — developmental research">
-              <circle cx="112" cy="126" r="11" fill="#7d925d" opacity=".17"/>
-              <circle cx="112" cy="126" r="6" fill="#7d925d" stroke="#faf8f2" stroke-width="2"/>
-              <title>Seattle — developmental research</title>
-            </a>
-            <a href="atlas.html" aria-label="Western Europe — research collaborations">
-              <circle cx="465" cy="99" r="14" fill="#517f95" opacity=".17"/>
-              <circle cx="465" cy="99" r="9" fill="#517f95" stroke="#faf8f2" stroke-width="2"/>
-              <title>Western Europe — research collaborations</title>
-            </a>
-            <a href="atlas.html" aria-label="Central Europe — multi-project collaboration">
-              <circle cx="484" cy="107" r="18" fill="#cc8a61" opacity=".17"/>
-              <circle cx="484" cy="107" r="13" fill="#cc8a61" stroke="#faf8f2" stroke-width="2"/>
-              <title>Central Europe — multi-project collaboration</title>
-            </a>
-            <a href="atlas.html" aria-label="European collaboration">
-              <circle cx="498" cy="103" r="12" fill="#8d7399" opacity=".17"/>
-              <circle cx="498" cy="103" r="7" fill="#8d7399" stroke="#faf8f2" stroke-width="2"/>
-              <title>European collaboration</title>
-            </a>
-            <a href="atlas.html" aria-label="Australia — developmental research">
-              <circle cx="814" cy="303" r="12" fill="#7d925d" opacity=".17"/>
-              <circle cx="814" cy="303" r="7" fill="#7d925d" stroke="#faf8f2" stroke-width="2"/>
-              <title>Australia — developmental research</title>
-            </a>
-          </svg>
-          <div class="phs-v3-map-footer">
-            <div class="phs-v3-map-legend" aria-label="Research themes">
-              <span><i style="background:#889c5b" aria-hidden="true"></i>Mental health</span><span><i style="background:#d98766" aria-hidden="true"></i>Global health &amp; disease burden</span><span><i style="background:#876b9a" aria-hidden="true"></i>Child development</span><span><i style="background:#6496bb" aria-hidden="true"></i>Digital environments</span><span><i style="background:#397da6" aria-hidden="true"></i>Methods &amp; data science</span>
-            </div>
-            <a href="atlas.html">View full map <span aria-hidden="true">↗</span></a>
-          </div>
-          <p class="phs-v3-map-disclaimer">Map preview uses selected illustrative connections. The full atlas is being developed.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+![Great Hall (Aula) of the University of Göttingen.](images/uni-gottingen-4064017271.jpg){width="100%"}
 
-  <!-- SECTION 05 — LATEST WORK: update paper titles, months and links here -->
-  <section class="phs-v3-latest" id="latest-work" aria-labelledby="latest-heading">
-    <div class="phs-container phs-v3-sectiongrid">
-      <div class="phs-v3-siderail"><span>LATEST WORK</span><span>05</span><span class="phs-v3-rail-dots" aria-hidden="true">•<br>·</span></div>
-      <div class="phs-v3-main">
-        <h2 id="latest-heading" class="visually-hidden">Latest work and publications</h2>
-        <ol class="phs-v3-paper-list">
-          <li class="phs-v3-paper">
-            <div class="phs-v3-paper-date"><time datetime="2026-07">July 2026</time><small>Paper</small></div>
-            <div class="phs-v3-paper-content"><span class="phs-v3-paper-bullet phs-v3-paper-bullet-sage" aria-hidden="true"></span><div class="phs-v3-paper-title">Risk factors associated with longitudinal trajectories of mania symptoms in youth</div><em>Development and Psychopathology</em></div>
-            <div class="phs-v3-paper-actions">
-              <a href="https://doi.org/10.1017/S0954579426101606" rel="noopener noreferrer" aria-label="Open paper: Risk factors associated with longitudinal trajectories of mania symptoms in youth">PDF <span aria-hidden="true">↗</span></a>
-              <a href="publications.html">Details <span aria-hidden="true">→</span></a>
-            </div>
-          </li>
-          <li class="phs-v3-paper">
-            <div class="phs-v3-paper-date"><time datetime="2026-07">July 2026</time><small>Paper</small></div>
-            <div class="phs-v3-paper-content"><span class="phs-v3-paper-bullet phs-v3-paper-bullet-peach" aria-hidden="true"></span><div class="phs-v3-paper-title">Global, regional, and national burden of exposure to chewing tobacco, 1990–2023</div><em>Lancet Global Health</em></div>
-            <div class="phs-v3-paper-actions">
-              <a href="https://doi.org/10.1016/j.langlo.2026.104043" rel="noopener noreferrer" aria-label="Open paper: Global, regional, and national burden of exposure to chewing tobacco, 1990–2023">PDF <span aria-hidden="true">↗</span></a>
-              <a href="publications.html">Details <span aria-hidden="true">→</span></a>
-            </div>
-          </li>
-          <li class="phs-v3-paper">
-            <div class="phs-v3-paper-date"><time datetime="2026-07">July 2026</time><small>Paper</small></div>
-            <div class="phs-v3-paper-content"><span class="phs-v3-paper-bullet phs-v3-paper-bullet-blue" aria-hidden="true"></span><div class="phs-v3-paper-title">A Multi-Lab Investigation of Neonatal and Early Imitation</div><em>Registered Report</em></div>
-            <div class="phs-v3-paper-actions">
-              <span class="phs-v3-pdf-unavailable" title="No verified public PDF linked">PDF</span>
-              <a href="publications.html">Details <span aria-hidden="true">→</span></a>
-            </div>
-          </li>
-          <li class="phs-v3-paper">
-            <div class="phs-v3-paper-date"><time datetime="2026-05">May 2026</time><small>Paper</small></div>
-            <div class="phs-v3-paper-content"><span class="phs-v3-paper-bullet phs-v3-paper-bullet-peach" aria-hidden="true"></span><div class="phs-v3-paper-title">Global mental wealth: A multidimensional analysis of social, financial, and emotional well-being in 92 countries</div><em>—</em></div>
-            <div class="phs-v3-paper-actions">
-              <span class="phs-v3-pdf-unavailable" title="No verified public PDF linked">PDF</span>
-              <a href="publications.html">Details <span aria-hidden="true">→</span></a>
-            </div>
-          </li>
-          <li class="phs-v3-paper">
-            <div class="phs-v3-paper-date"><time datetime="2026-02">February 2026</time><small>Paper</small></div>
-            <div class="phs-v3-paper-content"><span class="phs-v3-paper-bullet phs-v3-paper-bullet-peach" aria-hidden="true"></span><div class="phs-v3-paper-title">People in 26 countries prefer individual control to commercial or governmental control over online choice architectures</div><em>—</em></div>
-            <div class="phs-v3-paper-actions">
-              <span class="phs-v3-pdf-unavailable" title="No verified public PDF linked">PDF</span>
-              <a href="publications.html">Details <span aria-hidden="true">→</span></a>
-            </div>
-          </li>
-        </ol>
-        <a class="phs-v3-outline-link phs-v3-all-publications" href="publications.html">View all publications <span aria-hidden="true">→</span></a>
-      </div>
-    </div>
-  </section>
-</div>
+*Great Hall of the University of Göttingen*
+
+*People · Contexts · Methods — for a healthier world.*
+
+---
+
+## Different perspectives. A shared goal. {#population-health}
+
+Population health science draws on clinical knowledge, public health, epidemiology, and quantitative methods to understand how health and its distribution are shaped across populations.
+
+### Medicine
+
+How can we diagnose, treat, and care for this patient?
+
+### Public health
+
+How can we prevent disease and protect communities?
+
+### Epidemiology
+
+On a population level, who experiences which health outcomes, when, and why?
+
+### Biostatistics
+
+How can we estimate patterns, effects, and uncertainty reliably?
+
+**Population health science:** Bringing these perspectives together to understand population-level patterns, determinants, and inequalities in health. And inform ways to improve them.
+
+---
+
+## 3. Research Areas {#research-areas}
+
+### 01 / PEOPLE
+
+**Mental health across the life course**
+
+Psychiatric and perinatal epidemiology, including longitudinal trajectories of mental health in youth.
+
+### 02 / POPULATIONS
+
+**A wider view of well-being**
+
+Global health, disease burden, and the social and financial dimensions of well-being across countries.
+
+### 03 / CONTEXT
+
+**The conditions that shape health**
+
+Social determinants, health inequality, and the epidemiological methods that help us ask better questions.
+
+---
+
+## 4. Collaboration Atlas {#collaboration-atlas}
+
+### A global collaboration network
+
+I have the privilege of working with incredible researchers around the world. Each dot represents a collaborator, colored by research project. Larger dots indicate more collaborations. Click a person or a region to explore our shared work.
+
+[**Explore the atlas →**](atlas.html)
+
+| 100+ | 30+ | 10+ |
+|:---:|:---:|:---:|
+| collaborators | countries | projects |
+
+**Map legend**
+
+- Mental health
+- Global health & disease burden
+- Child development
+- Digital environments
+- Methods & data science
+
+[View full map →](atlas.html)
+
+*The numbers above are estimates provided for the homepage. The interactive atlas is currently a curated subset, not yet the complete international collaboration network.*
+
+---
+
+## 5. Latest Work {#latest-work}
+
+### July 2026 — Paper
+
+**Risk factors associated with longitudinal trajectories of mania symptoms in youth**
+
+*Development and Psychopathology*
+
+PDF · [Details →](publications.html)
+
+### July 2026 — Paper
+
+**Global, regional, and national burden of exposure to chewing tobacco, 1990–2023**
+
+*Lancet Global Health*
+
+PDF · [Details →](publications.html)
+
+### July 2026 — Paper
+
+**A Multi-Lab Investigation of Neonatal and Early Imitation**
+
+*Registered Report*
+
+PDF · [Details →](publications.html)
+
+### May 2026 — Paper
+
+**Global mental wealth: A multidimensional analysis of social, financial, and emotional well-being in 92 countries**
+
+—
+
+PDF · [Details →](publications.html)
+
+### February 2026 — Paper
+
+**People in 26 countries prefer individual control to commercial or governmental control over online choice architectures**
+
+—
+
+PDF · [Details →](publications.html)
+
+[**View all publications →**](publications.html)
+
+*Links to public full-text PDFs have not yet been verified for every manuscript.*
