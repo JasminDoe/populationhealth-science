@@ -1179,3 +1179,229 @@ body:has(.phs-intro) #title-block-header .quarto-title-meta { display: none; }
   font-size: .86rem;
   text-align: center;
 }
+
+
+/* ========================================================================
+   POPULATION HEALTH CIRCLES — MEDICAL EDITORIAL
+   ========================================================================
+   Applies ONLY to the population-health explanation on the homepage.
+   Text content is editable in index.qmd between .phs-medical-section fences.
+   Colors and circle sizes can be modified here without touching other pages.
+   Quarto fenced divs render normal semantic HTML, not raw code blocks.
+   ======================================================================== */
+.phs-medical-section {
+  --med-ink: #20363b;
+  --med-muted: #52696d;
+  --med-pine: #34675d;
+  --med-line: #dfe8e5;
+  --med-paper: #fbfcfa;
+  --med-medicine: #c6dedc;
+  --med-public: #f0e4d5;
+  --med-epi: #e6dfe8;
+  --med-biostats: #d9e6f0;
+  margin: clamp(48px, 7vw, 100px) 0 clamp(48px, 7vw, 92px);
+  padding: clamp(28px, 4vw, 60px) clamp(19px, 3vw, 44px);
+  background: linear-gradient(138deg, #fbfcfa 0%, #f6faf8 64%, #fbf9f5 100%);
+  border: 1px solid #e4eae5;
+  border-radius: 6px;
+  box-shadow: 0 14px 36px rgba(44, 67, 59, .035);
+  color: var(--med-ink);
+}
+.phs-medical-section h2,
+.phs-medical-section h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--med-ink);
+  font-weight: 400;
+}
+.phs-medical-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .94fr) minmax(0, 1.06fr);
+  gap: clamp(15px, 3.1vw, 58px);
+  align-items: center;
+  min-width: 0;
+}
+.phs-medical-copy { max-width: 490px; padding: 8px 0; }
+.phs-medical-eyebrow {
+  font: 600 .63rem/1.55 'DM Sans', Arial, sans-serif;
+  color: #5a8279;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.phs-medical-eyebrow p { margin: 0; }
+.phs-medical-copy h2 {
+  font-size: clamp(2rem, 3.35vw, 3.25rem);
+  line-height: 1.13;
+  letter-spacing: -.038em;
+  margin: 0 0 22px;
+}
+.phs-medical-copy > p {
+  font: 400 clamp(.98rem, 1.27vw, 1.09rem)/1.77 Georgia, 'Times New Roman', serif;
+  color: #4c5e5d;
+  margin: 0;
+}
+/* The Venn diagram is built out of overlapping circles containing real text.
+   The visual is 1:1 aspect ratio and remains fully visible at mobile widths. */
+.phs-medical-visual {
+  position: relative;
+  isolation: isolate;
+  width: min(100%, 490px);
+  aspect-ratio: 1 / 1;
+  margin-inline: auto;
+  overflow: visible;
+}
+.phs-medical-circle,
+.phs-medical-core {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+.phs-medical-circle {
+  width: 57%;
+  height: 57%;
+  border: 1px solid rgba(255,255,255,.7);
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #273e40;
+  font-size: clamp(.7rem, 1vw, .89rem);
+  line-height: 1.35;
+}
+.phs-medical-circle > p { margin: 0; max-width: 63%; }
+.phs-medical-circle p:first-child strong {
+  font-weight: 600;
+  font-size: 1.07em;
+  color: #203a40;
+}
+.phs-medical-circle p:last-child {
+  font-size: .82em;
+  font-style: normal;
+  line-height: 1.3;
+  color: #52646b;
+}
+.phs-medical-circle p:last-child em { font-style: normal; }
+.phs-medical-medicine {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(192, 220, 216, .75);
+  justify-content: flex-start;
+  padding-top: 8.5%;
+}
+.phs-medical-public {
+  top: 21%;
+  left: 0;
+  background: rgba(237, 222, 203, .7);
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+.phs-medical-public > p { margin-left: 6%; }
+.phs-medical-biostats {
+  top: 21%;
+  right: 0;
+  background: rgba(207, 224, 238, .72);
+  justify-content: center;
+  align-items: flex-end;
+}
+.phs-medical-biostats > p { margin-right: 6%; }
+.phs-medical-epi {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(227, 216, 228, .7);
+  justify-content: flex-end;
+  padding-bottom: 8%;
+}
+.phs-medical-core {
+  width: 29%;
+  height: 29%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  justify-content: center;
+  padding: 5%;
+  background: rgba(252, 252, 249, .95);
+  border: 1.5px solid rgba(80, 130, 117, .42);
+  box-shadow: 0 5px 25px rgba(44, 83, 72, .11);
+  color: #26554d;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(.71rem, 1.1vw, .97rem);
+  line-height: 1.2;
+  letter-spacing: -.015em;
+}
+.phs-medical-core p { margin: 0; }
+.phs-medical-core strong { font-weight: 500; }
+/* Brief questions under the circle make every full statement readable.
+   A restrained top rule and four small colored indicators evoke clinical reports. */
+.phs-medical-questions {
+  margin: clamp(20px, 4vw, 44px) 0 0;
+  padding-top: clamp(25px, 3vw, 37px);
+  border-top: 1px solid var(--med-line);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: clamp(14px, 2.3vw, 32px);
+  row-gap: 24px;
+}
+.phs-medical-question {
+  border-left: 2px solid var(--med-accent);
+  padding-left: 15px;
+  min-width: 0;
+}
+.phs-medical-q-medicine { --med-accent: #87b7ad; }
+.phs-medical-q-public { --med-accent: #d8b48d; }
+.phs-medical-q-epi { --med-accent: #b8a1c0; }
+.phs-medical-q-biostats { --med-accent: #92b7d2; }
+.phs-medical-question h3 {
+  font-size: clamp(1rem, 1.3vw, 1.27rem);
+  margin: 0 0 8px;
+  letter-spacing: -.01em;
+}
+.phs-medical-question p {
+  font: 400 .86rem/1.67 Georgia, 'Times New Roman', serif;
+  color: #556564;
+  margin: 0;
+}
+.phs-medical-takeaway {
+  margin-top: 35px;
+  padding: 21px 24px 21px 26px;
+  background: #edf4f0;
+  border-left: 3px solid #5f9889;
+  border-radius: 0 3px 3px 0;
+}
+.phs-medical-takeaway h3 {
+  color: #28564b;
+  font-size: clamp(1.15rem,1.6vw,1.38rem);
+  line-height: 1.3;
+  margin: 0 0 8px;
+}
+.phs-medical-takeaway p {
+  font: 400 .98rem/1.7 Georgia, 'Times New Roman', serif;
+  color: #435951;
+  margin: 0;
+}
+@media (max-width: 1080px) {
+  .phs-medical-grid { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 8px; }
+  .phs-medical-questions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 750px) {
+  .phs-medical-section { margin-block: 40px; padding: 29px 18px 32px; }
+  .phs-medical-grid { grid-template-columns: 1fr; gap: 19px; }
+  .phs-medical-copy { max-width: 540px; }
+  .phs-medical-copy h2 { font-size: clamp(2rem,7vw,2.7rem); }
+  .phs-medical-visual { max-width: 440px; }
+  .phs-medical-circle { font-size: clamp(.7rem, 2.6vw, .86rem); }
+  .phs-medical-core { font-size: clamp(.7rem, 2.6vw, .84rem); }
+}
+@media (max-width: 480px) {
+  .phs-medical-visual { max-width: 340px; }
+  .phs-medical-questions { grid-template-columns: 1fr; gap: 22px; }
+  .phs-medical-circle { font-size: .76rem; }
+  .phs-medical-circle p:last-child { font-size: .78em; }
+  .phs-medical-core { font-size: .72rem; padding: 4%; }
+  .phs-medical-takeaway { padding: 19px; }
+}

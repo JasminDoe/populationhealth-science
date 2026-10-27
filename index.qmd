@@ -33,29 +33,97 @@ Research Associate · Department of Medical Statistics · University Medical Cen
 
 ---
 
-## Different perspectives. A shared goal. {#population-health}
+<!-- POPULATION HEALTH / CIRCULAR DIAGRAM
+     HOW TO EDIT: All words in this section are editable below in Markdown.
+     HOW TO STYLE: search "POPULATION HEALTH CIRCLES — MEDICAL EDITORIAL" in styles.css.
+     Pandoc/Quarto fenced divs are used instead of nested HTML to avoid
+     the source-code-as-text issue encountered on the earlier homepage.
+-->
+
+::::::: {.phs-medical-section #population-health}
+
+:::::: {.phs-medical-grid}
+
+::::: {.phs-medical-copy}
+::: {.phs-medical-eyebrow}
+01 / WHAT IS POPULATION HEALTH SCIENCE?
+:::
+
+## Different perspectives. A shared goal.
 
 Population health science draws on clinical knowledge, public health, epidemiology, and quantitative methods to understand how health and its distribution are shaped across populations.
+:::::
 
+::::: {.phs-medical-visual}
+
+:::: {.phs-medical-circle .phs-medical-medicine}
+**Medicine**
+
+*Clinical knowledge, patient care*
+::::
+
+:::: {.phs-medical-circle .phs-medical-public}
+**Public health**
+
+*Prevention, communities, policy*
+::::
+
+:::: {.phs-medical-circle .phs-medical-biostats}
+**Biostatistics**
+
+*Methods, estimation, uncertainty*
+::::
+
+:::: {.phs-medical-circle .phs-medical-epi}
+**Epidemiology**
+
+*Patterns, determinants, distribution*
+::::
+
+:::: {.phs-medical-core}
+**Population health science**
+::::
+
+:::::
+::::::
+
+:::::: {.phs-medical-questions}
+
+::::: {.phs-medical-question .phs-medical-q-medicine}
 ### Medicine
 
 How can we diagnose, treat, and care for this patient?
+:::::
 
+::::: {.phs-medical-question .phs-medical-q-public}
 ### Public health
 
 How can we prevent disease and protect communities?
+:::::
 
+::::: {.phs-medical-question .phs-medical-q-epi}
 ### Epidemiology
 
 On a population level, who experiences which health outcomes, when, and why?
+:::::
 
+::::: {.phs-medical-question .phs-medical-q-biostats}
 ### Biostatistics
 
 How can we estimate patterns, effects, and uncertainty reliably?
+:::::
+
+::::::
+
+:::::: {.phs-medical-takeaway}
 
 ### Population health science
 
 Bringing these perspectives together to understand population-level patterns, determinants, and inequalities in health. And inform ways to improve them.
+
+::::::
+
+:::::::
 
 ---
 
