@@ -220,7 +220,6 @@ I have the privilege of working with incredible researchers around the world. Ea
 |:---:|:---:|:---:|
 | collaborators | countries | projects |
 
----
 
 <!-- LATEST WORK ONLY.
      Edit the timeline and publication text below.
@@ -233,11 +232,13 @@ I have the privilege of working with incredible researchers around the world. Ea
 04 / TIMELINE
 :::
 
-:::: {.columns}
+:::: {.columns .phs-work-columns}
 
 :::::: {.column width="48%"}
 
-### Education & Work {.phs-latest-heading}
+::: {.phs-work-smallheading}
+EDUCATION & WORK
+:::
 
 <!-- Four milestones with real logo images already in the images folder.
      To change the names or dates, edit the text below.
@@ -308,7 +309,9 @@ University of Göttingen
 
 ::: {.column width="52%"}
 
-### Selected Publications {.phs-latest-heading}
+::: {.phs-work-smallheading}
+SELECTED PUBLICATIONS
+:::
 
 **Risk factors associated with longitudinal trajectories of mania symptoms in youth**  
 *Development and Psychopathology, 2026*  

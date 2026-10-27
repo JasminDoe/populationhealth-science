@@ -2176,3 +2176,141 @@ body:has(.phs-aula-hero) .phs-medical-section {
 }
 
 
+
+
+/* ========================================================================
+   HOMEPAGE EDUCATION + PUBLICATIONS — COMPACT MEDICAL EDITORIAL TYPOGRAPHY
+   ========================================================================
+   IMPORTANT: these small section labels use Quarto fenced divs rather than
+   headings. In Quarto, attaching a class to a heading can also decorate
+   its whole section and accidentally make EVERY paragraph uppercase.
+   Modify text in index.qmd. These styles affect ONLY the two-column area.
+   ======================================================================== */
+
+.phs-work-columns {
+  --work-text: #354d50;
+  --work-heading: #547e77;
+  --work-rule: #e1e9e6;
+  color: var(--work-text);
+  text-transform: none;
+  letter-spacing: normal;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: .94rem;
+  line-height: 1.52;
+  margin-top: 8px;
+}
+.phs-work-columns .column { min-width: 0; }
+.phs-work-smallheading {
+  font: 600 .7rem/1.5 'DM Sans', Arial, sans-serif;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--work-heading);
+  border-bottom: 1px solid var(--work-rule);
+  padding: 0 0 12px;
+  margin: 0 0 19px;
+}
+.phs-work-smallheading p { margin: 0; }
+/* The entries must remain regular sentence case even if the site adds
+   heading-related selectors in the future. */
+.phs-work-columns .column > p,
+.phs-work-columns .column > section,
+.phs-work-columns .phs-timeline-logo-entry,
+.phs-work-columns .phs-timeline-logo-entry p,
+.phs-work-columns .phs-timeline-logo-entry strong,
+.phs-work-columns .column > p strong,
+.phs-work-columns .column > p em,
+.phs-work-columns .column > p a {
+  text-transform: none;
+  letter-spacing: normal;
+}
+.phs-work-columns .column > p {
+  font-size: .94rem;
+  line-height: 1.52;
+  margin: 0 0 7px;
+  color: #3b555a;
+}
+/* Compact timeline entries: actual university logos remain unchanged. */
+.phs-work-columns .phs-timeline-logo-list { gap: 19px; margin: 3px 0 16px; }
+.phs-work-columns .phs-timeline-logo-entry { gap: 5px; }
+.phs-work-columns .phs-timeline-logo-head > p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+.phs-work-columns .phs-timeline-logo-head strong {
+  font: 600 .94rem/1.4 Georgia, 'Times New Roman', serif;
+  color: #2a444a;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.phs-work-columns .phs-timeline-logo-image {
+  flex: 0 0 52px;
+  width: 52px;
+  height: 49px;
+  max-width: 52px;
+  max-height: 49px;
+}
+.phs-work-columns .phs-timeline-logo-details {
+  padding-left: 64px;
+  font: 400 .88rem/1.48 Georgia, 'Times New Roman', serif;
+  color: #5a6c6f;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.phs-work-columns .phs-timeline-logo-details strong {
+  font-weight: 600;
+  font-size: .92rem;
+  color: #2e464c;
+}
+/* Publication list stays readable, understated, and gently separated. */
+.phs-work-columns .column:last-child > p {
+  font: 400 .93rem/1.52 Georgia, 'Times New Roman', serif;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+}
+.phs-work-columns .column:last-child > p strong {
+  font: 500 .96rem/1.45 Georgia, 'Times New Roman', serif;
+  color: #273e46;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.phs-work-columns .column:last-child > p em {
+  font: italic 400 .81rem/1.45 Georgia, 'Times New Roman', serif;
+  color: #708284;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.phs-work-columns .column:last-child hr {
+  margin: 15px 0;
+  opacity: 1;
+  border: 0;
+  border-top: 1px solid var(--work-rule);
+}
+.phs-work-columns .column:last-child a {
+  font-size: .81rem;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #376d78;
+  text-decoration: none;
+}
+.phs-work-columns .column:last-child a:hover { text-decoration: underline; }
+
+/* A thin center divider, matching the previous reference without heavy boxes. */
+@media (min-width: 781px) {
+  .phs-work-columns > .column:first-child { padding-right: 24px; }
+  .phs-work-columns > .column:last-child {
+    border-left: 1px solid #e3e9e7;
+    padding-left: 26px;
+  }
+}
+@media (max-width: 780px) {
+  .phs-work-columns .column:last-child {
+    border-top: 1px solid var(--work-rule);
+    margin-top: 26px;
+    padding-top: 23px;
+  }
+  .phs-work-columns .phs-timeline-logo-head strong { font-size: .87rem; }
+  .phs-work-columns .phs-timeline-logo-details { font-size: .84rem; }
+}
