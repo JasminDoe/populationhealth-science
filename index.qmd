@@ -127,7 +127,9 @@ Bringing these perspectives together to understand population-level patterns, de
 
 ---
 
-## 3. Research Areas {#research-areas}
+::: {.phs-medical-eyebrow #research-areas}
+02 / RESEARCH AREAS
+:::
 
 <!-- RESEARCH AREA CARDS
      Edit card headings, descriptions and links below.
@@ -188,7 +190,9 @@ Understanding psychological development, mental health in youth, and behavior in
 
 ---
 
-## 4. Collaboration Atlas {#collaboration-atlas}
+::: {.phs-medical-eyebrow #research-areas}
+03 / COLLABORATION ATLAS
+:::
 
 ### A global collaboration network
 
@@ -202,7 +206,9 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 ---
 
-## 5. Latest Work {#latest-work}
+::: {.phs-medical-eyebrow #research-areas}
+03 / LATEST WORK
+:::
 
 ### July 2026 — Paper
 
