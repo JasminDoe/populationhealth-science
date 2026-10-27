@@ -29,10 +29,9 @@ My research connects people's lives, the contexts they live in, and the methods 
 Research Associate · Department of Medical Statistics ·  
 University Medical Center Göttingen
 
-[Work Homepage ↗](https://medstat.umg.eu/en/mitarbeiter-seiten/jasmin-doenicke/){.btn .btn-outline-secondary}
 ::::
 
-[Explore my work ↓](research.html){.phs-intro-button}
+[Work Homepage](https://medstat.umg.eu/en/mitarbeiter-seiten/jasmin-doenicke/){.phs-intro-button}
 
 :::::
 
