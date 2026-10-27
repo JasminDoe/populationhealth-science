@@ -235,31 +235,70 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 :::: {.columns}
 
-::: {.column width="48%"}
+:::::: {.column width="48%"}
 
 # TIMELINE
 
+<!-- Four milestones with real logo images already in the images folder.
+     To change the names or dates, edit the text below.
+     To change image size, edit HOMEPAGE TIMELINE — UNIVERSITY LOGOS in styles.css.
+-->
+
+::::: {.phs-timeline-logo-list}
+
+:::: {.phs-timeline-logo-entry}
+
+![University Medical Center Göttingen logo](images/UMG_kurz_2024_Druck_Farbe_4c.jpg){.phs-timeline-logo-image loading="lazy"}
+
+::: {.phs-timeline-logo-copy}
 **2026 – present**  
 **Biostatistician / Epidemiologist**  
-University Medical Center Göttingen  
+University Medical Center Göttingen
+:::
 
+::::
+
+:::: {.phs-timeline-logo-entry}
+
+![Johannes Gutenberg University Mainz logo](images/JGU_logo.png){.phs-timeline-logo-image loading="lazy"}
+
+::: {.phs-timeline-logo-copy}
 **2025 – present**  
 **M.Sc. Epidemiology**  
-Johannes Gutenberg University of Mainz 
+Johannes Gutenberg University of Mainz
+:::
 
+::::
+
+:::: {.phs-timeline-logo-entry}
+
+![Georg-August University of Göttingen logo](images/GA_logo.png){.phs-timeline-logo-image loading="lazy"}
+
+::: {.phs-timeline-logo-copy}
 **2022 – 2025**  
 **M.Sc. Clinical Psychology**  
 University of Göttingen
+:::
 
+::::
 
+:::: {.phs-timeline-logo-entry}
+
+![Georg-August University of Göttingen logo](images/GA_logo.png){.phs-timeline-logo-image loading="lazy"}
+
+::: {.phs-timeline-logo-copy}
 **2019 – 2022**  
 **B.Sc. Psychology**  
-University of Göttingen  
+University of Göttingen
+:::
 
+::::
+
+:::::
 
 [View full timeline →](timeline.html)
 
-:::
+::::::
 
 ::: {.column width="52%"}
 
