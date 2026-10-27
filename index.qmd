@@ -5,10 +5,6 @@ description: "Psychiatric Epidemiology | Global Health | Health Inequalities"
 page-layout: article
 ---
 
-<!-- EDIT THIS INTRODUCTION: Uses Quarto fenced divs, never raw HTML.
-     Change text here, and font sizes/colors under HOMEPAGE INTRO in styles.css.
-     Name and short research summary are in YAML "title" and "description".
--->
 ::: {.phs-intro}
 
 ::: {.phs-intro-tagline}
