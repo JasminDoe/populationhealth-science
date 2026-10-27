@@ -3,13 +3,11 @@
 # Editing tip: headings begin with #, links use [text](destination),
 # and the photograph uses standard Markdown image syntax.
 # This avoids the HTML-as-code rendering problem visible in the screenshot.
-title: false
+title: "Jasmin Dönicke"
 pagetitle: "Jasmin Dönicke | Population Health Science"
 description: "Jasmin Dönicke: psychiatric epidemiology, global health and health inequalities. Population health science, research areas, collaborations and selected publications."
 page-layout: article
 ---
-
-# Jasmin Dönicke
 
 Understanding health, beyond the individual.
 
