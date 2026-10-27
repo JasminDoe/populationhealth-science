@@ -221,27 +221,25 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 ::: {.column width="48%"}
 
-## TIMELINE
+### TIMELINE
 
 **2026 – present**  
 **Biostatistician / Epidemiologist**  
-Institute of Medical Statistics @ University Medical Center Göttingen  
-📍 Göttingen, Germany
+University Medical Center Göttingen  
 
 **2025 – approx. 2027**  
 **M.Sc. Epidemiology**  
- Institute of Medical Statistics, Epidemiology and Informatics @ Johannes Gutenberg University Mainz  
-📍 Mainz, Germany
+Johannes Gutenberg University of Mainz 
 
 **2022 – 2025**  
 **M.Sc. Clinical Psychology**  
 University of Göttingen
-🎓 Graduated
+
 
 **2019 – 2022**  
 **B.Sc. Psychology**  
 University of Göttingen  
-🎓 Graduated with Distinction
+
 
 [View full timeline →](timeline.html)
 
@@ -249,7 +247,7 @@ University of Göttingen
 
 ::: {.column width="52%"}
 
-## LATEST PUBLICATIONS
+### LATEST PUBLICATIONS
 
 **Risk factors associated with longitudinal trajectories of mania symptoms in youth**  
 *Development and Psychopathology, 2026*  
