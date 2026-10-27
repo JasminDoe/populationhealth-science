@@ -2174,3 +2174,34 @@ body:has(.phs-aula-hero) .phs-medical-section {
   .phs-timeline-logo-head strong { font-size: .89rem; }
   .phs-timeline-logo-details { padding-left: 53px; font-size: .85rem; }
 }
+
+
+/* =====================================================
+   TIMELINE & LATEST PUBLICATIONS — ELEGANT HEADINGS
+   ===================================================== */
+
+.phs-latest-heading {
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #5a8279;
+
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+
+  border-bottom: 1px solid #dfe8e5;
+}
+
+/* Short decorative underline */
+.phs-latest-heading::after {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 2px;
+  background-color: #70958a;
+  margin-top: 12px;
+}
+
