@@ -26,10 +26,10 @@ The files have explanatory comments near their editable sections. In `styles.css
 2. Click a source file (such as `index.qmd`), then the **pencil** icon.
 3. Change text between the existing HTML tags without removing the tags.
 4. Click **Commit changes**.
-5. Open GitHub **Actions → Build and publish academic website** to see the build progress.
+5. Open GitHub **Actions → Build and publish academic website** to see the build and deploy progress.
 6. When the workflow succeeds, refresh the public site.
 
-The workflow uses Quarto to render the **source on `main`** into the **`gh-pages`** publishing branch. Do *not* edit generated HTML on `gh-pages`.
+The workflow renders Quarto source on `main` into `_site` and deploys the resulting HTML directly with GitHub Pages Actions. **Set GitHub → Settings → Pages → Build and deployment → Source to GitHub Actions**. Do not edit `_site` or legacy generated HTML on `gh-pages`.
 
 Locally, run `quarto preview` to preview changes, or `quarto render` to build. The site is static, so no Python is required.
 

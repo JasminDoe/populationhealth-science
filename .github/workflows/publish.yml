@@ -1,18 +1,24 @@
-# Render editable Quarto sources on main into the public gh-pages branch.
-# Do NOT edit HTML on gh-pages; it is generated automatically.
+# Render the Quarto site and deploy directly through GitHub Pages.
+# Unlike pushing with GITHUB_TOKEN to gh-pages, deploy-pages publishes immediately.
+# GitHub Settings > Pages > Build and deployment > Source must be "GitHub Actions".
 name: Build and publish academic website
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 concurrency:
   group: academic-website-deployment
   cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
@@ -20,10 +26,13 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Render website
         run: quarto render
-      - name: Publish rendered site to gh-pages
-        uses: quarto-dev/quarto-actions/publish@v2
+      # GitHub Pages will deploy the output in _site; do not edit _site manually.
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site to Pages
+        uses: actions/upload-pages-artifact@v3
         with:
-          target: gh-pages
-          render: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
