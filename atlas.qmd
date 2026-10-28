@@ -10,6 +10,14 @@ page-layout: custom
 <p class="phs-kicker">COLLABORATION ATLAS / INITIAL EDITION</p>
 <h1>People behind the papers</h1>
 <p class="phs-intro">An evolving map of selected collaborators from my research. Click a dot to explore our shared manuscripts. Positions reflect affiliations listed in the supplied manuscripts—not necessarily current residences or institutional appointments. This is not yet a complete or systematically geocoded coauthor network.</p>
+<!-- FLOURISH EMBED TEST: story 3845820. This block can be removed independently.
+     Everything below (the original atlas, filters and shared research) is unchanged.
+     Flourish is hosted externally and requires network access / JavaScript. -->
+<section aria-label="Flourish collaboration atlas test" style="margin: 28px 0 32px;">
+  <h2 style="margin-bottom: 14px;">Interactive atlas · Flourish test</h2>
+  <div class="flourish-embed flourish-chart" data-src="story/3845820"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/story/3845820/thumbnail" width="100%" alt="visualization" /></noscript></div>
+</section>
+
 <div class="phs-badges" aria-label="Filter by project"><button type="button" class="phs-chip" data-project-filter="all" aria-pressed="true">All projects</button><button type="button" class="phs-chip" data-project-filter="mania" aria-pressed="false">Mania trajectories</button><button type="button" class="phs-chip" data-project-filter="global" aria-pressed="false">Global mental wealth / choice</button><button type="button" class="phs-chip" data-project-filter="babies" aria-pressed="false">ManyBabies</button></div>
 <svg class="phs-atlas-svg" id="atlas-map" viewBox="0 0 960 410" role="group" aria-label="Illustrated geographic collaboration atlas with selected researchers in North America, Europe, and Australia">
   <rect width="960" height="410" fill="#eef3f3"/>
