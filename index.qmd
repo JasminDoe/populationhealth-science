@@ -284,7 +284,7 @@ Johannes Gutenberg University of Mainz
 
 ::: {.phs-timeline-logo-details}
 **M.Sc. Clinical Psychology**  
-University of Göttingen
+Georg August University of Göttingen
 :::
 
 ::::
@@ -297,7 +297,7 @@ University of Göttingen
 
 ::: {.phs-timeline-logo-details}
 **B.Sc. Psychology**  
-University of Göttingen
+Georg August University of Göttingen
 :::
 
 ::::
