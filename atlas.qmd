@@ -12,6 +12,39 @@ page-layout: custom
      =============================================================== -->
 
 <style>
+/* The Quarto page title is the only top-level heading on Atlas.
+   Keep the title block centered without changing global site styles. */
+#title-block-header {
+  box-sizing: border-box;
+  width: min(100%, 1180px);
+  max-width: 1180px;
+  margin: 0 auto !important;
+  padding: clamp(38px, 5vw, 64px) clamp(18px, 4vw, 48px) 0;
+  text-align: center;
+}
+#title-block-header .quarto-title,
+#title-block-header .quarto-title h1.title {
+  width: 100%;
+  max-width: none;
+  text-align: center;
+}
+#title-block-header .quarto-title h1.title {
+  font: 400 clamp(2.15rem, 4.2vw, 3.55rem)/1.2 'Libre Baskerville', Georgia, serif;
+  color: #243e43;
+  letter-spacing: -.035em;
+  margin: 0 auto 15px;
+  overflow-wrap: break-word;
+}
+#title-block-header .description {
+  max-width: 68ch;
+  margin: 0 auto;
+  color: #526b70;
+  font: 400 clamp(.96rem, 1.3vw, 1.05rem)/1.75 'DM Sans', Arial, sans-serif;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+#title-block-header .quarto-title-meta { display: none; }
+
 /* All visual changes are scoped to this Atlas page, not other pages. */
 .phs-atlas-page.phs-standard {
   box-sizing: border-box;
@@ -19,7 +52,7 @@ page-layout: custom
   max-width: 1180px;
   min-width: 0;
   margin: 0 auto;
-  padding: clamp(28px, 4.5vw, 58px) clamp(18px, 4vw, 48px) 88px;
+  padding: clamp(12px, 2vw, 22px) clamp(18px, 4vw, 48px) 88px;
   overflow-wrap: break-word;
   word-break: normal;
   text-transform: none;
@@ -45,19 +78,6 @@ page-layout: custom
   letter-spacing: .15em;
   text-transform: uppercase;
   margin: 0 0 14px;
-}
-.phs-atlas-page .phs-atlas-title {
-  font: 400 clamp(2.1rem, 4.6vw, 3.7rem)/1.15 'Libre Baskerville', Georgia, serif;
-  letter-spacing: -.035em;
-  color: #243e43;
-  max-width: 18ch;
-  margin: 0 0 20px;
-}
-.phs-atlas-page .phs-atlas-intro {
-  color: #526b70;
-  font: 400 clamp(.98rem, 1.35vw, 1.08rem)/1.75 'DM Sans', Arial, sans-serif;
-  max-width: 68ch;
-  margin: 0;
 }
 .phs-atlas-page .phs-atlas-map-section {
   width: 100%;
@@ -143,21 +163,16 @@ page-layout: custom
 }
 .phs-atlas-page .phs-atlas-paper a { color: #336d7c; }
 @media (max-width: 700px) {
-  .phs-atlas-page.phs-standard { padding: 24px 18px 64px; }
+  .phs-atlas-page.phs-standard { padding: 12px 18px 64px; }
   .phs-atlas-page .phs-atlas-eyebrow,
   .phs-atlas-page .phs-atlas-map-label { font-size: .67rem; letter-spacing: .1em; }
-  .phs-atlas-page .phs-atlas-title { max-width: 100%; font-size: clamp(1.95rem, 8vw, 2.7rem); }
   .phs-atlas-page .phs-atlas-papers { grid-template-columns: minmax(0, 1fr); }
   .phs-atlas-page .phs-atlas-map-section { padding-top: 18px; }
 }
 </style>
 
 <div class="phs-standard phs-atlas-page" id="atlas-content">
-<header class="phs-atlas-header">
-<p class="phs-atlas-eyebrow">01 / Research connections</p>
-<h1 class="phs-atlas-title">A global research network</h1>
-<p class="phs-atlas-intro">Research is collaborative. This atlas brings together researchers I have worked with across countries, institutions, and projects. Explore the interactive map to discover the people and publications behind those connections.</p>
-</header>
+
 
 <!-- DATAWRAPPER MAP: Global Researcher Network 10/26 · chart di8If, version 4.
 Adjust only the src version if you publish a newer chart from Datawrapper.
