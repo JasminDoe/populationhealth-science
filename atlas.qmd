@@ -153,49 +153,49 @@ page-layout: custom
 </style>
 
 <div class="phs-standard phs-atlas-page" id="atlas-content">
-  <header class="phs-atlas-header">
-    <p class="phs-atlas-eyebrow">01 / Research connections</p>
-    <h1 class="phs-atlas-title">A global research network</h1>
-    <p class="phs-atlas-intro">Research is collaborative. This atlas brings together researchers I have worked with across countries, institutions, and projects. Explore the interactive map to discover the people and publications behind those connections.</p>
-  </header>
+<header class="phs-atlas-header">
+<p class="phs-atlas-eyebrow">01 / Research connections</p>
+<h1 class="phs-atlas-title">A global research network</h1>
+<p class="phs-atlas-intro">Research is collaborative. This atlas brings together researchers I have worked with across countries, institutions, and projects. Explore the interactive map to discover the people and publications behind those connections.</p>
+</header>
 
-  <!-- DATAWRAPPER MAP: Global Researcher Network 10/26 · chart di8If, version 4.
-       Adjust only the src version if you publish a newer chart from Datawrapper.
-       Its postMessage script dynamically sets the iframe height as needed. -->
-  <section class="phs-atlas-map-section" aria-label="Interactive Global Researcher Network map">
-    <p class="phs-atlas-map-label">Explore the network</p>
-    <div class="phs-atlas-embed">
-      <iframe title="Global Researcher Network 10/26" aria-label="Symbol map" id="datawrapper-chart-di8If" src="https://datawrapper.dwcdn.net/di8If/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="322" data-external="1" loading="lazy"></iframe>
-    </div>
-    <p class="phs-atlas-map-note">An interactive visualization hosted by Datawrapper. <a href="https://datawrapper.dwcdn.net/di8If/4/" target="_blank" rel="noopener noreferrer">Open the map in a separate tab</a> if it does not display.</p>
-  </section>
+<!-- DATAWRAPPER MAP: Global Researcher Network 10/26 · chart di8If, version 4.
+Adjust only the src version if you publish a newer chart from Datawrapper.
+Its postMessage script dynamically sets the iframe height as needed. -->
+<section class="phs-atlas-map-section" aria-label="Interactive Global Researcher Network map">
+<p class="phs-atlas-map-label">Explore the network</p>
+<div class="phs-atlas-embed">
+<iframe title="Global Researcher Network 10/26" aria-label="Symbol map" id="datawrapper-chart-di8If" src="https://datawrapper.dwcdn.net/di8If/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="322" data-external="1" loading="lazy"></iframe>
+</div>
+<p class="phs-atlas-map-note">An interactive visualization hosted by Datawrapper. <a href="https://datawrapper.dwcdn.net/di8If/4/" target="_blank" rel="noopener noreferrer">Open the map in a separate tab</a> if it does not display.</p>
+</section>
 
-  <section class="phs-atlas-research" aria-labelledby="atlas-research-title">
-    <p class="phs-atlas-eyebrow">02 / Selected publications</p>
-    <h2 id="atlas-research-title">Research behind the connections</h2>
-    <p class="phs-atlas-research-lead">A selection of publications and projects involving collaborators in my research network.</p>
+<section class="phs-atlas-research" aria-labelledby="atlas-research-title">
+<p class="phs-atlas-eyebrow">02 / Selected publications</p>
+<h2 id="atlas-research-title">Research behind the connections</h2>
+<p class="phs-atlas-research-lead">A selection of publications and projects involving collaborators in my research network.</p>
 
-    <div class="phs-atlas-papers">
-      <article class="phs-atlas-paper">
-        <h3>Risk factors associated with longitudinal trajectories of mania symptoms in youth</h3>
-        <p>Dönicke, Cooper, Soehner &amp; Jalbrzikowski · <a href="https://doi.org/10.1017/S0954579426101606">Published article</a></p>
-      </article>
-      <article class="phs-atlas-paper">
-        <h3>Global mental wealth: a multidimensional analysis of well-being in 92 countries</h3>
-        <p>Ruggeri and coauthors · 2026 manuscript</p>
-      </article>
-      <article class="phs-atlas-paper">
-        <h3>People in 26 countries prefer individual control over online choice architectures</h3>
-        <p>Stock and coauthors · supplied 2024 manuscript</p>
-      </article>
-      <article class="phs-atlas-paper">
-        <h3>A Multi-Lab Investigation of Neonatal and Early Imitation</h3>
-        <p>Meltzoff and coauthors · Stage 1 manuscript</p>
-      </article>
-    </div>
-  </section>
+<div class="phs-atlas-papers">
+<article class="phs-atlas-paper">
+<h3>Risk factors associated with longitudinal trajectories of mania symptoms in youth</h3>
+<p>Dönicke, Cooper, Soehner &amp; Jalbrzikowski · <a href="https://doi.org/10.1017/S0954579426101606">Published article</a></p>
+</article>
+<article class="phs-atlas-paper">
+<h3>Global mental wealth: a multidimensional analysis of well-being in 92 countries</h3>
+<p>Ruggeri and coauthors · 2026 manuscript</p>
+</article>
+<article class="phs-atlas-paper">
+<h3>People in 26 countries prefer individual control over online choice architectures</h3>
+<p>Stock and coauthors · supplied 2024 manuscript</p>
+</article>
+<article class="phs-atlas-paper">
+<h3>A Multi-Lab Investigation of Neonatal and Early Imitation</h3>
+<p>Meltzoff and coauthors · Stage 1 manuscript</p>
+</article>
+</div>
+</section>
 </div>
 
 <!-- Use Datawrapper's official iframe-resize script.
-     It handles changing chart heights across desktop and mobile breakpoints. -->
+It handles changing chart heights across desktop and mobile breakpoints. -->
 <script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
