@@ -216,6 +216,14 @@ I have the privilege of working with incredible researchers around the world. Ea
 
 [**Explore the atlas →**](atlas.html)
 
+<!-- Germany Researcher Network: Datawrapper map I9T1z, version 2.
+     This embed is scoped to the homepage collaboration-atlas section.
+     The script automatically resizes the map when Datawrapper loads. -->
+<div class="phs-germany-atlas-embed" style="width:100%; max-width:1050px; margin:28px auto 32px;">
+<iframe title="Germany Researcher Network 10/26" aria-label="Symbol map" id="datawrapper-chart-I9T1z" src="https://datawrapper.dwcdn.net/I9T1z/2/" scrolling="no" frameborder="0" style="width:0; min-width:100% !important; border:none;" height="711" data-external="1"></iframe>
+</div>
+<script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+
 | 100+ | 30+ | 10+ |
 |:---:|:---:|:---:|
 | collaborators | countries | projects |
