@@ -174,15 +174,15 @@ page-layout: custom
 <div class="phs-standard phs-atlas-page" id="atlas-content">
 
 
-<!-- DATAWRAPPER MAP: Global Researcher Network 10/26 · chart di8If, version 4.
+<!-- DATAWRAPPER MAP: Global Researcher Network 10/26 · chart di8If, version 5.
 Adjust only the src version if you publish a newer chart from Datawrapper.
 Its postMessage script dynamically sets the iframe height as needed. -->
 <section class="phs-atlas-map-section" aria-label="Interactive Global Researcher Network map">
 <p class="phs-atlas-map-label">Explore the network</p>
 <div class="phs-atlas-embed">
-<iframe title="Global Researcher Network 10/26" aria-label="Symbol map" id="datawrapper-chart-di8If" src="https://datawrapper.dwcdn.net/di8If/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="322" data-external="1" loading="lazy"></iframe>
+<iframe title="Global Researcher Network 10/26" aria-label="Symbol map" id="datawrapper-chart-di8If" src="https://datawrapper.dwcdn.net/di8If/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="322" data-external="1" loading="lazy"></iframe>
 </div>
-<p class="phs-atlas-map-note">An interactive visualization hosted by Datawrapper. <a href="https://datawrapper.dwcdn.net/di8If/4/" target="_blank" rel="noopener noreferrer">Open the map in a separate tab</a> if it does not display.</p>
+<p class="phs-atlas-map-note">An interactive visualization hosted by Datawrapper. <a href="https://datawrapper.dwcdn.net/di8If/5/" target="_blank" rel="noopener noreferrer">Open the map in a separate tab</a> if it does not display.</p>
 </section>
 
 <section class="phs-atlas-research" aria-labelledby="atlas-research-title">
