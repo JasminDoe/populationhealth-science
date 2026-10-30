@@ -152,7 +152,7 @@ page-layout: custom
 }
 </style>
 
-<main class="phs-standard phs-atlas-page" id="atlas-content">
+<div class="phs-standard phs-atlas-page" id="atlas-content">
   <header class="phs-atlas-header">
     <p class="phs-atlas-eyebrow">01 / Research connections</p>
     <h1 class="phs-atlas-title">A global research network</h1>
@@ -194,7 +194,7 @@ page-layout: custom
       </article>
     </div>
   </section>
-</main>
+</div>
 
 <!-- Use Datawrapper's official iframe-resize script.
      It handles changing chart heights across desktop and mobile breakpoints. -->
