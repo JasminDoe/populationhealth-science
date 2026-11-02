@@ -5,7 +5,7 @@ description: "Research spanning global health and disease burden, mental health 
 page-layout: custom
 ---
 
-<!-- RESEARCH PAGE — 11 publication entries and three clickable research areas.
+<!-- RESEARCH PAGE — 10 publication entries and three clickable research areas.
      Change titles, authors, journals, and links in the articles below.
      The buttons use the tiny script at the end of this file; no dependencies.
      All design rules are local to this file and reuse homepage theme variables.
@@ -163,6 +163,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
   padding:8px 10px;
 }
 .phs-research-page .phs-paper-button:hover {background:#e2ede8;}
+.phs-research-page .phs-filter-status:empty { display:none; }
 .phs-research-page .phs-publications-note {
   max-width:80ch;margin:23px 0 0;
   font:italic 400 .8rem/1.7 var(--phs-serif,Georgia,serif);color:#71807d;
@@ -208,13 +209,13 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <span class="phs-area-topline">01 / GLOBAL HEALTH</span>
 <span class="phs-area-title">Global Health &amp; Disease Burden</span>
 <span class="phs-area-description">Investigating patterns of disease, injury, and health risks across populations worldwide.</span>
-<span class="phs-area-bottom"><span>6 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
+<span class="phs-area-bottom"><span>5 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
 </button>
 <button type="button" class="phs-research-area phs-research-area--blue" data-filter="mental" aria-pressed="false" aria-controls="phs-publication-list">
 <span class="phs-area-topline">02 / MENTAL HEALTH</span>
 <span class="phs-area-title">Mental Health &amp; Well-being</span>
 <span class="phs-area-description">Exploring the social and economic dimensions of mental health and well-being across countries.</span>
-<span class="phs-area-bottom"><span>5 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
+<span class="phs-area-bottom"><span>4 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
 </button>
 <button type="button" class="phs-research-area phs-research-area--peach" data-filter="development" aria-pressed="false" aria-controls="phs-publication-list">
 <span class="phs-area-topline">03 / DEVELOPMENT</span>
@@ -227,9 +228,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <section class="phs-research-publications" aria-labelledby="phs-pubs-heading">
 <div class="phs-publications-toolbar">
 <h2 id="phs-pubs-heading">Selected publications</h2>
-<button type="button" class="phs-reset-button" data-filter="all" aria-pressed="true" aria-controls="phs-publication-list">All 11 publications</button>
+<button type="button" class="phs-reset-button" data-filter="all" aria-pressed="true" aria-controls="phs-publication-list">All 10 publications</button>
 </div>
-<p class="phs-filter-status" id="phs-filter-status" role="status" aria-live="polite">Showing all 11 publication records. Select a research area above to highlight matching papers.</p>
+<p class="phs-filter-status" id="phs-filter-status" role="status" aria-live="polite"></p>
 <div class="phs-publications-list" id="phs-publication-list">
 <article class="phs-publication" data-area="global" data-index="1">
 <div class="phs-publication-domains" aria-label="Research areas">
@@ -354,21 +355,8 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/fe7pj_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
 </article>
-<article class="phs-publication" data-area="mental global" data-index="11">
-<div class="phs-publication-domains" aria-label="Research areas">
-<div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
-<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
 </div>
-<div class="phs-publication-main">
-<h3><a href="https://doi.org/10.31234/osf.io/3jyda_v1" target="_blank" rel="noopener noreferrer">Money buys mental health: A multidimensional analysis of social, financial, and emotional well-being in 92 countries</a></h3>
-<p class="phs-publication-authors">K. Ruggeri, G. Valenzuela-Catarí, E. Polemiti, G. Abderahaman, T. R. Adawi, et al.</p>
-<p class="phs-publication-venue">PsyArXiv · earlier preprint version</p>
-
-</div>
-<div class="phs-publication-side"><time datetime="2025">2025</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/3jyda_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
-</article>
-</div>
-<p class="phs-publications-note">Publications can belong to more than one research area when the overlap is substantive; each entry is listed only once. Some entries document different preprint or published versions of closely related 92-country well-being research. Dates and venues follow the publication or record linked for each entry. Author lists are abbreviated for large collaborations.</p>
+<p class="phs-publications-note">Publications can belong to more than one research area when the overlap is substantive; each entry is listed only once. Author lists are abbreviated for large collaborations.</p>
 </section>
 </div>
 
@@ -397,7 +385,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
         paper.classList.toggle('is-matched', area !== 'all' && isMatch);
       });
       if (status) status.textContent = area === 'all'
-        ? 'Showing all ' + papers.length + ' publication records. Select a research area above to highlight matching papers.'
+        ? ''
         : 'Highlighting ' + matched + ' publication records in ' + labels[area] + '. Other papers remain visible in a lighter shade.';
     }
     controls.forEach(btn => btn.addEventListener('click', () => selectArea(btn.dataset.filter)));
