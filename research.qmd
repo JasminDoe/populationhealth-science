@@ -120,6 +120,14 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 }
 .phs-research-page .phs-publication.is-muted {opacity:.33;}
 .phs-research-page .phs-publication.is-matched {background:#edf4ef83;}
+/* Multiple research-area labels can appear on a single publication. */
+.phs-research-page .phs-publication-domains {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:6px;
+  min-width:0;
+}
 .phs-research-page .phs-publication-domain {
   display:flex;align-items:center;gap:9px;padding-top:4px;
   color:#526d68;font:600 .67rem/1.35 var(--phs-font,'DM Sans',sans-serif);
@@ -200,13 +208,13 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <span class="phs-area-topline">01 / GLOBAL HEALTH</span>
 <span class="phs-area-title">Global Health &amp; Disease Burden</span>
 <span class="phs-area-description">Investigating patterns of disease, injury, and health risks across populations worldwide.</span>
-<span class="phs-area-bottom"><span>3 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
+<span class="phs-area-bottom"><span>6 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
 </button>
 <button type="button" class="phs-research-area phs-research-area--blue" data-filter="mental" aria-pressed="false" aria-controls="phs-publication-list">
 <span class="phs-area-topline">02 / MENTAL HEALTH</span>
 <span class="phs-area-title">Mental Health &amp; Well-being</span>
 <span class="phs-area-description">Exploring the social and economic dimensions of mental health, well-being, and inequality across countries.</span>
-<span class="phs-area-bottom"><span>4 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
+<span class="phs-area-bottom"><span>5 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
 </button>
 <button type="button" class="phs-research-area phs-research-area--peach" data-filter="development" aria-pressed="false" aria-controls="phs-publication-list">
 <span class="phs-area-topline">03 / DEVELOPMENT</span>
@@ -224,7 +232,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <p class="phs-filter-status" id="phs-filter-status" role="status" aria-live="polite">Showing all 11 publication records. Select a research area above to highlight matching papers.</p>
 <div class="phs-publications-list" id="phs-publication-list">
 <article class="phs-publication" data-area="global" data-index="1">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.1016/S2468-2667(26)00141-6" target="_blank" rel="noopener noreferrer">Global, regional, and national burden of road injuries 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023</a></h3>
 <p class="phs-publication-authors">S. C. C. van der Lubbe, M. E. Moberg, J. Dönicke, S. Hay, M. Ng, K. L. Ong, et al.</p>
@@ -234,7 +244,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/S2468-2667(26)00141-6" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
 <article class="phs-publication" data-area="development" data-index="2">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.31219/osf.io/haqu9" target="_blank" rel="noopener noreferrer">People in 26 countries prefer individual control to commercial or governmental control over online choice architectures</a></h3>
 <p class="phs-publication-authors">F. Stock, S. Pelica, S. Ashcroft-Jones, F. Stablum, C. Acosta, A. Aimable, et al.</p>
@@ -244,7 +256,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <div class="phs-publication-side"><time datetime="2024">2024</time><a class="phs-paper-button" href="https://doi.org/10.31219/osf.io/haqu9" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
 </article>
 <article class="phs-publication" data-area="global" data-index="3">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.1016/S2468-2667(26)00168-4" target="_blank" rel="noopener noreferrer">Global, regional, and national prevalence of second-hand smoke and attributable disease burden in 204 countries and territories, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023</a></h3>
 <p class="phs-publication-authors">L. S. Flor, J. A. Anderson, B. W. Morgan, M. Ng, J. Dönicke, et al.</p>
@@ -254,7 +268,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/S2468-2667(26)00168-4" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
 <article class="phs-publication" data-area="mental" data-index="4">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://eprints.gla.ac.uk/374799/1/374799.pdf" target="_blank" rel="noopener noreferrer">Global well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries</a></h3>
 <p class="phs-publication-authors">K. Ruggeri, G. Valenzuela-Catarí, E. Polemiti, J. Dönicke, L. Macchia, et al.</p>
@@ -264,7 +280,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <div class="phs-publication-side"><time datetime="2025">2025</time><a class="phs-paper-button" href="https://eprints.gla.ac.uk/374799/1/374799.pdf" target="_blank" rel="noopener noreferrer">PDF ↗</a></div>
 </article>
 <article class="phs-publication" data-area="development" data-index="5">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.31234/osf.io/fcpej_v1" target="_blank" rel="noopener noreferrer">Cross-country variation in early childhood family digital media ecology: A registered report</a></h3>
 <p class="phs-publication-authors">N. Dimitrova, S. C. Kucker, J. Rocha-Hidalgo, K. Choi, L. G. Gago-Galvagno, et al.</p>
@@ -274,7 +292,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/fcpej_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
 </article>
 <article class="phs-publication" data-area="global" data-index="6">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.1016/j.langlo.2026.104043" target="_blank" rel="noopener noreferrer">Global, regional, and national burden of exposure to chewing tobacco, 1990–2023: a systematic analysis of the Global Burden of Disease Study 2023</a></h3>
 <p class="phs-publication-authors">G. F. Gil, J. A. Anderson, X. Dai, L. S. Flor, O. J. McElvaney, B. W. Morgan, et al.</p>
@@ -283,8 +303,11 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/j.langlo.2026.104043" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="mental" data-index="7">
+<article class="phs-publication" data-area="mental global" data-index="7">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
+<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.1001/jamapsychiatry.2026.3457" target="_blank" rel="noopener noreferrer">Global Burden of Anorexia Nervosa and Bulimia Nervosa, 1990 to 2023, With Forecasts to 2050: A Global Burden of Disease Study 2023 Analysis</a></h3>
 <p class="phs-publication-authors">R. Bai, W. Dong, X. Wang, A. Zhang, D. F. Santomauro, GBD Eating Disorders Collaborators</p>
@@ -293,8 +316,11 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1001/jamapsychiatry.2026.3457" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="development" data-index="8">
+<article class="phs-publication" data-area="development mental" data-index="8">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
+<div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">Risk factors associated with longitudinal trajectories of mania symptoms in youth</a></h3>
 <p class="phs-publication-authors">J. Dönicke, R. Cooper, A. Soehner, M. Jalbrzikowski</p>
@@ -303,8 +329,11 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="mental" data-index="9">
+<article class="phs-publication" data-area="mental global" data-index="9">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
+<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.1007/s11205-026-03890-0" target="_blank" rel="noopener noreferrer">Global Mental Wealth: A Multidimensional Analysis of Social, Financial, and Emotional Well-Being in 92 Countries</a></h3>
 <p class="phs-publication-authors">K. Ruggeri, G. Valenzuela-Catarí, E. Polemiti, G. Abderahaman, T. R. Adawi, et al.</p>
@@ -314,7 +343,9 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1007/s11205-026-03890-0" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
 <article class="phs-publication" data-area="development" data-index="10">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.31234/osf.io/fe7pj_v1" target="_blank" rel="noopener noreferrer">A Multi-Lab Investigation of Neonatal and Early Imitation</a></h3>
 <p class="phs-publication-authors">A. N. Meltzoff, S. Farwaha, V. Slaughter, E. A. Simpson, R. Brooks, M. Nielsen, et al.</p>
@@ -323,8 +354,11 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/fe7pj_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
 </article>
-<article class="phs-publication" data-area="mental" data-index="11">
+<article class="phs-publication" data-area="mental global" data-index="11">
+<div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
+<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
 <div class="phs-publication-main">
 <h3><a href="https://doi.org/10.31234/osf.io/3jyda_v1" target="_blank" rel="noopener noreferrer">Money buys mental health: A multidimensional analysis of social, financial, and emotional well-being in 92 countries</a></h3>
 <p class="phs-publication-authors">K. Ruggeri, G. Valenzuela-Catarí, E. Polemiti, G. Abderahaman, T. R. Adawi, et al.</p>
@@ -334,7 +368,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <div class="phs-publication-side"><time datetime="2025">2025</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/3jyda_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
 </article>
 </div>
-<p class="phs-publications-note">Some entries document different preprint or published versions of closely related 92-country well-being research. Dates and venues follow the publication or record linked for each entry. Author lists are abbreviated for large collaborations.</p>
+<p class="phs-publications-note">Publications can belong to more than one research area when the overlap is substantive; each entry is listed only once. Some entries document different preprint or published versions of closely related 92-country well-being research. Dates and venues follow the publication or record linked for each entry. Author lists are abbreviated for large collaborations.</p>
 </section>
 </div>
 
@@ -357,7 +391,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
       controls.forEach(btn => btn.setAttribute('aria-pressed', String(btn.dataset.filter === area)));
       let matched = 0;
       papers.forEach(paper => {
-        const isMatch = area === 'all' || paper.dataset.area === area;
+        const isMatch = area === 'all' || paper.dataset.area.split(/\s+/).includes(area);
         if (isMatch) matched += 1;
         paper.classList.toggle('is-muted', !isMatch);
         paper.classList.toggle('is-matched', area !== 'all' && isMatch);
