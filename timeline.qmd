@@ -66,18 +66,19 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 }
 .phs-timeline-redesign .tl-entry {
   position:relative;display:grid;
-  grid-template-columns:minmax(195px,245px) minmax(115px,138px) minmax(0,1fr);
+  grid-template-columns:minmax(122px,145px) minmax(190px,245px) minmax(0,1fr);
   gap:clamp(14px,2vw,30px);
   min-height:100px;padding:17px 0 19px;
   border-bottom:1px solid var(--tl-rule);align-items:start;
 }
 .phs-timeline-redesign .tl-entry:last-child {border-bottom:0;}
 .phs-timeline-redesign .tl-entry::before {
-  content:"";position:absolute;left:-48px;top:29px;z-index:1;
+  content:"";position:absolute;left:-48px;top:35px;z-index:1;
   width:11px;height:11px;background:var(--tl-paper);
   border:2px solid #5c8267;border-radius:50%;
 }
 .phs-timeline-redesign .tl-logo-cell {
+  grid-column:2;grid-row:1;
   min-height:60px;display:flex;align-items:center;
 }
 .phs-timeline-redesign .tl-logo {
@@ -103,15 +104,19 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 .phs-timeline-redesign .tl-brand-label--jgu {font-weight:500;}
 .phs-timeline-redesign .tl-brand-label--goettingen {font-family:var(--phs-serif,Georgia,serif);font-size:.74rem;}
 
-.phs-timeline-redesign .tl-logo--bch {width:152px;height:62px;}
-.phs-timeline-redesign .tl-logo-pair {
-  display:flex;align-items:center;gap:11px;flex-wrap:wrap;
+.phs-timeline-redesign .tl-logo--bch {
+  width:185px;height:auto;max-height:145px;
+  object-fit:contain;object-position:left center;
 }
-.phs-timeline-redesign .tl-hms-wordmark {
-  display:block;max-width:90px;padding-left:10px;border-left:1px solid #c7d1cb;
-  color:#5d6260;font:600 .68rem/1.4 var(--phs-font,'DM Sans',sans-serif);
+/* Dates are next to the vertical spine (and connected to each marker). */
+.phs-timeline-redesign .tl-date-cell {
+  grid-column:1;grid-row:1;
+  padding-top:9px;position:relative;
 }
-.phs-timeline-redesign .tl-date-cell {padding-top:9px;}
+.phs-timeline-redesign .tl-date-cell::before {
+  content:"";position:absolute;left:-36px;top:23px;
+  width:36px;height:1px;background:#aab7ac;
+}
 .phs-timeline-redesign .tl-date {
   display:inline-block;white-space:nowrap;
   background:#e8ede1;border-radius:5px;color:#354c3f;
@@ -119,6 +124,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
   font:600 .81rem/1.4 var(--phs-font,'DM Sans',sans-serif);
 }
 .phs-timeline-redesign .tl-description {
+  grid-column:3;grid-row:1;
   min-width:0;padding-left:24px;border-left:1px solid #d0d9d2;margin-top:5px;
 }
 .phs-timeline-redesign .tl-description h2 {
@@ -213,30 +219,44 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 }
 .phs-timeline-redesign .tl-source-credit a {color:inherit;text-decoration:underline;}
 @media (max-width:950px) {
- .phs-timeline-redesign .tl-entry {grid-template-columns:minmax(125px,200px) 122px minmax(0,1fr);gap:16px;}
+ .phs-timeline-redesign .tl-entry {grid-template-columns:118px minmax(125px,185px) minmax(0,1fr);gap:15px;}
  .phs-timeline-redesign .tl-description {padding-left:15px;}
  .phs-timeline-redesign .tl-logo {width:100%;}
- .phs-timeline-redesign .tl-hms-wordmark {font-size:.6rem;}
+
+
 }
 @media (max-width:700px) {
  .phs-timeline-redesign {padding:0 18px 70px;}
  .phs-timeline-redesign .tl-hero {min-height:235px;padding-top:30px;}
  .phs-timeline-redesign .tl-hero::before {inset:0 -18px 0 16%;opacity:.19;}
- .phs-timeline-redesign .tl-entries {margin-left:5px;padding-left:25px;}
+ .phs-timeline-redesign .tl-entries {margin-left:5px;padding-left:29px;}
  .phs-timeline-redesign .tl-entries::before {left:2px;}
  .phs-timeline-redesign .tl-entry {
-   grid-template-columns:110px minmax(0,1fr);column-gap:15px;row-gap:6px;min-height:0;
-   padding:19px 0 22px;
+   grid-template-columns:minmax(105px,124px) minmax(0,1fr);
+   column-gap:15px;row-gap:11px;min-height:0;
+   padding:17px 0 22px;
  }
- .phs-timeline-redesign .tl-entry::before {left:-28px;top:28px;}
- .phs-timeline-redesign .tl-logo-cell {grid-column:1;grid-row:1/3;align-self:start;}
- .phs-timeline-redesign .tl-logo {height:64px;width:100%;}
+ .phs-timeline-redesign .tl-entry::before {left:-32px;top:26px;}
+ .phs-timeline-redesign .tl-date-cell {
+   grid-column:1;grid-row:1;align-self:start;padding-top:0;
+ }
+ .phs-timeline-redesign .tl-date-cell::before {
+   left:-23px;top:14px;width:23px;
+ }
+ .phs-timeline-redesign .tl-date {padding:6px 8px;font-size:.70rem;white-space:normal;}
+ .phs-timeline-redesign .tl-logo-cell {
+   grid-column:1;grid-row:2;align-self:start;min-height:0;
+ }
+ .phs-timeline-redesign .tl-logo {height:65px;width:100%;}
+ .phs-timeline-redesign .tl-logo--bch {
+   width:min(100%,124px);height:auto;max-height:none;
+ }
  .phs-timeline-redesign .tl-brand-label {display:none;}
- .phs-timeline-redesign .tl-brand .tl-logo {width:min(100%,100px);max-height:65px;}
- .phs-timeline-redesign .tl-hms-wordmark {display:none;}
- .phs-timeline-redesign .tl-date-cell {grid-column:2;grid-row:1;padding-top:0;}
- .phs-timeline-redesign .tl-date {padding:5px 9px;font-size:.72rem;}
- .phs-timeline-redesign .tl-description {grid-column:2;grid-row:2;border-left:0;padding-left:0;margin-top:0;}
+ .phs-timeline-redesign .tl-brand .tl-logo {width:min(100%,110px);max-height:65px;}
+ .phs-timeline-redesign .tl-description {
+   grid-column:2;grid-row:1/3;
+   border-left:0;padding-left:0;margin-top:0;
+ }
  .phs-timeline-redesign .tl-description h2 {font-size:1.05rem;}
  .phs-timeline-redesign .tl-institution {font-size:.83rem;}
  .phs-timeline-redesign .tl-detail {font-size:.76rem;}
@@ -282,7 +302,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 </div>
 </article>
 <article class="tl-entry">
-<div class="tl-logo-cell"><div class="tl-logo-pair"><img class="tl-logo tl-logo--bch" src="images/timeline/boston-childrens.svg" alt="Boston Children’s Hospital" loading="lazy"><span class="tl-hms-wordmark">Harvard Medical School</span></div></div>
+<div class="tl-logo-cell"><img class="tl-logo tl-logo--bch" src="images/timeline/01_Boston.webp" alt="Boston Children’s Hospital and Harvard Medical School logos" loading="lazy" width="320" height="242"></div>
 <div class="tl-date-cell"><time class="tl-date" datetime="2024-04">2024</time></div>
 <div class="tl-description">
 <h2>Visiting Researcher</h2>

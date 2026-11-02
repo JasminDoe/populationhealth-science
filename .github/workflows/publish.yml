@@ -30,10 +30,8 @@ jobs:
           mkdir -p images/timeline
           curl --fail --location --retry 3 --silent --show-error 'https://upload.wikimedia.org/wikipedia/commons/4/4d/University_of_Cambridge_logo.png' -o images/timeline/cambridge.png
           curl --fail --location --retry 3 --silent --show-error 'https://upload.wikimedia.org/wikipedia/commons/9/9f/TMU_logo.svg' -o images/timeline/tmu.svg
-          curl --fail --location --retry 3 --silent --show-error 'https://logotyp.us/file/childrens-hospital-boston.svg' -o images/timeline/boston-childrens.svg
           test "$(wc -c < images/timeline/cambridge.png)" -gt 50000
           test "$(wc -c < images/timeline/tmu.svg)" -gt 2000
-          test "$(wc -c < images/timeline/boston-childrens.svg)" -gt 1000
           file images/timeline/*
       - name: Render website
         run: quarto render
