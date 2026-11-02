@@ -5,7 +5,7 @@ description: "Research spanning global health and disease burden, mental health 
 page-layout: custom
 ---
 
-<!-- RESEARCH PAGE — 10 publication entries and three clickable research areas.
+<!-- RESEARCH PAGE — 9 publication entries and three clickable research areas.
      Change titles, authors, journals, and links in the articles below.
      The buttons use the tiny script at the end of this file; no dependencies.
      All design rules are local to this file and reuse homepage theme variables.
@@ -215,7 +215,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <span class="phs-area-topline">02 / MENTAL HEALTH</span>
 <span class="phs-area-title">Mental Health &amp; Well-being</span>
 <span class="phs-area-description">Exploring the social and economic dimensions of mental health and well-being across countries.</span>
-<span class="phs-area-bottom"><span>4 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
+<span class="phs-area-bottom"><span>3 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
 </button>
 <button type="button" class="phs-research-area phs-research-area--peach" data-filter="development" aria-pressed="false" aria-controls="phs-publication-list">
 <span class="phs-area-topline">03 / DEVELOPMENT</span>
@@ -228,7 +228,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <section class="phs-research-publications" aria-labelledby="phs-pubs-heading">
 <div class="phs-publications-toolbar">
 <h2 id="phs-pubs-heading">Selected publications</h2>
-<button type="button" class="phs-reset-button" data-filter="all" aria-pressed="true" aria-controls="phs-publication-list">All 10 publications</button>
+<button type="button" class="phs-reset-button" data-filter="all" aria-pressed="true" aria-controls="phs-publication-list">All 9 publications</button>
 </div>
 <p class="phs-filter-status" id="phs-filter-status" role="status" aria-live="polite"></p>
 <div class="phs-publications-list" id="phs-publication-list">
@@ -268,19 +268,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/S2468-2667(26)00168-4" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="mental" data-index="4">
-<div class="phs-publication-domains" aria-label="Research areas">
-<div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
-</div>
-<div class="phs-publication-main">
-<h3><a href="https://eprints.gla.ac.uk/374799/1/374799.pdf" target="_blank" rel="noopener noreferrer">Global well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries</a></h3>
-<p class="phs-publication-authors">K. Ruggeri, G. Valenzuela-Catarí, E. Polemiti, J. Dönicke, L. Macchia, et al.</p>
-<p class="phs-publication-venue">Preprint · earlier manuscript version</p>
-
-</div>
-<div class="phs-publication-side"><time datetime="2025">2025</time><a class="phs-paper-button" href="https://eprints.gla.ac.uk/374799/1/374799.pdf" target="_blank" rel="noopener noreferrer">PDF ↗</a></div>
-</article>
-<article class="phs-publication" data-area="development" data-index="5">
+<article class="phs-publication" data-area="development" data-index="4">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
 </div>
@@ -292,7 +280,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/fcpej_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
 </article>
-<article class="phs-publication" data-area="global" data-index="6">
+<article class="phs-publication" data-area="global" data-index="5">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
 </div>
@@ -304,7 +292,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/j.langlo.2026.104043" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="mental global" data-index="7">
+<article class="phs-publication" data-area="mental global" data-index="6">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
 <div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
@@ -317,7 +305,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1001/jamapsychiatry.2026.3457" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="development mental" data-index="8">
+<article class="phs-publication" data-area="development mental" data-index="7">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
@@ -330,7 +318,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="mental global" data-index="9">
+<article class="phs-publication" data-area="mental global" data-index="8">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
 <div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
@@ -343,7 +331,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1007/s11205-026-03890-0" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="development" data-index="10">
+<article class="phs-publication" data-area="development" data-index="9">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
 </div>
