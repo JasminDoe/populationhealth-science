@@ -107,7 +107,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
   background:#426d5c;color:white;border-color:#426d5c;
 }
 .phs-research-page .phs-publications-instruction {
-  font:400 .86rem/1.6 var(--phs-font,'DM Sans',sans-serif);
+  font:italic 400 .86rem/1.6 var(--phs-font,'DM Sans',sans-serif);
   color:#647b76;
   margin:0 0 16px;
 }
@@ -115,7 +115,6 @@ body:has(.phs-research-page) #title-block-header { display:none; }
   font:400 .83rem/1.5 var(--phs-font,'DM Sans',sans-serif);
   color:#72847f;margin:0 0 15px;
 }
-.phs-research-page .phs-publications-list {border-top:1px solid var(--research-rule);}
 .phs-research-page .phs-publication {
   display:grid;grid-template-columns:125px minmax(0,1fr) 99px;
   gap:21px;align-items:start;
