@@ -168,7 +168,7 @@ Bringing these perspectives together to understand population-level patterns, de
 
 Investigating patterns of disease, injury, and health risks across populations worldwide.
 
-[→](publications.html){.phs-research-card-arrow aria-label="View publications in global health and disease burden"}
+[→](research.html){.phs-research-card-arrow aria-label="View publications in global health and disease burden"}
 
 :::
 
@@ -180,9 +180,9 @@ Investigating patterns of disease, injury, and health risks across populations w
 
 ### Mental Health & Well-being
 
-Exploring the social and economic dimensions of mental health, well-being, and inequality across countries.
+Exploring the social and economic dimensions of mental health and well-being across countries.
 
-[→](publications.html){.phs-research-card-arrow aria-label="View publications in mental health and well-being"}
+[→](research.html){.phs-research-card-arrow aria-label="View publications in mental health and well-being"}
 
 :::
 
@@ -196,7 +196,7 @@ Exploring the social and economic dimensions of mental health, well-being, and i
 
 Understanding psychological development, mental health in youth, and behavior in social and digital environments.
 
-[→](publications.html){.phs-research-card-arrow aria-label="View publications in developmental and behavioral science"}
+[→](research.html){.phs-research-card-arrow aria-label="View publications in developmental and behavioral science"}
 
 :::
 
@@ -349,7 +349,7 @@ SELECTED PUBLICATIONS
 *Preprint, 2026*  
 [PDF ↗](https://osf.io/preprints/osf/haqu9_v1)
 
-[View all publications →](publications.html)
+[View all publications →](research.html)
 
 :::
 

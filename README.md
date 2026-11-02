@@ -9,14 +9,14 @@ This is the **editable source** of the academic website. It uses Quarto plus HTM
 | Homepage science explanation, introduction, research cards, atlas teaser, latest-work list | `index.qmd` |
 | Main homepage photograph and location caption | `index.qmd` (image path + caption) and `images/uni-gottingen-4064017271.jpg` (photograph) |
 | All colors, fonts, widths, card layouts, mobile layout | `styles.css` |
-| Complete publication list | `publications.qmd` |
+| Research areas and publication list | `research.qmd` |
 | CV/education and career milestones | `about.qmd`, `timeline.qmd` |
 | World atlas SVG points, groups, project filters | `atlas.qmd` |
 | Collaborator names, institutional affiliation, shared paper URLs | `js/atlas.js` |
 | Top navigation and site metadata | `_quarto.yml` |
 | Structured author and DOI data | `seo/person.html`, `seo/publications.html` |
 | Search access and discoverability | `robots.txt`, `sitemap.xml` |
-| Original research spotlight | `research.qmd` |
+| In-depth mania-trajectories study | `mania-trajectories.qmd` |
 
 The homepage editorial theme is grouped at the **end of `styles.css`** under `EDITORIAL HOMEPAGE V3` so you can easily change its cream, sage, blue, peach, and pine colors. The decorative leaf drawing is `images/botanical-filigree.svg`; it is only an ornament, not text. Change the four discipline questions and research-card text directly in `index.qmd`. The homepage map shows selected illustrative links and does not yet represent all collaborators.\n\nThe files have explanatory comments near their editable sections. In `styles.css`, edit the color variables in `:root`, especially `--phs-navy`, `--phs-paper`, `--phs-sky`, `--phs-coral`, `--phs-green`. Mobile styling lives in the `@media` rules at the bottom.
 
@@ -35,9 +35,9 @@ Locally, run `quarto preview` to preview changes, or `quarto render` to build. T
 
 ## How to update publications
 
-- Copy an existing table row in `publications.qmd`.
+- Edit or copy a publication entry in `research.qmd` (including its research-area labels).
 - Provide the title, correct publication status (published, manuscript, Stage 1 registered report), authors and DOI (if one exists).
-- If adding a *published* paper, also copy and edit a JSON-LD `ScholarlyArticle` in `seo/publications.html`.
+- If adding a *published* paper, also check the optional JSON-LD `ScholarlyArticle` metadata in `seo/publications.html`.
 - To showcase the paper on the homepage, edit the featured paper list in `index.qmd` separately.
 
 ## How to change the atlas

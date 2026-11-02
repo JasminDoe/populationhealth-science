@@ -213,7 +213,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <button type="button" class="phs-research-area phs-research-area--blue" data-filter="mental" aria-pressed="false" aria-controls="phs-publication-list">
 <span class="phs-area-topline">02 / MENTAL HEALTH</span>
 <span class="phs-area-title">Mental Health &amp; Well-being</span>
-<span class="phs-area-description">Exploring the social and economic dimensions of mental health, well-being, and inequality across countries.</span>
+<span class="phs-area-description">Exploring the social and economic dimensions of mental health and well-being across countries.</span>
 <span class="phs-area-bottom"><span>5 publications</span><span class="phs-area-arrow" aria-hidden="true">↗</span></span>
 </button>
 <button type="button" class="phs-research-area phs-research-area--peach" data-filter="development" aria-pressed="false" aria-controls="phs-publication-list">
