@@ -374,7 +374,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
       });
       if (status) status.textContent = area === 'all'
         ? ''
-        : 'Highlighting ' + matched + ' publication records in ' + labels[area] + '. ';
+        : 'Highlighting ' + matched + ' publication records in ' + labels[area] + '.';
     }
     controls.forEach(btn => btn.addEventListener('click', () => selectArea(btn.dataset.filter)));
     selectArea('all');
