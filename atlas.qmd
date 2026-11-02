@@ -132,7 +132,7 @@ page-layout: custom
 
 <div class="phs-standard phs-atlas-page" id="atlas-content">
 <section class="phs-atlas-introduction" aria-label="About the collaboration atlas">
-<p>Research is rarely a solitary endeavour. What started with individual projects and collaborations has gradually grown into a network of researchers across countries, institutions, and disciplines. I created this atlas to make those connections visible and to explore the geographical reach of the research I contribute to. Each dot represents a researcher I have shared at least one publication with, from close collaborators to fellow authors in large international consortia. Together, they offer a glimpse into the international nature of scientific research and the people behind it.</p>
+<p>Scientific research often relies on collaboration, bringing together different perspectives, expertise, and approaches across disciplines and institutions. These collaborations can take many forms, from small teams working closely together to large international research consortia. I created this atlas to make these connections visible and to explore the geographical reach of the research I contribute to. Each dot represents a researcher I have shared at least one publication with, from close collaborators to fellow authors in large international consortia. Together, they offer a glimpse into the international nature of scientific research and the people behind it.</p>
 </section>
 
 <!-- DATAWRAPPER: Global Researcher Network 10/26, chart di8If, version 5. -->
