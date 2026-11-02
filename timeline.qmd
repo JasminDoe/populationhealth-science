@@ -1,5 +1,5 @@
 ---
-title: "Research & training"
+title: "Research & Training"
 pagetitle: "Research & Training | Jasmin Dönicke"
 description: "Research appointments, international research visits, education, and methodological skills of Jasmin Dönicke."
 page-layout: custom
@@ -101,6 +101,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
   color:#303d3f;letter-spacing:.005em;
 }
 .phs-timeline-redesign .tl-brand-label--umg {font-weight:600;max-width:110px;}
+.phs-timeline-redesign .tl-brand-label--umg > span {display:block;}
 .phs-timeline-redesign .tl-brand-label--jgu {font-weight:500;}
 .phs-timeline-redesign .tl-brand-label--goettingen {font-family:var(--phs-serif,Georgia,serif);font-size:.74rem;}
 
@@ -273,8 +274,8 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 <main class="phs-timeline-redesign" id="timeline">
 <header class="tl-hero">
 <div class="tl-hero-copy">
-<p class="tl-eyebrow">04 / TIMELINE</p>
-<h1>Research &amp; training</h1>
+<p class="tl-eyebrow">TIMELINE</p>
+<h1>Research &amp; Training</h1>
 <p class="tl-hero-intro">My academic trajectory from psychology to epidemiology and biostatistics — combining clinical and methodological training to address mental health questions with rigorous, population-based research.</p>
 <span class="tl-title-rule" aria-hidden="true"></span>
 </div>
@@ -282,7 +283,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 
 <section class="tl-entries" aria-label="Research and training milestones">
 <article class="tl-entry">
-<div class="tl-logo-cell"><div class="tl-brand"><img class="tl-logo tl-logo--umg" src="images/UMG_kurz_2024_Druck_Farbe_4c.jpg" alt="" loading="eager"><span class="tl-brand-label tl-brand-label--umg">UNIVERSITÄTSMEDIZIN GÖTTINGEN</span></div></div>
+<div class="tl-logo-cell"><div class="tl-brand"><img class="tl-logo tl-logo--umg" src="images/UMG_kurz_2024_Druck_Farbe_4c.jpg" alt="" loading="eager"><span class="tl-brand-label tl-brand-label--umg"><span>UNIVERSITÄTS-</span><span>MEDIZIN</span><span>GÖTTINGEN</span></span></div></div>
 <div class="tl-date-cell"><time class="tl-date" datetime="2026-09">2026 – present</time></div>
 <div class="tl-description">
 <h2>Research Associate / Biostatistician / Epidemiologist</h2>
@@ -293,7 +294,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 </article>
 <article class="tl-entry">
 <div class="tl-logo-cell"><div class="tl-brand"><img class="tl-logo tl-logo--jgu" src="images/JGU_logo.png" alt="" loading="lazy"><span class="tl-brand-label tl-brand-label--jgu">JOHANNES GUTENBERG UNIVERSITÄT MAINZ</span></div></div>
-<div class="tl-date-cell"><time class="tl-date" datetime="2025-10">2025 – 2027</time></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2025-10">2025 – present</time></div>
 <div class="tl-description">
 <h2>M.Sc. Epidemiology</h2>
 <p class="tl-institution">Johannes Gutenberg University Mainz</p>
@@ -308,7 +309,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 <h2>Visiting Researcher</h2>
 <p class="tl-institution">Boston Children’s Hospital / Harvard Medical School</p>
 <p class="tl-detail">Neuroscience of Risk and Development Lab · Mania symptom trajectories in youth</p>
-<a class="tl-paper-link" href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">▤ &nbsp; Related paper: Mania trajectories in youth ↗</a>
+<a class="tl-paper-link" href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D13AAB6D0B35F78B38F00AFCA59C3929/S0954579426101606a.pdf/risk-factors-associated-with-longitudinal-trajectories-of-mania-symptoms-in-youth.pdf" target="_blank" rel="noopener noreferrer">▤ &nbsp; Related paper: Mania trajectories in youth ↗</a>
 </div>
 </article>
 <article class="tl-entry">
@@ -347,7 +348,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 <div class="tl-description">
 <h2>B.Sc. Psychology</h2>
 <p class="tl-institution">University of Göttingen</p>
-<p class="tl-detail">Graduation with Distinction</p>
+<p class="tl-detail">Graduated August 2022</p>
 
 </div>
 </article>
@@ -439,7 +440,6 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 </div>
 </section>
 
-<p class="tl-source-credit">Institutional identity images appear for identification only. Cambridge logo from <a href="https://commons.wikimedia.org/wiki/File:University_of_Cambridge_logo.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons (Dm980cam, CC BY-SA 4.0)</a>; Toronto Metropolitan University logo from <a href="https://commons.wikimedia.org/wiki/File:TMU_logo.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>. Institutional logos do not imply an endorsement of this website.</p>
 </main>
 
 <script>
