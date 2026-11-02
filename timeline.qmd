@@ -1,24 +1,441 @@
 ---
-title: "Research Timeline"
-description: "Career milestones, education, awards, and research visits of Jasmin Dönicke."
+title: "Research & training"
+pagetitle: "Research & Training | Jasmin Dönicke"
+description: "Research appointments, international research visits, education, and methodological skills of Jasmin Dönicke."
 page-layout: custom
 ---
-<!-- EDITING: Every milestone is a div.phs-timeline-entry. Keep datetime in ISO format.
-     This full timeline is separate from the five-item homepage excerpt. -->
-<div class="phs-standard">
-  <p class="phs-kicker">RESEARCH JOURNEY</p>
-  <h1>A timeline of research and learning</h1>
-  <p class="phs-intro">Selected milestones from my education, research visits, awards, and current work.</p>
-  <div class="phs-timeline-entry"><time datetime="2026-09">September 2026 – present</time><strong>Biostatistician / Epidemiologist</strong><small>Department of Medical Statistics, University Medical Center Göttingen · Göttingen, Germany</small></div>
-  <div class="phs-timeline-entry"><time datetime="2025-10">October 2025 – expected September 2027</time><strong>M.Sc. Epidemiology</strong><small>Johannes Gutenberg University Mainz · Institute of Medical Biostatistics, Epidemiology and Informatics · In progress</small></div>
-  <div class="phs-timeline-entry"><time datetime="2025-05">May 2025</time><strong>M.Sc. Clinical Psychology and Psychotherapy</strong><small>University of Göttingen</small></div>
-  <div class="phs-timeline-entry"><time datetime="2024-08">August 2024</time><strong>Visiting Researcher · University of Cambridge</strong><small>Policy Research Group · online choice architecture across 26 countries</small></div>
-  <div class="phs-timeline-entry"><time datetime="2024-04">April – July 2024</time><strong>Visiting Researcher · Boston Children's Hospital</strong><small>Neuroscience of Risk and Development Lab · longitudinal trajectories of mania symptoms</small></div>
-  <div class="phs-timeline-entry"><time datetime="2022-10">October 2022</time><strong>M.Sc. Clinical Psychology begins</strong><small>University of Göttingen</small></div>
-  <div class="phs-timeline-entry"><time datetime="2022-08">August 2022</time><strong>Graduation with Distinction</strong><small>University of Göttingen</small></div>
-  <div class="phs-timeline-entry"><time datetime="2022-07">July – October 2022</time><strong>Visiting Researcher · Toronto Metropolitan University</strong><small>Addictions and Mental Health Lab · Mitacs Globalink</small></div>
-  <div class="phs-timeline-entry"><time datetime="2022-07">July 2022</time><strong>Globalink Mitacs Research Award</strong><small>DAAD · Toronto Metropolitan University</small></div>
-  <div class="phs-timeline-entry"><time datetime="2022-03">March – July 2022</time><strong>Research internship · German Primate Center</strong><small>Sensorimotor function, movement planning, behavioural analysis</small></div>
-  <div class="phs-timeline-entry"><time datetime="2021-10">October 2021 – March 2022</time><strong>Internship · University Medical Center Göttingen</strong><small>Clinical psychology and psychotherapy research</small></div>
-  <div class="phs-timeline-entry"><time datetime="2019-10">October 2019 – September 2022</time><strong>B.Sc. Psychology</strong><small>University of Göttingen</small></div>
+
+<!-- TIMELINE PAGE. The only shared styles are the existing site variables.
+     Institutional image files: 3 existing local assets and 3 high-quality
+     source logos fetched at build time into images/timeline/ (see publish.yml).
+     Harvard Medical School wordmark is text until an approved logo is supplied.
+-->
+
+<style>
+/* TIMELINE — editorial design scoped to this page, based on the agreed mock-up.
+   Uses the site's existing Libre Baskerville / DM Sans fonts and palette. */
+body:has(.phs-timeline-redesign) #title-block-header {display:none;}
+.phs-timeline-redesign {
+  --tl-ink: #243e3b;
+  --tl-green: #4e765e;
+  --tl-muted: #536365;
+  --tl-rule: #e5e7e1;
+  --tl-paper: #fcfbf8;
+  box-sizing:border-box;
+  width:min(100%,1320px);
+  max-width:1320px;
+  margin:0 auto;
+  padding:0 clamp(20px,4.3vw,58px) 96px;
+  color:var(--tl-ink);
+  font-family:var(--phs-font,'DM Sans',Arial,sans-serif);
+  overflow-wrap:anywhere;
+}
+.phs-timeline-redesign *, .phs-timeline-redesign *::before, .phs-timeline-redesign *::after {box-sizing:border-box;}
+.phs-timeline-redesign a {text-decoration:none;}
+.phs-timeline-redesign a:hover {text-decoration:underline;text-underline-offset:3px;}
+.phs-timeline-redesign .tl-hero {
+  min-height:210px;position:relative;display:flex;align-items:center;
+  padding:36px 0 22px;isolation:isolate;
+}
+.phs-timeline-redesign .tl-hero::before {
+  content:"";position:absolute;z-index:-1;inset:0 -58px 0 36%;
+  background:url("images/uni-gottingen-4064017271.jpg") right 46% / cover no-repeat;
+  opacity:.55;mask-image:linear-gradient(to right,transparent 2%,#000 65%),linear-gradient(to bottom,#000 40%,transparent 100%);
+  mask-composite:intersect;
+  pointer-events:none;
+}
+.phs-timeline-redesign .tl-hero-copy {max-width:710px;position:relative;z-index:1;}
+.phs-timeline-redesign .tl-eyebrow {
+  font:600 .75rem/1.5 var(--phs-font,'DM Sans',sans-serif);
+  color:#668a6e;letter-spacing:.19em;text-transform:uppercase;margin:0 0 12px;
+}
+.phs-timeline-redesign h1 {
+  font:400 clamp(2.65rem,4.2vw,3.75rem)/1.17 var(--phs-serif,Georgia,serif);
+  letter-spacing:-.045em;color:#223e39;margin:0 0 10px;text-transform:none;
+}
+.phs-timeline-redesign .tl-hero-intro {
+  font:400 clamp(.96rem,1.2vw,1.07rem)/1.68 var(--phs-font,'DM Sans',sans-serif);
+  color:#485659;max-width:680px;margin:0 0 19px;
+}
+.phs-timeline-redesign .tl-title-rule {display:block;width:59px;height:2px;background:#6f966e;}
+.phs-timeline-redesign .tl-entries {
+  position:relative;margin:18px 0 23px 9px;padding:0 0 0 43px;
+}
+.phs-timeline-redesign .tl-entries::before {
+  content:"";position:absolute;left:2px;top:20px;bottom:34px;width:1px;background:#aab7ac;
+}
+.phs-timeline-redesign .tl-entry {
+  position:relative;display:grid;
+  grid-template-columns:minmax(195px,245px) minmax(115px,138px) minmax(0,1fr);
+  gap:clamp(14px,2vw,30px);
+  min-height:100px;padding:17px 0 19px;
+  border-bottom:1px solid var(--tl-rule);align-items:start;
+}
+.phs-timeline-redesign .tl-entry:last-child {border-bottom:0;}
+.phs-timeline-redesign .tl-entry::before {
+  content:"";position:absolute;left:-48px;top:29px;z-index:1;
+  width:11px;height:11px;background:var(--tl-paper);
+  border:2px solid #5c8267;border-radius:50%;
+}
+.phs-timeline-redesign .tl-logo-cell {
+  min-height:60px;display:flex;align-items:center;
+}
+.phs-timeline-redesign .tl-logo {
+  display:block;width:min(100%,230px);height:71px;object-fit:contain;object-position:left center;
+  border:0;background:none;
+}
+.phs-timeline-redesign .tl-logo--umg {width:215px;}
+.phs-timeline-redesign .tl-logo--jgu {width:190px;}
+.phs-timeline-redesign .tl-logo--cambridge {width:230px;}
+.phs-timeline-redesign .tl-logo--tmu {width:182px;}
+.phs-timeline-redesign .tl-logo--goettingen {width:202px;}
+.phs-timeline-redesign .tl-logo--bch {width:152px;height:62px;}
+.phs-timeline-redesign .tl-logo-pair {
+  display:flex;align-items:center;gap:11px;flex-wrap:wrap;
+}
+.phs-timeline-redesign .tl-hms-wordmark {
+  display:block;max-width:90px;padding-left:10px;border-left:1px solid #c7d1cb;
+  color:#5d6260;font:600 .68rem/1.4 var(--phs-font,'DM Sans',sans-serif);
+}
+.phs-timeline-redesign .tl-date-cell {padding-top:9px;}
+.phs-timeline-redesign .tl-date {
+  display:inline-block;white-space:nowrap;
+  background:#e8ede1;border-radius:5px;color:#354c3f;
+  padding:6px 12px;
+  font:600 .81rem/1.4 var(--phs-font,'DM Sans',sans-serif);
+}
+.phs-timeline-redesign .tl-description {
+  min-width:0;padding-left:24px;border-left:1px solid #d0d9d2;margin-top:5px;
+}
+.phs-timeline-redesign .tl-description h2 {
+  font:400 clamp(1.03rem,1.5vw,1.27rem)/1.34 var(--phs-serif,Georgia,serif);
+  color:#1c302e;letter-spacing:-.01em;margin:0 0 4px;text-transform:none;
+}
+.phs-timeline-redesign .tl-institution {
+  font:400 .92rem/1.55 var(--phs-font,'DM Sans',sans-serif);color:#48585b;margin:0;
+}
+.phs-timeline-redesign .tl-detail {
+  font:400 .82rem/1.55 var(--phs-font,'DM Sans',sans-serif);color:#63706c;margin:3px 0 0;
+}
+.phs-timeline-redesign .tl-detail em {font-style:italic;}
+.phs-timeline-redesign .tl-paper-link,.phs-timeline-redesign .tl-work-chip {
+  display:inline-flex;align-items:center;gap:7px;flex-wrap:wrap;
+  border-radius:8px;padding:6px 12px;margin-top:8px;
+  font:500 .76rem/1.4 var(--phs-font,'DM Sans',sans-serif);
+  max-width:100%;
+}
+.phs-timeline-redesign .tl-paper-link {background:#e2ebf2;color:#31586b;}
+.phs-timeline-redesign .tl-work-chip {background:#e6ede2;color:#42644e;}
+.phs-timeline-redesign .tl-cv-link {
+  display:inline-flex;align-items:center;justify-content:center;gap:14px;
+  background:#536f59;color:white!important;border-radius:7px;
+  min-height:40px;padding:11px 24px;
+  font:600 .89rem/1.3 var(--phs-font,'DM Sans',sans-serif);
+  margin:3px 0 0;
+}
+.phs-timeline-redesign .tl-cv-link:hover {background:#415948;text-decoration:none;}
+.phs-timeline-redesign .tl-skills {margin-top:60px;}
+.phs-timeline-redesign .tl-section-kicker {
+  display:flex;align-items:center;gap:15px;
+  font:600 .77rem/1.6 var(--phs-font,'DM Sans',sans-serif);
+  letter-spacing:.19em;color:#69856e;text-transform:uppercase;margin:0 0 12px;
+}
+.phs-timeline-redesign .tl-section-kicker::before {
+  content:"";display:block;width:29px;height:2px;background:#7a9f77;
+}
+.phs-timeline-redesign .tl-skills h2 {
+  font:400 clamp(1.8rem,3.3vw,2.65rem)/1.25 var(--phs-serif,Georgia,serif);
+  color:#243e39;letter-spacing:-.04em;margin:0 0 8px;text-transform:none;
+}
+.phs-timeline-redesign .tl-skills-intro {
+  font:400 .98rem/1.65 var(--phs-font,'DM Sans',sans-serif);
+  color:#536166;max-width:950px;margin:0 0 24px;
+}
+.phs-timeline-redesign .tl-skill-tabs {
+  display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px;
+}
+.phs-timeline-redesign .tl-skill-tab {
+  appearance:none;cursor:pointer;
+  background:transparent;color:#3d4c4c;
+  border:1px solid #bbc9c2;border-radius:7px;
+  padding:11px 17px;font:500 .84rem/1.35 var(--phs-font,'DM Sans',sans-serif);
+}
+.phs-timeline-redesign .tl-skill-tab[aria-selected="true"] {
+  background:#58755e;color:white;border-color:#58755e;
+}
+.phs-timeline-redesign .tl-skill-tab:focus-visible {outline:3px solid #44848e;outline-offset:3px;}
+.phs-timeline-redesign .tl-skill-panel {
+  display:grid;grid-template-columns:minmax(250px,1fr) minmax(0,1.55fr);
+  gap:30px;align-items:center;
+  min-height:133px;padding:23px 31px;
+  border-radius:12px;background:#f0f1e9;
+}
+.phs-timeline-redesign .tl-skill-panel[hidden] {display:none;}
+.phs-timeline-redesign .tl-skill-summary {
+  display:flex;align-items:center;gap:18px;min-width:0;
+  border-right:1px solid #cad1c7;padding-right:21px;
+}
+.phs-timeline-redesign .tl-skill-symbol {
+  flex:0 0 55px;width:55px;height:55px;
+  display:flex;align-items:center;justify-content:center;
+  background:#e0e8dc;border-radius:50%;color:#54745d;font-size:1.45rem;
+}
+.phs-timeline-redesign .tl-skill-summary h3 {
+  font:400 1.22rem/1.35 var(--phs-serif,Georgia,serif);
+  color:#253d36;margin:0 0 3px;text-transform:none;
+}
+.phs-timeline-redesign .tl-skill-summary p {
+  font:400 .77rem/1.5 var(--phs-font,'DM Sans',sans-serif);
+  color:#5c6967;margin:0;
+}
+.phs-timeline-redesign .tl-skill-chips {display:flex;flex-wrap:wrap;gap:9px;align-items:center;}
+.phs-timeline-redesign .tl-skill-chip {
+  display:inline-block;background:#e0e5d7;color:#30453b;border-radius:10px;
+  padding:8px 14px;font:500 .79rem/1.4 var(--phs-font,'DM Sans',sans-serif);
+}
+.phs-timeline-redesign .tl-source-credit {
+  font:400 .71rem/1.55 var(--phs-font,'DM Sans',sans-serif);
+  color:#78837a;margin:32px 0 0;
+}
+.phs-timeline-redesign .tl-source-credit a {color:inherit;text-decoration:underline;}
+@media (max-width:950px) {
+ .phs-timeline-redesign .tl-entry {grid-template-columns:minmax(125px,200px) 122px minmax(0,1fr);gap:16px;}
+ .phs-timeline-redesign .tl-description {padding-left:15px;}
+ .phs-timeline-redesign .tl-logo {width:100%;}
+ .phs-timeline-redesign .tl-hms-wordmark {font-size:.6rem;}
+}
+@media (max-width:700px) {
+ .phs-timeline-redesign {padding:0 18px 70px;}
+ .phs-timeline-redesign .tl-hero {min-height:235px;padding-top:30px;}
+ .phs-timeline-redesign .tl-hero::before {inset:0 -18px 0 16%;opacity:.19;}
+ .phs-timeline-redesign .tl-entries {margin-left:5px;padding-left:25px;}
+ .phs-timeline-redesign .tl-entries::before {left:2px;}
+ .phs-timeline-redesign .tl-entry {
+   grid-template-columns:110px minmax(0,1fr);column-gap:15px;row-gap:6px;min-height:0;
+   padding:19px 0 22px;
+ }
+ .phs-timeline-redesign .tl-entry::before {left:-28px;top:28px;}
+ .phs-timeline-redesign .tl-logo-cell {grid-column:1;grid-row:1/3;align-self:start;}
+ .phs-timeline-redesign .tl-logo {height:64px;width:100%;}
+ .phs-timeline-redesign .tl-hms-wordmark {display:none;}
+ .phs-timeline-redesign .tl-date-cell {grid-column:2;grid-row:1;padding-top:0;}
+ .phs-timeline-redesign .tl-date {padding:5px 9px;font-size:.72rem;}
+ .phs-timeline-redesign .tl-description {grid-column:2;grid-row:2;border-left:0;padding-left:0;margin-top:0;}
+ .phs-timeline-redesign .tl-description h2 {font-size:1.05rem;}
+ .phs-timeline-redesign .tl-institution {font-size:.83rem;}
+ .phs-timeline-redesign .tl-detail {font-size:.76rem;}
+ .phs-timeline-redesign .tl-skill-panel {grid-template-columns:1fr;gap:17px;padding:20px;}
+ .phs-timeline-redesign .tl-skill-summary {border-right:0;border-bottom:1px solid #ccd7ca;padding:0 0 16px;}
+ .phs-timeline-redesign .tl-skill-tab {font-size:.79rem;padding:9px 12px;}
+ .phs-timeline-redesign .tl-skills {margin-top:43px;}
+}
+@media (prefers-reduced-motion:reduce) {
+ .phs-timeline-redesign * {scroll-behavior:auto!important;transition:none!important;}
+}
+</style>
+
+<main class="phs-timeline-redesign" id="timeline">
+<header class="tl-hero">
+<div class="tl-hero-copy">
+<p class="tl-eyebrow">04 / TIMELINE</p>
+<h1>Research &amp; training</h1>
+<p class="tl-hero-intro">My academic trajectory from psychology to epidemiology and biostatistics — combining clinical and methodological training to address mental health questions with rigorous, population-based research.</p>
+<span class="tl-title-rule" aria-hidden="true"></span>
 </div>
+</header>
+
+<section class="tl-entries" aria-label="Research and training milestones">
+<article class="tl-entry">
+<div class="tl-logo-cell"><img class="tl-logo tl-logo--umg" src="images/UMG_kurz_2024_Druck_Farbe_4c.jpg" alt="University Medical Center Göttingen" loading="eager"></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2026-09">2026 – present</time></div>
+<div class="tl-description">
+<h2>Research Associate / Biostatistician / Epidemiologist</h2>
+<p class="tl-institution">University Medical Center Göttingen</p>
+<p class="tl-detail">Working Group: Statistical Evidence in AI Systems</p>
+<span class="tl-work-chip">▥ &nbsp; Biostatistics · Epidemiology · Health inequalities</span>
+</div>
+</article>
+<article class="tl-entry">
+<div class="tl-logo-cell"><img class="tl-logo tl-logo--jgu" src="images/JGU_logo.png" alt="Johannes Gutenberg University Mainz" loading="lazy"></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2025-10">2025 – 2027</time></div>
+<div class="tl-description">
+<h2>M.Sc. Epidemiology</h2>
+<p class="tl-institution">Johannes Gutenberg University Mainz</p>
+<p class="tl-detail">In progress · Institute of Medical Biostatistics, Epidemiology and Informatics</p>
+
+</div>
+</article>
+<article class="tl-entry">
+<div class="tl-logo-cell"><div class="tl-logo-pair"><img class="tl-logo tl-logo--bch" src="images/timeline/boston-childrens.svg" alt="Boston Children’s Hospital" loading="lazy"><span class="tl-hms-wordmark">Harvard Medical School</span></div></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2024-04">2024</time></div>
+<div class="tl-description">
+<h2>Visiting Researcher</h2>
+<p class="tl-institution">Boston Children’s Hospital / Harvard Medical School</p>
+<p class="tl-detail">Neuroscience of Risk and Development Lab · Mania symptom trajectories in youth</p>
+<a class="tl-paper-link" href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">▤ &nbsp; Related paper: Mania trajectories in youth ↗</a>
+</div>
+</article>
+<article class="tl-entry">
+<div class="tl-logo-cell"><img class="tl-logo tl-logo--cambridge" src="images/timeline/cambridge.png" alt="University of Cambridge" loading="lazy"></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2024-08">2024</time></div>
+<div class="tl-description">
+<h2>Visiting Researcher</h2>
+<p class="tl-institution">University of Cambridge · Policy Research Group</p>
+<p class="tl-detail">Online choice architectures across 26 countries</p>
+<a class="tl-paper-link" href="https://doi.org/10.31219/osf.io/haqu9" target="_blank" rel="noopener noreferrer">▤ &nbsp; Related paper: Online choice architectures ↗</a>
+</div>
+</article>
+<article class="tl-entry">
+<div class="tl-logo-cell"><img class="tl-logo tl-logo--tmu" src="images/timeline/tmu.svg" alt="Toronto Metropolitan University" loading="lazy"></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2022-07">2022</time></div>
+<div class="tl-description">
+<h2>Visiting Researcher</h2>
+<p class="tl-institution">Toronto Metropolitan University</p>
+<p class="tl-detail">Addictions and Mental Health Lab · DAAD / Mitacs research award</p>
+
+</div>
+</article>
+<article class="tl-entry">
+<div class="tl-logo-cell"><img class="tl-logo tl-logo--goettingen" src="images/GA_logo.png" alt="University of Göttingen" loading="lazy"></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2022-10">2022 – 2025</time></div>
+<div class="tl-description">
+<h2>M.Sc. Clinical Psychology and Psychotherapy</h2>
+<p class="tl-institution">University of Göttingen</p>
+<p class="tl-detail">Graduated May 2025</p>
+
+</div>
+</article>
+<article class="tl-entry">
+<div class="tl-logo-cell"><img class="tl-logo tl-logo--goettingen" src="images/GA_logo.png" alt="University of Göttingen" loading="lazy"></div>
+<div class="tl-date-cell"><time class="tl-date" datetime="2019-10">2019 – 2022</time></div>
+<div class="tl-description">
+<h2>B.Sc. Psychology</h2>
+<p class="tl-institution">University of Göttingen</p>
+<p class="tl-detail">Graduation with Distinction</p>
+
+</div>
+</article>
+</section>
+<a class="tl-cv-link" href="https://www.linkedin.com/in/jasmindoenicke/" target="_blank" rel="noopener noreferrer">View full CV <span aria-hidden="true">↗</span></a>
+
+<section class="tl-skills" aria-labelledby="tl-skills-title">
+<p class="tl-section-kicker">Skills</p>
+<h2 id="tl-skills-title">Methods, tools &amp; expertise</h2>
+<p class="tl-skills-intro">Selected skills and areas of expertise across statistical methods, data analysis, epidemiology, open science, and clinical research.</p>
+<div class="tl-skill-tabs" role="tablist" aria-label="Skill categories">
+<button class="tl-skill-tab" type="button" role="tab" id="tl-tab-statistics" aria-controls="tl-panel-statistics" aria-selected="true" tabindex="0">Statistics &amp; Modeling</button>
+<button class="tl-skill-tab" type="button" role="tab" id="tl-tab-programming" aria-controls="tl-panel-programming" aria-selected="false" tabindex="-1">Programming &amp; Data</button>
+<button class="tl-skill-tab" type="button" role="tab" id="tl-tab-epidemiology" aria-controls="tl-panel-epidemiology" aria-selected="false" tabindex="-1">Epidemiology &amp; Causal Inference</button>
+<button class="tl-skill-tab" type="button" role="tab" id="tl-tab-open" aria-controls="tl-panel-open" aria-selected="false" tabindex="-1">Open Science</button>
+<button class="tl-skill-tab" type="button" role="tab" id="tl-tab-clinical" aria-controls="tl-panel-clinical" aria-selected="false" tabindex="-1">Clinical &amp; Domain Expertise</button>
+</div>
+<div class="tl-skill-panel" role="tabpanel" id="tl-panel-statistics" aria-labelledby="tl-tab-statistics">
+<div class="tl-skill-summary">
+<div class="tl-skill-symbol" aria-hidden="true">▥</div>
+<div><h3>Statistics &amp; Modeling</h3><p>Methods for clinical, longitudinal, and population-based research.</p></div>
+</div>
+<div class="tl-skill-chips"><span class="tl-skill-chip">GLMM</span>
+<span class="tl-skill-chip">Cox models</span>
+<span class="tl-skill-chip">Kaplan–Meier</span>
+<span class="tl-skill-chip">Longitudinal modeling</span>
+<span class="tl-skill-chip">Multilevel regression</span>
+<span class="tl-skill-chip">Latent variable models</span>
+<span class="tl-skill-chip">MMRM</span>
+<span class="tl-skill-chip">Survival analysis</span>
+<span class="tl-skill-chip">Psychometrics</span></div>
+</div>
+<div class="tl-skill-panel" role="tabpanel" id="tl-panel-programming" aria-labelledby="tl-tab-programming" hidden>
+<div class="tl-skill-summary">
+<div class="tl-skill-symbol" aria-hidden="true">⌘</div>
+<div><h3>Programming &amp; Data</h3><p>Computational tools for complex, reproducible analysis.</p></div>
+</div>
+<div class="tl-skill-chips"><span class="tl-skill-chip">R / RStudio</span>
+<span class="tl-skill-chip">Mplus</span>
+<span class="tl-skill-chip">SAS</span>
+<span class="tl-skill-chip">SPSS</span>
+<span class="tl-skill-chip">MATLAB</span>
+<span class="tl-skill-chip">Git &amp; GitHub</span>
+<span class="tl-skill-chip">Quarto</span>
+<span class="tl-skill-chip">Data visualization</span>
+<span class="tl-skill-chip">Data pipelines</span></div>
+</div>
+<div class="tl-skill-panel" role="tabpanel" id="tl-panel-epidemiology" aria-labelledby="tl-tab-epidemiology" hidden>
+<div class="tl-skill-summary">
+<div class="tl-skill-symbol" aria-hidden="true">↗</div>
+<div><h3>Epidemiology &amp; Causal Inference</h3><p>Study design, causal thinking, and population-level evidence.</p></div>
+</div>
+<div class="tl-skill-chips"><span class="tl-skill-chip">Cohort studies</span>
+<span class="tl-skill-chip">Causal DAGs</span>
+<span class="tl-skill-chip">Propensity scores</span>
+<span class="tl-skill-chip">Inverse probability weighting</span>
+<span class="tl-skill-chip">Target trial emulation</span>
+<span class="tl-skill-chip">Social epidemiology</span>
+<span class="tl-skill-chip">Health inequalities</span>
+<span class="tl-skill-chip">Observational data</span></div>
+</div>
+<div class="tl-skill-panel" role="tabpanel" id="tl-panel-open" aria-labelledby="tl-tab-open" hidden>
+<div class="tl-skill-summary">
+<div class="tl-skill-symbol" aria-hidden="true">◈</div>
+<div><h3>Open Science</h3><p>Transparent workflows and collaborative research.</p></div>
+</div>
+<div class="tl-skill-chips"><span class="tl-skill-chip">Preregistration</span>
+<span class="tl-skill-chip">Open Science Framework</span>
+<span class="tl-skill-chip">Reproducible research</span>
+<span class="tl-skill-chip">Registered reports</span>
+<span class="tl-skill-chip">Multi-lab collaborations</span>
+<span class="tl-skill-chip">PRISMA</span>
+<span class="tl-skill-chip">Code sharing</span>
+<span class="tl-skill-chip">Documentation</span></div>
+</div>
+<div class="tl-skill-panel" role="tabpanel" id="tl-panel-clinical" aria-labelledby="tl-tab-clinical" hidden>
+<div class="tl-skill-summary">
+<div class="tl-skill-symbol" aria-hidden="true">♡</div>
+<div><h3>Clinical &amp; Domain Expertise</h3><p>Clinical training paired with a population health perspective.</p></div>
+</div>
+<div class="tl-skill-chips"><span class="tl-skill-chip">Clinical psychology</span>
+<span class="tl-skill-chip">Psychotherapy (CBT)</span>
+<span class="tl-skill-chip">Psychiatric epidemiology</span>
+<span class="tl-skill-chip">Child &amp; adolescent mental health</span>
+<span class="tl-skill-chip">Developmental psychopathology</span>
+<span class="tl-skill-chip">Global mental health</span>
+<span class="tl-skill-chip">Survey research</span>
+<span class="tl-skill-chip">Mental health inequalities</span></div>
+</div>
+</section>
+
+<p class="tl-source-credit">Institutional identity images appear for identification only. Cambridge logo from <a href="https://commons.wikimedia.org/wiki/File:University_of_Cambridge_logo.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons (Dm980cam, CC BY-SA 4.0)</a>; Toronto Metropolitan University logo from <a href="https://commons.wikimedia.org/wiki/File:TMU_logo.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>. Institutional logos do not imply an endorsement of this website.</p>
+</main>
+
+<script>
+(function() {
+ function initTimelineSkills() {
+   const root=document.querySelector('.phs-timeline-redesign');
+   if(!root)return;
+   const tabs=Array.from(root.querySelectorAll('[role="tab"]'));
+   const panels=Array.from(root.querySelectorAll('[role="tabpanel"]'));
+   function activate(index,moveFocus) {
+     tabs.forEach((tab,i)=>{
+       const active=i===index;
+       tab.setAttribute('aria-selected',String(active));
+       tab.setAttribute('tabindex',active?'0':'-1');
+       panels[i].hidden=!active;
+     });
+     if(moveFocus)tabs[index].focus();
+   }
+   tabs.forEach((tab,index)=>{
+     tab.addEventListener('click',()=>activate(index,false));
+     tab.addEventListener('keydown',(ev)=>{
+       let next=index;
+       if(ev.key==='ArrowRight')next=(index+1)%tabs.length;
+       else if(ev.key==='ArrowLeft')next=(index+tabs.length-1)%tabs.length;
+       else if(ev.key==='Home')next=0;
+       else if(ev.key==='End')next=tabs.length-1;
+       else return;
+       ev.preventDefault();activate(next,true);
+     });
+   });
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initTimelineSkills);
+ else initTimelineSkills();
+})();
+</script>
