@@ -34,7 +34,7 @@ body:has(.phs-timeline-redesign) #title-block-header {display:none;}
 .phs-timeline-redesign a {text-decoration:none;}
 .phs-timeline-redesign a:hover {text-decoration:underline;text-underline-offset:3px;}
 .phs-timeline-redesign .tl-hero {
-  min-height:210px;position:relative;display:flex;align-items:center;
+  min-height:285px;position:relative;display:flex;align-items:center;
   padding:36px 0 22px;isolation:isolate;
 }
 .phs-timeline-redesign .tl-hero::before {
