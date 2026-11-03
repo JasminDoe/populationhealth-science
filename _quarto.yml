@@ -13,7 +13,7 @@ project:
 
 website:
   title: "Jasmin Dönicke | Population Health Science"
-  favicon: images/favicon.png
+  favicon: images/jellyfish-favicon.svg
   site-url: "https://populationhealth.science"
   description: "Research in psychiatric epidemiology, global health, health inequalities, and biostatistics by Jasmin Dönicke."
   open-graph: true
