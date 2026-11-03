@@ -1,6 +1,56 @@
 ---
-title: "Contact"
+title: "Say hello"
+pagetitle: "Say hello | Jasmin Dönicke"
+description: "Get in touch about research collaborations, statistical consulting, or exchanging ideas."
+page-layout: custom
 ---
+
+<!-- Contact page only. Matches the About page header and reading layout;
+     shared hero styles come from the existing styles.css. -->
+<style>
+body:has(.phs-contact-layout) #title-block-header { display: none; }
+.phs-contact-layout {
+  box-sizing: border-box;
+  width: min(100%, 1320px);
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4.3vw, 58px) 60px;
+}
+.phs-contact-page {
+  max-width: 800px;
+  margin: 32px auto 60px;
+  color: var(--phs-ink, #263946);
+}
+.phs-contact-page h2 {
+  font: 400 clamp(1.45rem, 2vw, 1.75rem)/1.35 var(--phs-serif, Georgia, serif);
+  color: var(--phs-navy, #172c43);
+  letter-spacing: -.02em;
+  margin: 2.7rem 0 1.1rem;
+}
+.phs-contact-page p,
+.phs-contact-page li {
+  font-size: 1rem;
+  line-height: 1.85;
+}
+.phs-contact-page p { margin: 0 0 1.35rem; }
+@media (max-width: 700px) {
+  .phs-contact-layout { padding: 0 18px 40px; }
+  .phs-contact-page { margin-top: 24px; margin-bottom: 40px; }
+  .phs-contact-page h2 { margin-top: 2.2rem; }
+}
+</style>
+
+:::: {.phs-contact-layout}
+<header class="phs-inner-hero" aria-labelledby="contact-page-title">
+<div class="phs-inner-hero-copy">
+<p class="phs-inner-hero-eyebrow">CONTACT</p>
+<h1 id="contact-page-title">Say hello</h1>
+<p class="phs-inner-hero-intro">Questions, collaborations, and conversations — I'd be happy to hear from you.</p>
+<span class="phs-inner-hero-rule" aria-hidden="true"></span>
+</div>
+</header>
+
+::: {.phs-contact-page}
 
 I’m always happy to hear you! Whether you would like to discuss a possible collaboration, exchange ideas, or simply say hello, feel free to contact me through LinkedIn.
 
@@ -20,4 +70,6 @@ Support can range from a single consultation to ongoing analytical collaboration
 
 [Contact me on LinkedIn](https://www.linkedin.com/in/jasmindoenicke/){.btn .btn-primary}
 
+:::
 
+::::
