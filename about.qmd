@@ -2,24 +2,22 @@
 title: "About me"
 pagetitle: "About | Jasmin Dönicke"
 description: "My path from psychology to population health, the questions that keep me curious, and reflections on doing research."
-page-layout: article
+page-layout: custom
 ---
 
 <!-- ABOUT PAGE ONLY: a quiet editorial layout using the site's existing fonts and palette. -->
 <style>
-body:has(.phs-about-page) #title-block-header {
-  max-width: 800px;
-  margin-top: clamp(35px, 5vw, 64px);
-  margin-bottom: 22px;
-}
-body:has(.phs-about-page) #title-block-header h1 {
-  font: 400 clamp(2.5rem, 4vw, 3.6rem)/1.2 var(--phs-serif, Georgia, serif);
-  letter-spacing: -.035em;
-  color: var(--phs-navy, #172c43);
+body:has(.phs-about-layout) #title-block-header { display: none; }
+.phs-about-layout {
+  box-sizing: border-box;
+  width: min(100%, 1320px);
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4.3vw, 58px) 60px;
 }
 .phs-about-page {
   max-width: 800px;
-  margin: 0 auto 90px;
+  margin: 32px auto 60px;
   color: var(--phs-ink, #263946);
 }
 .phs-about-page h2 {
@@ -39,10 +37,21 @@ body:has(.phs-about-page) #title-block-header h1 {
   color: var(--phs-navy, #172c43);
 }
 @media (max-width: 700px) {
-  .phs-about-page { margin-bottom: 60px; }
+  .phs-about-layout { padding: 0 18px 40px; }
+  .phs-about-page { margin-top: 24px; margin-bottom: 40px; }
   .phs-about-page h2 { margin-top: 2.2rem; }
 }
 </style>
+
+:::: {.phs-about-layout}
+<header class="phs-inner-hero" aria-labelledby="about-page-title">
+<div class="phs-inner-hero-copy">
+<p class="phs-inner-hero-eyebrow">ABOUT</p>
+<h1 id="about-page-title">About me</h1>
+<p class="phs-inner-hero-intro">My path from psychology to population health, the questions that keep me curious, and reflections on doing research.</p>
+<span class="phs-inner-hero-rule" aria-hidden="true"></span>
+</div>
+</header>
 
 ::: {.phs-about-page}
 
@@ -75,3 +84,5 @@ I've also become more aware of how unequally accessible academic careers can be.
 I think good science benefits from people with different backgrounds, experiences, and ways of thinking, and from working environments that allow them to participate.
 
 :::
+
+::::
