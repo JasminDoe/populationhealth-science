@@ -2314,3 +2314,79 @@ body:has(.phs-aula-hero) .phs-medical-section {
   .phs-work-columns .phs-timeline-logo-head strong { font-size: .87rem; }
   .phs-work-columns .phs-timeline-logo-details { font-size: .84rem; }
 }
+
+
+/* Shared inner-page hero — based on the Timeline's faded-photo header.
+   Only Atlas, Research and About use this class; their content stays independent. */
+.phs-inner-hero {
+  min-height: 285px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 36px 0 22px;
+  isolation: isolate;
+}
+.phs-inner-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 -58px 0 36%;
+  background: url("images/uni-gottingen-4064017271.jpg") right 46% / cover no-repeat;
+  opacity: .55;
+  mask-image: linear-gradient(to right, transparent 2%, #000 65%),
+              linear-gradient(to bottom, #000 40%, transparent 100%);
+  mask-composite: intersect;
+  pointer-events: none;
+}
+.phs-inner-hero-copy {
+  max-width: 710px;
+  position: relative;
+  z-index: 1;
+}
+.phs-inner-hero .phs-inner-hero-eyebrow {
+  font: 600 .75rem/1.5 var(--phs-font, "DM Sans", sans-serif);
+  color: #668a6e;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+.phs-inner-hero h1,
+.phs-research-page .phs-inner-hero h1 {
+  font: 400 clamp(2.65rem, 4.2vw, 3.75rem)/1.17 var(--phs-serif, Georgia, serif);
+  letter-spacing: -.045em;
+  color: #223e39;
+  margin: 0 0 10px;
+  text-transform: none;
+}
+.phs-inner-hero .phs-inner-hero-intro,
+.phs-research-page .phs-inner-hero .phs-research-intro {
+  font: 400 clamp(.96rem, 1.2vw, 1.07rem)/1.68 var(--phs-font, "DM Sans", sans-serif);
+  color: #485659;
+  max-width: 680px;
+  margin: 0 0 19px;
+}
+.phs-inner-hero-rule {
+  display: block;
+  width: 59px;
+  height: 2px;
+  background: #6f966e;
+}
+.phs-atlas-page .phs-inner-hero-copy {
+  max-width: 850px;
+}
+.phs-atlas-page .phs-inner-hero h1 {
+  font-size: clamp(2.5rem, 3.6vw, 3.45rem);
+}
+@media (max-width: 700px) {
+  .phs-inner-hero {
+    min-height: 235px;
+    padding: 30px 0 22px;
+  }
+  .phs-inner-hero::before {
+    inset: 0 -18px 0 16%;
+    opacity: .19;
+  }
+  .phs-atlas-page .phs-inner-hero h1 {
+    font-size: clamp(2.35rem, 7.4vw, 3rem);
+  }
+}
