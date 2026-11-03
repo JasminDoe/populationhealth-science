@@ -1,48 +1,77 @@
 ---
-title: "Curriculum Vitae"
-subtitle: "Jasmin Dönicke"
+title: "About me"
+pagetitle: "About | Jasmin Dönicke"
+description: "My path from psychology to population health, the questions that keep me curious, and reflections on doing research."
+page-layout: article
 ---
 
-## Profile
+<!-- ABOUT PAGE ONLY: a quiet editorial layout using the site's existing fonts and palette. -->
+<style>
+body:has(.phs-about-page) #title-block-header {
+  max-width: 800px;
+  margin-top: clamp(35px, 5vw, 64px);
+  margin-bottom: 22px;
+}
+body:has(.phs-about-page) #title-block-header h1 {
+  font: 400 clamp(2.5rem, 4vw, 3.6rem)/1.2 var(--phs-serif, Georgia, serif);
+  letter-spacing: -.035em;
+  color: var(--phs-navy, #172c43);
+}
+.phs-about-page {
+  max-width: 800px;
+  margin: 0 auto 90px;
+  color: var(--phs-ink, #263946);
+}
+.phs-about-page h2 {
+  font: 400 clamp(1.45rem, 2vw, 1.75rem)/1.35 var(--phs-serif, Georgia, serif);
+  color: var(--phs-navy, #172c43);
+  letter-spacing: -.02em;
+  margin: 2.7rem 0 1.1rem;
+}
+.phs-about-page h2:first-child { margin-top: 0; }
+.phs-about-page p {
+  font-size: 1rem;
+  line-height: 1.85;
+  margin: 0 0 1.35rem;
+}
+.phs-about-page strong {
+  font-weight: 600;
+  color: var(--phs-navy, #172c43);
+}
+@media (max-width: 700px) {
+  .phs-about-page { margin-bottom: 60px; }
+  .phs-about-page h2 { margin-top: 2.2rem; }
+}
+</style>
 
-Quantitative health researcher with backgrounds in clinical psychology, epidemiology, and medical statistics. My research interests include psychiatric and perinatal epidemiology, child and adolescent health, longitudinal research, and health inequalities.
+::: {.phs-about-page}
 
-## Education
+## From psychology to population health
 
-- **M.Sc. Epidemiology**, Johannes Gutenberg University Mainz, 2025–present
-- **M.Sc. Clinical Psychology and Psychotherapy**, University of Göttingen, completed 2025
-- **B.Sc. Psychology**, University of Göttingen, completed 2022
+I originally chose to study psychology for two reasons: I have always been fascinated by people — how we think, feel, behave, and relate to one another — and I wanted to spend my working life doing something that could make a positive difference.
 
-## Selected research experience
+Over time, my interests began to shift from understanding individuals to understanding the broader circumstances that shape their lives. Many questions about mental health cannot be answered by looking at individuals alone. The social, economic, and political environments in which people grow up and live matter, too.
 
-- **ManyBabies Consortium** — Infant habituation, neonatal imitation, screen time, and multi-analyst research
-- **Global Mental Health Project** — Coordination of the German research team within an international collaboration spanning more than 80 countries
-- **Boston Children’s Hospital / Harvard Medical School** — Longitudinal research on mania symptoms in the Adolescent Brain Cognitive Development Study
-- **Cambridge Policy Research Group** — Cross-national research on online choice architecture across more than 25 countries
-- **Toronto Metropolitan University** — Mitacs Globalink research internship in the Addictions and Mental Health Laboratory
+This gradually led me toward epidemiology and population health science. I became increasingly interested not only in what makes people ill or healthy, but also in why health is distributed so unequally, which risks could be prevented, and how societies might be organized to support healthier and happier lives.
 
+Along the way, I also developed an appreciation for statistics and research methodology. Asking interesting questions is one thing; finding ways to answer them reliably, while recognizing the limitations of the evidence, is another.
 
-## Quantitative methods
+## What keeps me curious
 
-- Data preparation and reproducible analysis in R
-- Regression and mixed-effects models
-- Longitudinal analysis
-- Latent class and growth mixture modelling
-- Causal inference
-- Machine learning and prediction
-- Multi-analyst and collaborative research
+One question underlying much of my interest in population health is surprisingly simple: **What would we do differently if improving people's health and well-being were genuinely among the central goals of public policy?**
 
-## Selected publication
+That raises many smaller questions. How much of the variation in health between people and countries is preventable? Which social conditions matter most? And how can we use data to distinguish policies that actually improve lives from those that merely sound promising?
 
-Dönicke, J., Cooper, R., Soehner, A., & Jalbrzikowski, M. (2026). [Risk factors associated with longitudinal trajectories of mania symptoms in youth](https://doi.org/10.1017/S0954579426101606). *Development and Psychopathology*, 1–12.
+I don't think research can answer all of these questions, but I find it exciting that it can help us approach them more systematically.
 
-## Research profiles
+## A few things I've learned about research
 
-[ORCID](https://orcid.org/0009-0006-0721-0790) ·
-[Google Scholar](https://scholar.google.com/citations?user=sOKEShMAAAAJ&hl=en) ·
-[OSF](https://osf.io/user/zr8vc) ·
-[GitHub](https://github.com/JasminDoe)
+One thing I've learned is that research careers are not built through hard work alone. Academic environments are full of capable, dedicated people. Finding opportunities also takes creativity, initiative, and a willingness to try approaches that might not work.
 
-## Looking ahead
+Much of my involvement in collaborative research began simply by reaching out to people. Most messages don't turn into opportunities, and rejection is a normal part of the process. But some conversations lead to projects, new perspectives, and connections that would never have happened otherwise.
 
-My long-term goal is to conduct a PhD in psychiatric or perinatal epidemiology using large-scale cohort or register data. I am always interested in meeting researchers working in these areas and contributing to collaborative projects.
+I've also become more aware of how unequally accessible academic careers can be. Expectations of constant availability, long working hours, and geographic mobility are particularly difficult to reconcile with family life and caring responsibilities. As a mother, I've become particularly aware of how easily having a family can be treated as a disadvantage in a career that supposedly values knowledge and ability. The ability to work on a Saturday is not a measure of scientific talent. Neither is the ability to move countries at short notice or accept months of poorly paid work.
+
+I think good science benefits from people with different backgrounds, experiences, and ways of thinking, and from working environments that allow them to participate.
+
+:::
