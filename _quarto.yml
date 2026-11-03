@@ -53,8 +53,10 @@ website:
         href: https://orcid.org/0009-0006-0721-0790
       - text: Google Scholar
         href: https://scholar.google.com/citations?user=sOKEShMAAAAJ&hl=en
-      - text: GitHub
-        href: https://github.com/JasminDoe
+      - text: OSF
+        href: https://osf.io/user/zr8vc
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/jasmindoenicke/
 
 # Styles apply to all pages; homepage layout is customized in index.qmd.
 format:
