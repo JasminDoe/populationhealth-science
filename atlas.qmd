@@ -11,43 +11,16 @@ page-layout: custom
 -->
 
 <style>
-/* Page-specific header: one centered title and an understated subtitle. */
-#title-block-header {
-  box-sizing: border-box;
-  width: min(100%, 1120px);
-  margin: 0 auto !important;
-  padding: clamp(38px, 5vw, 64px) clamp(18px, 4vw, 48px) 0;
-  text-align: center;
-}
-#title-block-header .quarto-title,
-#title-block-header .quarto-title h1.title {
-  width: 100%;
-  max-width: 100%;
-  text-align: center;
-}
-#title-block-header .quarto-title h1.title {
-  font: 400 clamp(2.2rem, 4.2vw, 3.65rem)/1.24 var(--phs-serif, Georgia, serif);
-  letter-spacing: -.034em;
-  color: var(--phs-navy, #172c43);
-  overflow-wrap: break-word;
-  margin: 0 auto 14px;
-}
-#title-block-header .description {
-  font: 400 clamp(1.1rem, 2vw, 1.45rem)/1.5 var(--phs-serif, Georgia, serif);
-  color: #64817b;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 70ch;
-}
-#title-block-header .quarto-title-meta { display: none; }
+/* The shared faded-photo hero replaces the Quarto title block. */
+body:has(.phs-atlas-page) #title-block-header { display: none; }
 
 /* Everything below applies to the Atlas page only. */
 .phs-atlas-page.phs-standard {
-  width: min(100%, 1120px);
-  max-width: 1120px;
+  width: min(100%, 1320px);
+  max-width: 1320px;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: clamp(28px, 4vw, 50px) clamp(18px, 4vw, 48px) 88px;
+  padding: 0 clamp(20px, 4.3vw, 58px) 88px;
   color: var(--phs-ink, #263946);
 }
 .phs-atlas-page *,
@@ -67,6 +40,7 @@ page-layout: custom
   margin-left: auto;
   margin-right: auto;
 }
+.phs-atlas-page .phs-atlas-introduction { margin-top: 32px; }
 .phs-atlas-page .phs-atlas-introduction p,
 .phs-atlas-page .phs-atlas-information p {
   font: 400 clamp(.98rem, 1.3vw, 1.04rem)/1.88 var(--phs-font, 'DM Sans', Arial, sans-serif);
@@ -77,7 +51,7 @@ page-layout: custom
 .phs-atlas-page .phs-atlas-visualization {
   width: 100%;
   min-width: 0;
-  max-width: 100%;
+  max-width: 1024px;
   margin: clamp(30px, 5vw, 56px) auto 0;
 }
 .phs-atlas-page .phs-atlas-map {
@@ -124,13 +98,21 @@ page-layout: custom
 }
 @media (max-width: 700px) {
   #title-block-header { padding: 32px 18px 0; }
-  .phs-atlas-page.phs-standard { padding: 26px 18px 65px; }
+  .phs-atlas-page.phs-standard { padding: 0 18px 65px; }
   .phs-atlas-page .phs-atlas-caption { font-size: .85rem; }
   .phs-atlas-page .phs-atlas-info-section { padding: 22px 0 26px; }
 }
 </style>
 
 <div class="phs-standard phs-atlas-page" id="atlas-content">
+<header class="phs-inner-hero" aria-labelledby="atlas-page-title">
+<div class="phs-inner-hero-copy">
+<p class="phs-inner-hero-eyebrow">ATLAS</p>
+<h1 id="atlas-page-title">Research Collaborator Atlas</h1>
+<p class="phs-inner-hero-intro">From Göttingen to the world</p>
+<span class="phs-inner-hero-rule" aria-hidden="true"></span>
+</div>
+</header>
 <section class="phs-atlas-introduction" aria-label="About the collaboration atlas">
 <p>Scientific research often relies on collaboration, bringing together different perspectives, expertise, and approaches across disciplines and institutions. These collaborations can take many forms, from small teams working closely together to large international research consortia. I created this atlas to make these connections visible and to explore the geographical reach of the research I contribute to. Each dot represents a researcher I have shared at least one publication with, from close collaborators to fellow authors in large international consortia. Together, they offer a glimpse into the international nature of scientific research and the people behind it.</p>
 </section>
