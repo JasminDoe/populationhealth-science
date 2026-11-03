@@ -56,15 +56,15 @@ I’m always happy to hear you! Whether you would like to discuss a possible col
 
 ## Statistical consulting
 
-Need statistical input on a research project? I’m happy to consult on:
+I provide statistical support for clinical, epidemiological, and psychological research, from study planning through analysis and reporting. Areas in which I can contribute include:
 
-- Study design and analysis planning
-- Data preparation and reproducible workflows
-- Regression and mixed-effects models
-- Longitudinal and latent trajectory analyses
-- Causal inference 
-- Interpretation and presentation of results
-- Manuscript writing on statistical methods and results 
+- Study design, sample size planning, and statistical analysis plans
+- Regression, mixed-effects, and repeated-measures models
+- Survival and time-to-event analysis
+- Latent-variable and mixture models (e.g., latent trajectory models)
+- Causal inference with observational data
+- Data preparation, reproducible analyses, and visualization in R
+- Statistical interpretation, reporting, and manuscript preparation
 
 Support can range from a single consultation to ongoing analytical collaboration. I am particularly interested in health and psychological research, but I am open to other empirical projects as well.
 
