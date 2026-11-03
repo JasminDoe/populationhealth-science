@@ -21,7 +21,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
   width:min(100%,1330px);
   max-width:1330px;
   box-sizing:border-box;
-  padding:clamp(30px,4.6vw,66px) clamp(18px,4vw,54px) 96px;
+  padding:0 clamp(18px,4vw,54px) 96px;
   margin:0 auto;
   color:var(--phs-ink,#263946);
   font-family:var(--phs-font,'DM Sans',Arial,sans-serif);
@@ -41,7 +41,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 }
 .phs-research-page .phs-research-areas {
   display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;
-  margin:0 0 39px;
+  margin:28px 0 39px;
 }
 .phs-research-page .phs-research-area {
   --surface:#e6ede5;--accent:#527e65;
@@ -178,7 +178,7 @@ body:has(.phs-research-page) #title-block-header { display:none; }
  .phs-research-page .phs-publication {grid-template-columns:112px minmax(0,1fr) 83px;gap:13px;}
 }
 @media (max-width:760px) {
- .phs-research-page {padding:28px 18px 70px;}
+ .phs-research-page {padding:0 18px 70px;}
  .phs-research-page .phs-research-areas {grid-template-columns:minmax(0,1fr);gap:12px;}
  .phs-research-page .phs-research-area,.phs-research-page .phs-research-area[aria-pressed="true"] {
    min-height:0;padding:19px 20px;
@@ -200,10 +200,13 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </style>
 
 <div class="phs-research-page" id="research">
-<header class="phs-research-header">
-<p class="phs-research-eyebrow">RESEARCH / PUBLICATIONS</p>
-<h1>Research</h1>
-<p class="phs-research-intro">My research spans global health, mental health, and developmental science, drawing on epidemiology, psychology, and quantitative methods to understand health and well-being across populations and the life course.</p>
+<header class="phs-research-header phs-inner-hero" aria-labelledby="research-page-title">
+<div class="phs-inner-hero-copy">
+<p class="phs-research-eyebrow phs-inner-hero-eyebrow">RESEARCH / PUBLICATIONS</p>
+<h1 id="research-page-title">Research</h1>
+<p class="phs-research-intro phs-inner-hero-intro">My research spans global health, mental health, and developmental science, drawing on epidemiology, psychology, and quantitative methods to understand health and well-being across populations and the life course.</p>
+<span class="phs-inner-hero-rule" aria-hidden="true"></span>
+</div>
 </header>
 
 <!-- The three area cards are REAL buttons (keyboard accessible).
