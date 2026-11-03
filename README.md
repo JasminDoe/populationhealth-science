@@ -51,11 +51,11 @@ This first edition is a curated, **schematic** illustration, *not* a complete ge
 
 ## Domain and discoverability
 
-**Current URL:** https://jasmindoe.github.io/populationhealth-science/
+**Preferred domain after DNS setup:** https://populationhealth.science/
 
-**Planned domain:** https://populationhealth.science/
+**Current GitHub Pages fallback:** https://jasmindoe.github.io/populationhealth-science/
 
-When you are ready to connect the domain, set its DNS and add it in **GitHub Settings → Pages → Custom domain**. Then replace the old GitHub Pages URL with the custom-domain URL in `_quarto.yml`, `sitemap.xml`, `robots.txt`, and `seo/` metadata. Check HTTPS once the domain points at GitHub Pages. Until then, do not activate a `CNAME` file prematurely.
+Domain metadata is prepared on a separate branch. Before merging it, set **GitHub repository Settings → Pages → Custom domain** to `populationhealth.science` and configure the Porkbun DNS records: four apex `A` records to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`, plus a `www` CNAME to `jasmindoe.github.io`. Do not remove MX or unrelated TXT records. The site deploys via GitHub Actions, so GitHub controls the custom-domain setting; a `CNAME` file alone does not configure it. Once DNS resolves and HTTPS is available, enable **Enforce HTTPS**, merge the branch, and verify the apex and `www` redirects.
 
 The site publishes human-readable HTML, crawler permissions, an XML sitemap and structured Person/ScholarlyArticle metadata. These improve machine readability, but cannot guarantee indexing by search engines or AI products.
 

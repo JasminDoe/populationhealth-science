@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jasmindoe.github.io/populationhealth-science/sitemap.xml
+Sitemap: https://populationhealth.science/sitemap.xml

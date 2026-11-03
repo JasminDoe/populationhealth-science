@@ -13,7 +13,7 @@ project:
 
 website:
   title: "Jasmin Dönicke | Population Health Science"
-  site-url: "https://jasmindoe.github.io/populationhealth-science"
+  site-url: "https://populationhealth.science"
   description: "Research in psychiatric epidemiology, global health, health inequalities, and biostatistics by Jasmin Dönicke."
   open-graph: true
   twitter-card: true
