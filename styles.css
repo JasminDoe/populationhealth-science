@@ -2306,6 +2306,20 @@ body:has(.phs-aula-hero) .phs-medical-section {
   }
 }
 @media (max-width: 780px) {
+  /* The two Quarto columns have inline 48%/52% widths. On small screens,
+     override those widths so the existing sections stack at full width. */
+  .phs-work-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .phs-work-columns > .column {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0;
+    box-sizing: border-box;
+  }
   .phs-work-columns .column:last-child {
     border-top: 1px solid var(--work-rule);
     margin-top: 26px;
