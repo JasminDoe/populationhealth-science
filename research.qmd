@@ -240,65 +240,18 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 <p class="phs-publications-instruction">Click a research area above to highlight its publications.</p>
 <p class="phs-filter-status" id="phs-filter-status" role="status" aria-live="polite"></p>
 <div class="phs-publications-list" id="phs-publication-list">
-<article class="phs-publication" data-area="global" data-index="1">
-<div class="phs-publication-domains" aria-label="Research areas">
-<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
-</div>
-<div class="phs-publication-main">
-<h3><a href="https://doi.org/10.1016/S2468-2667(26)00141-6" target="_blank" rel="noopener noreferrer">Global, regional, and national burden of road injuries 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023</a></h3>
-<p class="phs-publication-authors">S. C. C. van der Lubbe, M. E. Moberg, J. Dönicke, S. Hay, M. Ng, K. L. Ong, et al.</p>
-<p class="phs-publication-venue">The Lancet Public Health · 11(9), e589–e603</p>
-
-</div>
-<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/S2468-2667(26)00141-6" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
-</article>
-<article class="phs-publication" data-area="development" data-index="2">
+<article class="phs-publication" data-area="development mental" data-index="7">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
+<div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
 </div>
 <div class="phs-publication-main">
-<h3><a href="https://doi.org/10.31219/osf.io/haqu9" target="_blank" rel="noopener noreferrer">People in 26 countries prefer individual control to commercial or governmental control over online choice architectures</a></h3>
-<p class="phs-publication-authors">F. Stock, S. Pelica, S. Ashcroft-Jones, F. Stablum, C. Acosta, A. Aimable, et al.</p>
-<p class="phs-publication-venue">OSF Preprints</p>
-
+<h3><a href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">Risk factors associated with longitudinal trajectories of mania symptoms in youth</a></h3>
+<p class="phs-publication-authors">J. Dönicke, R. Cooper, A. Soehner, M. Jalbrzikowski</p>
+<p class="phs-publication-venue">Development and Psychopathology · 2026</p>
+<p class="phs-publication-detail"><a href="mania-trajectories.html">Explore the study in depth ↗</a></p>
 </div>
-<div class="phs-publication-side"><time datetime="2024">2024</time><a class="phs-paper-button" href="https://doi.org/10.31219/osf.io/haqu9" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
-</article>
-<article class="phs-publication" data-area="global" data-index="3">
-<div class="phs-publication-domains" aria-label="Research areas">
-<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
-</div>
-<div class="phs-publication-main">
-<h3><a href="https://doi.org/10.1016/S2468-2667(26)00168-4" target="_blank" rel="noopener noreferrer">Global, regional, and national prevalence of second-hand smoke and attributable disease burden in 204 countries and territories, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023</a></h3>
-<p class="phs-publication-authors">L. S. Flor, J. A. Anderson, B. W. Morgan, M. Ng, J. Dönicke, et al.</p>
-<p class="phs-publication-venue">The Lancet Public Health · 11(10), e767–e785</p>
-
-</div>
-<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/S2468-2667(26)00168-4" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
-</article>
-<article class="phs-publication" data-area="development" data-index="4">
-<div class="phs-publication-domains" aria-label="Research areas">
-<div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
-</div>
-<div class="phs-publication-main">
-<h3><a href="https://doi.org/10.31234/osf.io/fcpej_v1" target="_blank" rel="noopener noreferrer">Cross-country variation in early childhood family digital media ecology: A registered report</a></h3>
-<p class="phs-publication-authors">N. Dimitrova, S. C. Kucker, J. Rocha-Hidalgo, K. Choi, L. G. Gago-Galvagno, et al.</p>
-<p class="phs-publication-venue">PsyArXiv · Registered Report</p>
-
-</div>
-<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/fcpej_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
-</article>
-<article class="phs-publication" data-area="global" data-index="5">
-<div class="phs-publication-domains" aria-label="Research areas">
-<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
-</div>
-<div class="phs-publication-main">
-<h3><a href="https://doi.org/10.1016/j.langlo.2026.104043" target="_blank" rel="noopener noreferrer">Global, regional, and national burden of exposure to chewing tobacco, 1990–2023: a systematic analysis of the Global Burden of Disease Study 2023</a></h3>
-<p class="phs-publication-authors">G. F. Gil, J. A. Anderson, X. Dai, L. S. Flor, O. J. McElvaney, B. W. Morgan, et al.</p>
-<p class="phs-publication-venue">The Lancet Global Health</p>
-
-</div>
-<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/j.langlo.2026.104043" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
 <article class="phs-publication" data-area="mental global" data-index="6">
 <div class="phs-publication-domains" aria-label="Research areas">
@@ -313,19 +266,6 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1001/jamapsychiatry.2026.3457" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
-<article class="phs-publication" data-area="development mental" data-index="7">
-<div class="phs-publication-domains" aria-label="Research areas">
-<div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
-<div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
-</div>
-<div class="phs-publication-main">
-<h3><a href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">Risk factors associated with longitudinal trajectories of mania symptoms in youth</a></h3>
-<p class="phs-publication-authors">J. Dönicke, R. Cooper, A. Soehner, M. Jalbrzikowski</p>
-<p class="phs-publication-venue">Development and Psychopathology · 2026</p>
-<p class="phs-publication-detail"><a href="mania-trajectories.html">Explore the study in depth ↗</a></p>
-</div>
-<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1017/S0954579426101606" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
-</article>
 <article class="phs-publication" data-area="mental global" data-index="8">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--blue"><span class="phs-publication-dot" aria-hidden="true"></span><span>Mental Health</span></div>
@@ -339,6 +279,18 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1007/s11205-026-03890-0" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
+<article class="phs-publication" data-area="development" data-index="4">
+<div class="phs-publication-domains" aria-label="Research areas">
+<div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
+</div>
+<div class="phs-publication-main">
+<h3><a href="https://doi.org/10.31234/osf.io/fcpej_v1" target="_blank" rel="noopener noreferrer">Cross-country variation in early childhood family digital media ecology: A registered report</a></h3>
+<p class="phs-publication-authors">N. Dimitrova, S. C. Kucker, J. Rocha-Hidalgo, K. Choi, L. G. Gago-Galvagno, et al.</p>
+<p class="phs-publication-venue">PsyArXiv · Registered Report</p>
+
+</div>
+<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/fcpej_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
+</article>
 <article class="phs-publication" data-area="development" data-index="9">
 <div class="phs-publication-domains" aria-label="Research areas">
 <div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
@@ -350,6 +302,54 @@ body:has(.phs-research-page) #title-block-header { display:none; }
 
 </div>
 <div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.31234/osf.io/fe7pj_v1" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
+</article>
+<article class="phs-publication" data-area="development" data-index="2">
+<div class="phs-publication-domains" aria-label="Research areas">
+<div class="phs-publication-domain phs-publication-domain--peach"><span class="phs-publication-dot" aria-hidden="true"></span><span>Development</span></div>
+</div>
+<div class="phs-publication-main">
+<h3><a href="https://doi.org/10.31219/osf.io/haqu9" target="_blank" rel="noopener noreferrer">People in 26 countries prefer individual control to commercial or governmental control over online choice architectures</a></h3>
+<p class="phs-publication-authors">F. Stock, S. Pelica, S. Ashcroft-Jones, F. Stablum, C. Acosta, A. Aimable, et al.</p>
+<p class="phs-publication-venue">OSF Preprints</p>
+
+</div>
+<div class="phs-publication-side"><time datetime="2024">2024</time><a class="phs-paper-button" href="https://doi.org/10.31219/osf.io/haqu9" target="_blank" rel="noopener noreferrer">Preprint ↗</a></div>
+</article>
+<article class="phs-publication" data-area="global" data-index="1">
+<div class="phs-publication-domains" aria-label="Research areas">
+<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
+<div class="phs-publication-main">
+<h3><a href="https://doi.org/10.1016/S2468-2667(26)00141-6" target="_blank" rel="noopener noreferrer">Global, regional, and national burden of road injuries 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023</a></h3>
+<p class="phs-publication-authors">S. C. C. van der Lubbe, M. E. Moberg, J. Dönicke, S. Hay, M. Ng, K. L. Ong, et al.</p>
+<p class="phs-publication-venue">The Lancet Public Health · 11(9), e589–e603</p>
+
+</div>
+<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/S2468-2667(26)00141-6" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+</article>
+<article class="phs-publication" data-area="global" data-index="3">
+<div class="phs-publication-domains" aria-label="Research areas">
+<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
+<div class="phs-publication-main">
+<h3><a href="https://doi.org/10.1016/S2468-2667(26)00168-4" target="_blank" rel="noopener noreferrer">Global, regional, and national prevalence of second-hand smoke and attributable disease burden in 204 countries and territories, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023</a></h3>
+<p class="phs-publication-authors">L. S. Flor, J. A. Anderson, B. W. Morgan, M. Ng, J. Dönicke, et al.</p>
+<p class="phs-publication-venue">The Lancet Public Health · 11(10), e767–e785</p>
+
+</div>
+<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/S2468-2667(26)00168-4" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+</article>
+<article class="phs-publication" data-area="global" data-index="5">
+<div class="phs-publication-domains" aria-label="Research areas">
+<div class="phs-publication-domain phs-publication-domain--sage"><span class="phs-publication-dot" aria-hidden="true"></span><span>Global Health</span></div>
+</div>
+<div class="phs-publication-main">
+<h3><a href="https://doi.org/10.1016/j.langlo.2026.104043" target="_blank" rel="noopener noreferrer">Global, regional, and national burden of exposure to chewing tobacco, 1990–2023: a systematic analysis of the Global Burden of Disease Study 2023</a></h3>
+<p class="phs-publication-authors">G. F. Gil, J. A. Anderson, X. Dai, L. S. Flor, O. J. McElvaney, B. W. Morgan, et al.</p>
+<p class="phs-publication-venue">The Lancet Global Health</p>
+
+</div>
+<div class="phs-publication-side"><time datetime="2026">2026</time><a class="phs-paper-button" href="https://doi.org/10.1016/j.langlo.2026.104043" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
 </article>
 </div>
 <p class="phs-publications-note">Author lists are abbreviated for large collaborations.</p>
